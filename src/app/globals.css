@@ -4,42 +4,46 @@
 @theme {
   --font-family-sans: 'Inter', sans-serif;
   
-  --color-primary: #3b82f6;
+  /* YAYA's personalized theme colors - Pink and Purple */
+  --color-primary: #ec4899; /* Pink-500 */
   --color-primary-foreground: #ffffff;
-  --color-secondary: #f1f5f9;
-  --color-secondary-foreground: #0f172a;
+  --color-secondary: #fdf2f8; /* Pink-50 */
+  --color-secondary-foreground: #be185d; /* Pink-700 */
   --color-destructive: #ef4444;
   --color-destructive-foreground: #ffffff;
-  --color-muted: #f8fafc;
+  --color-muted: #fefcff; /* Very light pink */
   --color-muted-foreground: #64748b;
-  --color-accent: #f1f5f9;
-  --color-accent-foreground: #0f172a;
-  --color-card: #ffffff;
+  --color-accent: #fdf2f8; /* Pink-50 */
+  --color-accent-foreground: #be185d; /* Pink-700 */
+  --color-card: #fefcff; /* Very light pink */
   --color-card-foreground: #0f172a;
-  --color-border: #e2e8f0;
-  --color-input: #e2e8f0;
-  --color-ring: #3b82f6;
+  --color-border: #f9a8d4; /* Pink-300 */
+  --color-input: #f9a8d4; /* Pink-300 */
+  --color-ring: #ec4899; /* Pink-500 */
   --color-background: #ffffff;
   --color-foreground: #0f172a;
   
-  /* Kid-friendly subject colors */
-  --color-math-50: #eff6ff;
-  --color-math-100: #dbeafe;
-  --color-math-200: #bfdbfe;
-  --color-math-500: #3b82f6;
-  --color-math-600: #2563eb;
+  /* YAYA's personalized subject colors */
+  /* Math - Purple (YAYA's favorite color) */
+  --color-math-50: #f3e8ff;
+  --color-math-100: #e9d5ff;
+  --color-math-200: #d8b4fe;
+  --color-math-500: #8b5cf6;
+  --color-math-600: #7c3aed;
   
-  --color-english-50: #f0fdf4;
-  --color-english-100: #dcfce7;
-  --color-english-200: #bbf7d0;
-  --color-english-500: #22c55e;
-  --color-english-600: #16a34a;
+  /* English - Bright Cyan (cheerful and fun) */
+  --color-english-50: #cffafe;
+  --color-english-100: #a5f3fc;
+  --color-english-200: #67e8f9;
+  --color-english-500: #06b6d4;
+  --color-english-600: #0891b2;
   
-  --color-science-50: #faf5ff;
-  --color-science-100: #f3e8ff;
-  --color-science-200: #e9d5ff;
-  --color-science-500: #a855f7;
-  --color-science-600: #9333ea;
+  /* Science - Emerald Green (nature and discovery) */
+  --color-science-50: #d1fae5;
+  --color-science-100: #a7f3d0;
+  --color-science-200: #6ee7b7;
+  --color-science-500: #10b981;
+  --color-science-600: #059669;
   
   /* Kid-friendly font sizes */
   --font-size-kid-sm: 16px;

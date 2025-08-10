@@ -1,85 +1,72 @@
-"use client"
-
-import { useEffect, useState } from "react"
-import { useParams } from "next/navigation"
 import { Card, CardContent } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
 import { Progress } from "@/components/ui/progress"
 import { ArrowLeft, Play, Star, Clock, Target } from "lucide-react"
-import { getAppData } from "@/lib/persistence"
-import { Subject, AppData, QuestionSet, Question } from "@/types"
+import { Subject, QuestionSet, Question } from "@/types"
 import { formatTime } from "@/lib/utils"
+import { getStaticAppData, getAvailableSubjects } from "@/lib/static-data"
+import { PERSONALIZATION, getUserName } from "@/lib/personalization"
 import Link from "next/link"
+import { notFound } from "next/navigation"
 
-export default function SubjectPracticePage() {
-  const params = useParams()
-  const subject = params.subject as Subject
-  const [appData, setAppData] = useState<AppData | null>(null)
-  const [loading, setLoading] = useState(true)
+interface PageProps {
+  params: Promise<{
+    subject: string
+  }>
+}
 
-  useEffect(() => {
-    const data = getAppData()
-    if (data) {
-      setAppData(data)
-    }
-    setLoading(false)
-  }, [])
+// Generate static params for all available subjects
+export async function generateStaticParams() {
+  const subjects = await getAvailableSubjects()
+  return subjects.map((subject) => ({
+    subject,
+  }))
+}
 
-  if (loading) {
-    return (
-      <div className="min-h-screen flex items-center justify-center">
-        <div className="text-center space-y-4">
-          <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-primary mx-auto"></div>
-          <p className="kid-text text-muted-foreground">Loading practice sets...</p>
-        </div>
-      </div>
-    )
+// Disable revalidation for static content
+export const revalidate = false
+
+export default async function SubjectPracticePage({ params }: PageProps) {
+  const { subject } = await params
+  const subjectTyped = subject as Subject
+  
+  // Validate subject
+  if (!['math', 'english', 'science'].includes(subjectTyped)) {
+    notFound()
   }
 
-  if (!appData || !['math', 'english', 'science'].includes(subject)) {
-    return (
-      <div className="min-h-screen flex items-center justify-center">
-        <div className="text-center space-y-4">
-          <h1 className="kid-heading">Oops!</h1>
-          <p className="kid-text text-muted-foreground">We couldn&apos;t find that subject.</p>
-          <Link href="/">
-            <Button className="kid-button">Go Home</Button>
-          </Link>
-        </div>
-      </div>
-    )
-  }
-
-  const subjectSets = appData.sets.filter(set => set.subject === subject)
-  const subjectQuestions = appData.questions.filter(q => q.subject === subject)
+  // Load static data at build time
+  const appData = await getStaticAppData()
+  const subjectSets = appData.sets.filter(set => set.subject === subjectTyped)
+  const subjectQuestions = appData.questions.filter(q => q.subject === subjectTyped)
   const topics = [...new Set(subjectQuestions.map(q => q.topic))]
 
   const subjectInfo = {
     math: {
-      title: "Math",
-      description: "Numbers, shapes, and problem solving fun!",
+      title: "Math Magic",
+      description: PERSONALIZATION.messages.subjectIntros.math,
       color: "math-500",
       bgColor: "math-50",
       borderColor: "math-200"
     },
     english: {
-      title: "English", 
-      description: "Reading, writing, and language adventures!",
+      title: "English Adventures", 
+      description: PERSONALIZATION.messages.subjectIntros.english,
       color: "english-500",
       bgColor: "english-50",
       borderColor: "english-200"
     },
     science: {
-      title: "Science",
-      description: "Explore the world around you!",
+      title: "Science Discovery",
+      description: PERSONALIZATION.messages.subjectIntros.science,
       color: "science-500", 
       bgColor: "science-50",
       borderColor: "science-200"
     }
   }
 
-  const info = subjectInfo[subject]
+  const info = subjectInfo[subjectTyped]
 
   return (
     <main className="container mx-auto px-4 py-8 max-w-4xl">
@@ -124,13 +111,16 @@ export default function SubjectPracticePage() {
 
       {/* Practice Sets */}
       <div className="space-y-4">
-        <h2 className="kid-heading">Choose a Practice Set</h2>
+        <h2 className="kid-heading">{getUserName()}, choose a practice set to start learning!</h2>
         
         {subjectSets.length === 0 ? (
           <Card>
             <CardContent className="p-8 text-center">
               <p className="kid-text text-muted-foreground">
-                No practice sets available for {info.title} yet.
+                No practice sets available for {info.title} yet, {getUserName()}!
+              </p>
+              <p className="kid-text text-muted-foreground mt-2">
+                Ask {PERSONALIZATION.user.parentName} to add some questions for you! 📚
               </p>
               <Link href="/upload" className="mt-4 inline-block">
                 <Button className="kid-button">Upload Questions</Button>
@@ -148,7 +138,7 @@ export default function SubjectPracticePage() {
 
       {/* Topics Overview */}
       <div className="mt-12">
-        <h2 className="kid-heading">Topics in {info.title}</h2>
+        <h2 className="kid-heading">What {getUserName()} can learn in {info.title}</h2>
         <div className="flex flex-wrap gap-2">
           {topics.map((topic) => (
             <Badge key={topic} variant="outline" className="text-kid-sm">
@@ -189,8 +179,13 @@ function SetCard({ set, questions }: { set: QuestionSet; questions: Question[] }
             
             <div className="flex flex-wrap gap-2 mb-4">
               <Badge variant="outline" className="text-kid-sm">
-                {setQuestions.length} questions
+                {Math.min(20, setQuestions.length)} random questions
               </Badge>
+              {setQuestions.length > 20 && (
+                <Badge variant="outline" className="text-kid-sm bg-blue-50">
+                  from {setQuestions.length} available
+                </Badge>
+              )}
               <Badge variant="outline" className={`text-kid-sm ${difficultyColor}`}>
                 {difficultyLabel}
               </Badge>

@@ -1,10 +1,19 @@
-# YaYa Practice - Year 1 Learning App
+# YAYA's Learning Space - Personalized Education Platform
 
-A modern, kid-friendly web application for Year 1 practice in Math, English, and Science, aligned with the Cambridge Primary Curriculum.
+A private, personalized learning platform designed specifically for **YAYA (Altheara Iswanda)**, featuring Math, English, and Science practice aligned with the Cambridge Primary Curriculum. Created with love by Papap Koyan for his daughter.
 
-![YaYa Practice](https://img.shields.io/badge/Grade-Year%201-blue) ![Cambridge](https://img.shields.io/badge/Curriculum-Cambridge%20Primary-green) ![Next.js](https://img.shields.io/badge/Built%20with-Next.js%2015-black)
+![YAYA](https://img.shields.io/badge/Made%20for-YAYA%20(Altheara%20Iswanda)-pink) ![Grade](https://img.shields.io/badge/Grade-Year%201-blue) ![Cambridge](https://img.shields.io/badge/Curriculum-Cambridge%20Primary-green) ![Next.js](https://img.shields.io/badge/Built%20with-Next.js%2015-black) ![Private](https://img.shields.io/badge/Visibility-Private-red)
 
 ## Features
+
+### 💖 Personalized for YAYA
+- **Custom Welcome Messages**: Personalized greetings and encouragements specifically for YAYA
+- **Family References**: Special mentions of Papap Koyan and family context in messages
+- **YAYA's Theme Colors**: Beautiful pink and purple color scheme chosen for YAYA
+- **Personalized Subject Titles**: "Math Magic", "English Adventures", and "Science Discovery"
+- **Custom Achievement Messages**: Tailored celebrations and motivational messages
+- **Progress Sharing**: Features for sharing learning progress with family
+- **Privacy First**: Content marked as private and not indexed by search engines
 
 ### 🎯 Core Learning Features
 - **Multiple Question Types**: MCQ (single/multi), short answer, true/false, fill-in-the-blank, matching, ordering
@@ -13,12 +22,14 @@ A modern, kid-friendly web application for Year 1 practice in Math, English, and
 - **Progress Tracking**: Local storage of attempts, scores, and completion status
 - **Adaptive Practice**: Randomization and difficulty-based question selection
 
-### 🎨 Kid-Friendly Design
+### 🎨 YAYA-Friendly Design
+- **YAYA's Colors**: Pink and purple theme colors chosen specifically for YAYA
 - **Large Touch Targets**: Optimized for tablets and young learners
 - **High Contrast Support**: Light, dark, and high-contrast themes
 - **Dyslexia Support**: Optional dyslexia-friendly fonts
 - **Audio Features**: Text-to-speech for questions (Web Speech API)
 - **Visual Feedback**: Stars, badges, and celebration animations
+- **Extra Encouragement**: Personalized motivational messages throughout
 
 ### 📚 Content Management
 - **JSON Question Upload**: Validate and import questions via dashboard
@@ -194,4 +205,4 @@ yaya-practice/
 
 ## License
 
-MIT License - Built with ❤️ for young learners everywhere.
+MIT License - Built with ❤️ by Papap Koyan for his daughter YAYA (Altheara Iswanda).

@@ -1,0 +1,1716 @@
+{
+  "questions": [
+    {
+      "id": "1s-001",
+      "subject": "science",
+      "topic": "Grade 1",
+      "skill": "Basic Science",
+      "prompt": "What do plants need to grow?",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Only water"
+        },
+        {
+          "id": "b",
+          "text": "Only sunlight"
+        },
+        {
+          "id": "c",
+          "text": "Water, sunlight, and air"
+        },
+        {
+          "id": "d",
+          "text": "Only soil"
+        }
+      ],
+      "answer": "Water, sunlight, and air",
+      "explanation": "Plants need water, sunlight, and air to grow healthy and strong!",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "science"
+      ]
+    },
+    {
+      "id": "1s-002",
+      "subject": "science",
+      "topic": "Grade 1",
+      "skill": "Basic Science",
+      "prompt": "Which animal says 'moo'?",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Dog"
+        },
+        {
+          "id": "b",
+          "text": "Cat"
+        },
+        {
+          "id": "c",
+          "text": "Cow"
+        },
+        {
+          "id": "d",
+          "text": "Bird"
+        }
+      ],
+      "answer": "Cow",
+      "explanation": "A cow says 'moo'! Cows live on farms and give us milk.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "science"
+      ]
+    },
+    {
+      "id": "1s-003",
+      "subject": "science",
+      "topic": "Grade 1",
+      "skill": "Basic Science",
+      "prompt": "What season comes after winter?",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Fall"
+        },
+        {
+          "id": "b",
+          "text": "Summer"
+        },
+        {
+          "id": "c",
+          "text": "Spring"
+        },
+        {
+          "id": "d",
+          "text": "Winter"
+        }
+      ],
+      "answer": "Spring",
+      "explanation": "Spring comes after winter. In spring, flowers bloom and it gets warmer!",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "science"
+      ]
+    },
+    {
+      "id": "1s-004",
+      "subject": "science",
+      "topic": "Grade 1",
+      "skill": "Basic Science",
+      "prompt": "How many legs does a spider have?",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "6"
+        },
+        {
+          "id": "b",
+          "text": "8"
+        },
+        {
+          "id": "c",
+          "text": "4"
+        },
+        {
+          "id": "d",
+          "text": "10"
+        }
+      ],
+      "answer": "8",
+      "explanation": "Spiders have 8 legs. Count them: 1, 2, 3, 4, 5, 6, 7, 8!",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "science"
+      ]
+    },
+    {
+      "id": "1s-005",
+      "subject": "science",
+      "topic": "Grade 1",
+      "skill": "Basic Science",
+      "prompt": "What do we use to see?",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Ears"
+        },
+        {
+          "id": "b",
+          "text": "Eyes"
+        },
+        {
+          "id": "c",
+          "text": "Nose"
+        },
+        {
+          "id": "d",
+          "text": "Mouth"
+        }
+      ],
+      "answer": "Eyes",
+      "explanation": "We use our eyes to see. Eyes help us look at the world around us!",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "science"
+      ]
+    },
+    {
+      "id": "1s-006",
+      "subject": "science",
+      "topic": "Grade 1",
+      "skill": "Basic Science",
+      "prompt": "When it rains, what do you see in the sky?",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Sun only"
+        },
+        {
+          "id": "b",
+          "text": "Clouds"
+        },
+        {
+          "id": "c",
+          "text": "Stars"
+        },
+        {
+          "id": "d",
+          "text": "Moon"
+        }
+      ],
+      "answer": "Clouds",
+      "explanation": "When it rains, we see clouds in the sky. Clouds hold the water that falls as rain!",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "science"
+      ]
+    },
+    {
+      "id": "1s-007",
+      "subject": "science",
+      "topic": "Grade 1",
+      "skill": "Basic Science",
+      "prompt": "Which animal can fly?",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Fish"
+        },
+        {
+          "id": "b",
+          "text": "Dog"
+        },
+        {
+          "id": "c",
+          "text": "Bird"
+        },
+        {
+          "id": "d",
+          "text": "Cat"
+        }
+      ],
+      "answer": "Bird",
+      "explanation": "Birds can fly! They have wings that help them soar through the sky.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "science"
+      ]
+    },
+    {
+      "id": "1s-008",
+      "subject": "science",
+      "topic": "Grade 1",
+      "skill": "Basic Science",
+      "prompt": "What part of a plant grows underground?",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Leaves"
+        },
+        {
+          "id": "b",
+          "text": "Flowers"
+        },
+        {
+          "id": "c",
+          "text": "Roots"
+        },
+        {
+          "id": "d",
+          "text": "Stem"
+        }
+      ],
+      "answer": "Roots",
+      "explanation": "Roots grow underground. They help the plant get water and stay in place.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "science"
+      ]
+    },
+    {
+      "id": "1s-009",
+      "subject": "science",
+      "topic": "Grade 1",
+      "skill": "Basic Science",
+      "prompt": "What do fish use to breathe underwater?",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Lungs"
+        },
+        {
+          "id": "b",
+          "text": "Gills"
+        },
+        {
+          "id": "c",
+          "text": "Nose"
+        },
+        {
+          "id": "d",
+          "text": "Mouth"
+        }
+      ],
+      "answer": "Gills",
+      "explanation": "Fish use gills to breathe underwater. Gills help them get air from the water.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "science"
+      ]
+    },
+    {
+      "id": "1s-010",
+      "subject": "science",
+      "topic": "Grade 1",
+      "skill": "Basic Science",
+      "prompt": "Which is the hottest season?",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Winter"
+        },
+        {
+          "id": "b",
+          "text": "Spring"
+        },
+        {
+          "id": "c",
+          "text": "Summer"
+        },
+        {
+          "id": "d",
+          "text": "Fall"
+        }
+      ],
+      "answer": "Summer",
+      "explanation": "Summer is the hottest season. That's when we go swimming and play outside!",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "science"
+      ]
+    },
+    {
+      "id": "1s-011",
+      "subject": "science",
+      "topic": "Grade 1",
+      "skill": "Basic Science",
+      "prompt": "What do we call baby cats?",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Puppies"
+        },
+        {
+          "id": "b",
+          "text": "Kittens"
+        },
+        {
+          "id": "c",
+          "text": "Cubs"
+        },
+        {
+          "id": "d",
+          "text": "Chicks"
+        }
+      ],
+      "answer": "Kittens",
+      "explanation": "Baby cats are called kittens. They are small and love to play!",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "science"
+      ]
+    },
+    {
+      "id": "1s-012",
+      "subject": "science",
+      "topic": "Grade 1",
+      "skill": "Basic Science",
+      "prompt": "What makes the sound of thunder?",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Rain"
+        },
+        {
+          "id": "b",
+          "text": "Wind"
+        },
+        {
+          "id": "c",
+          "text": "Lightning"
+        },
+        {
+          "id": "d",
+          "text": "Clouds moving"
+        }
+      ],
+      "answer": "Lightning",
+      "explanation": "Lightning makes thunder! When lightning flashes, it creates the loud thunder sound.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "science"
+      ]
+    },
+    {
+      "id": "1s-013",
+      "subject": "science",
+      "topic": "Grade 1",
+      "skill": "Basic Science",
+      "prompt": "Which animal lives in water?",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Dog"
+        },
+        {
+          "id": "b",
+          "text": "Bird"
+        },
+        {
+          "id": "c",
+          "text": "Fish"
+        },
+        {
+          "id": "d",
+          "text": "Cat"
+        }
+      ],
+      "answer": "Fish",
+      "explanation": "Fish live in water! They swim in oceans, lakes, and rivers.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "science"
+      ]
+    },
+    {
+      "id": "1s-014",
+      "subject": "science",
+      "topic": "Grade 1",
+      "skill": "Basic Science",
+      "prompt": "What color is the sun?",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Blue"
+        },
+        {
+          "id": "b",
+          "text": "Yellow"
+        },
+        {
+          "id": "c",
+          "text": "Green"
+        },
+        {
+          "id": "d",
+          "text": "Purple"
+        }
+      ],
+      "answer": "Yellow",
+      "explanation": "The sun looks yellow to us! It gives us light and warmth every day.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "science"
+      ]
+    },
+    {
+      "id": "1s-015",
+      "subject": "science",
+      "topic": "Grade 1",
+      "skill": "Basic Science",
+      "prompt": "How many wings does a butterfly have?",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "2"
+        },
+        {
+          "id": "b",
+          "text": "4"
+        },
+        {
+          "id": "c",
+          "text": "6"
+        },
+        {
+          "id": "d",
+          "text": "8"
+        }
+      ],
+      "answer": "4",
+      "explanation": "A butterfly has 4 wings - 2 on each side. They use their wings to fly from flower to flower!",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "science"
+      ]
+    },
+    {
+      "id": "1s-016",
+      "subject": "science",
+      "topic": "Grade 1",
+      "skill": "Basic Science",
+      "prompt": "Story: Lily planted a seed in her garden. She watered it every day. After a few weeks, a green plant started to grow. What did the seed need to grow?",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "only dirt"
+        },
+        {
+          "id": "b",
+          "text": "water and sunlight"
+        },
+        {
+          "id": "c",
+          "text": "only water"
+        },
+        {
+          "id": "d",
+          "text": "nothing"
+        }
+      ],
+      "answer": "water and sunlight",
+      "explanation": "Seeds need water and sunlight to grow into plants, just like Lily gave her seed!",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "science"
+      ]
+    },
+    {
+      "id": "1s-017",
+      "subject": "science",
+      "topic": "Grade 1",
+      "skill": "Basic Science",
+      "prompt": "What do we call baby dogs?",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Kittens"
+        },
+        {
+          "id": "b",
+          "text": "Puppies"
+        },
+        {
+          "id": "c",
+          "text": "Cubs"
+        },
+        {
+          "id": "d",
+          "text": "Chicks"
+        }
+      ],
+      "answer": "Puppies",
+      "explanation": "Baby dogs are called puppies. They are playful and love to learn tricks!",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "science"
+      ]
+    },
+    {
+      "id": "1s-018",
+      "subject": "science",
+      "topic": "Grade 1",
+      "skill": "Basic Science",
+      "prompt": "Story: During winter, Tommy noticed that the trees had no leaves. The ground was covered with snow. What season was it?",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Spring"
+        },
+        {
+          "id": "b",
+          "text": "Summer"
+        },
+        {
+          "id": "c",
+          "text": "Fall"
+        },
+        {
+          "id": "d",
+          "text": "Winter"
+        }
+      ],
+      "answer": "Winter",
+      "explanation": "It was winter! In winter, trees lose their leaves and it can snow.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "science"
+      ]
+    },
+    {
+      "id": "1s-019",
+      "subject": "science",
+      "topic": "Grade 1",
+      "skill": "Basic Science",
+      "prompt": "Which body part do we use to hear?",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Eyes"
+        },
+        {
+          "id": "b",
+          "text": "Ears"
+        },
+        {
+          "id": "c",
+          "text": "Nose"
+        },
+        {
+          "id": "d",
+          "text": "Mouth"
+        }
+      ],
+      "answer": "Ears",
+      "explanation": "We use our ears to hear sounds like music, talking, and birds singing!",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "science"
+      ]
+    },
+    {
+      "id": "1s-020",
+      "subject": "science",
+      "topic": "Grade 1",
+      "skill": "Basic Science",
+      "prompt": "What do bees make?",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Milk"
+        },
+        {
+          "id": "b",
+          "text": "Honey"
+        },
+        {
+          "id": "c",
+          "text": "Cheese"
+        },
+        {
+          "id": "d",
+          "text": "Bread"
+        }
+      ],
+      "answer": "Honey",
+      "explanation": "Bees make honey! They collect nectar from flowers and turn it into sweet honey.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "science"
+      ]
+    },
+    {
+      "id": "1s-021",
+      "subject": "science",
+      "topic": "Grade 1",
+      "skill": "Basic Science",
+      "prompt": "Story: Emma watched a bird build a nest in the tree. The bird used twigs and leaves. Why do birds build nests?",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "to play"
+        },
+        {
+          "id": "b",
+          "text": "to store food"
+        },
+        {
+          "id": "c",
+          "text": "to lay eggs and raise babies"
+        },
+        {
+          "id": "d",
+          "text": "to hide from rain"
+        }
+      ],
+      "answer": "to lay eggs and raise babies",
+      "explanation": "Birds build nests to lay their eggs and raise their baby birds safely.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "science"
+      ]
+    },
+    {
+      "id": "1s-022",
+      "subject": "science",
+      "topic": "Grade 1",
+      "skill": "Basic Science",
+      "prompt": "When do we see the moon?",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Only morning"
+        },
+        {
+          "id": "b",
+          "text": "Only afternoon"
+        },
+        {
+          "id": "c",
+          "text": "Mostly at night"
+        },
+        {
+          "id": "d",
+          "text": "Never"
+        }
+      ],
+      "answer": "Mostly at night",
+      "explanation": "We mostly see the moon at night. It shines in the dark sky!",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "science"
+      ]
+    },
+    {
+      "id": "1s-023",
+      "subject": "science",
+      "topic": "Grade 1",
+      "skill": "Basic Science",
+      "prompt": "What do caterpillars turn into?",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Birds"
+        },
+        {
+          "id": "b",
+          "text": "Butterflies"
+        },
+        {
+          "id": "c",
+          "text": "Bees"
+        },
+        {
+          "id": "d",
+          "text": "Frogs"
+        }
+      ],
+      "answer": "Butterflies",
+      "explanation": "Caterpillars turn into butterflies! This amazing change is called metamorphosis.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "science"
+      ]
+    },
+    {
+      "id": "1s-024",
+      "subject": "science",
+      "topic": "Grade 1",
+      "skill": "Basic Science",
+      "prompt": "Story: Alex went to the beach and found a shell. Inside the shell, there used to live a small sea animal. What kind of animal lived in the shell?",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "a fish"
+        },
+        {
+          "id": "b",
+          "text": "a crab"
+        },
+        {
+          "id": "c",
+          "text": "a bird"
+        },
+        {
+          "id": "d",
+          "text": "a dog"
+        }
+      ],
+      "answer": "a crab",
+      "explanation": "A crab used to live in the shell! Many sea animals like crabs live in shells for protection.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "science"
+      ]
+    },
+    {
+      "id": "1s-025",
+      "subject": "science",
+      "topic": "Grade 1",
+      "skill": "Basic Science",
+      "prompt": "What do we use to smell?",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Eyes"
+        },
+        {
+          "id": "b",
+          "text": "Ears"
+        },
+        {
+          "id": "c",
+          "text": "Nose"
+        },
+        {
+          "id": "d",
+          "text": "Mouth"
+        }
+      ],
+      "answer": "Nose",
+      "explanation": "We use our nose to smell things like flowers, food, and cookies baking!",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "science"
+      ]
+    },
+    {
+      "id": "1s-026",
+      "subject": "science",
+      "topic": "Grade 1",
+      "skill": "Basic Science",
+      "prompt": "Which animal gives us milk?",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Dog"
+        },
+        {
+          "id": "b",
+          "text": "Cat"
+        },
+        {
+          "id": "c",
+          "text": "Cow"
+        },
+        {
+          "id": "d",
+          "text": "Bird"
+        }
+      ],
+      "answer": "Cow",
+      "explanation": "Cows give us milk! We drink cow's milk and use it to make cheese and butter.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "science"
+      ]
+    },
+    {
+      "id": "1s-027",
+      "subject": "science",
+      "topic": "Grade 1",
+      "skill": "Basic Science",
+      "prompt": "Story: Maria looked outside and saw dark clouds in the sky. Soon it started to rain. What made the rain fall?",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "the sun"
+        },
+        {
+          "id": "b",
+          "text": "the wind"
+        },
+        {
+          "id": "c",
+          "text": "the clouds"
+        },
+        {
+          "id": "d",
+          "text": "the trees"
+        }
+      ],
+      "answer": "the clouds",
+      "explanation": "Clouds made the rain fall! Clouds hold water that falls down as rain.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "science"
+      ]
+    },
+    {
+      "id": "1s-028",
+      "subject": "science",
+      "topic": "Grade 1",
+      "skill": "Basic Science",
+      "prompt": "What do plants use to make food?",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Roots"
+        },
+        {
+          "id": "b",
+          "text": "Leaves"
+        },
+        {
+          "id": "c",
+          "text": "Flowers"
+        },
+        {
+          "id": "d",
+          "text": "Seeds"
+        }
+      ],
+      "answer": "Leaves",
+      "explanation": "Plants use their leaves to make food! Leaves catch sunlight to help make food for the plant.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "science"
+      ]
+    },
+    {
+      "id": "1s-029",
+      "subject": "science",
+      "topic": "Grade 1",
+      "skill": "Basic Science",
+      "prompt": "How many legs does a cat have?",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "2"
+        },
+        {
+          "id": "b",
+          "text": "4"
+        },
+        {
+          "id": "c",
+          "text": "6"
+        },
+        {
+          "id": "d",
+          "text": "8"
+        }
+      ],
+      "answer": "4",
+      "explanation": "A cat has 4 legs. Most mammals like cats, dogs, and cows have 4 legs.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "science"
+      ]
+    },
+    {
+      "id": "1s-030",
+      "subject": "science",
+      "topic": "Grade 1",
+      "skill": "Basic Science",
+      "prompt": "Story: Peter went for a walk in the forest. He saw a squirrel collecting nuts from trees. Why do squirrels collect nuts?",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "to play with"
+        },
+        {
+          "id": "b",
+          "text": "to save food for winter"
+        },
+        {
+          "id": "c",
+          "text": "to give to other animals"
+        },
+        {
+          "id": "d",
+          "text": "to plant trees"
+        }
+      ],
+      "answer": "to save food for winter",
+      "explanation": "Squirrels collect nuts to save food for winter when it's hard to find food!",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "science"
+      ]
+    },
+    {
+      "id": "1s-031",
+      "subject": "science",
+      "topic": "Grade 1",
+      "skill": "Basic Science",
+      "prompt": "What happens to water when it gets very cold?",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It disappears"
+        },
+        {
+          "id": "b",
+          "text": "It turns into ice"
+        },
+        {
+          "id": "c",
+          "text": "It gets hot"
+        },
+        {
+          "id": "d",
+          "text": "It changes color"
+        }
+      ],
+      "answer": "It turns into ice",
+      "explanation": "When water gets very cold, it freezes and turns into ice!",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "science"
+      ]
+    },
+    {
+      "id": "1s-032",
+      "subject": "science",
+      "topic": "Grade 1",
+      "skill": "Basic Science",
+      "prompt": "Which animal hops and has long ears?",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Cat"
+        },
+        {
+          "id": "b",
+          "text": "Dog"
+        },
+        {
+          "id": "c",
+          "text": "Rabbit"
+        },
+        {
+          "id": "d",
+          "text": "Bird"
+        }
+      ],
+      "answer": "Rabbit",
+      "explanation": "A rabbit hops and has long ears! Rabbits use their strong back legs to hop around.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "science"
+      ]
+    },
+    {
+      "id": "1s-033",
+      "subject": "science",
+      "topic": "Grade 1",
+      "skill": "Basic Science",
+      "prompt": "Story: Anna's mom said they needed to water the flowers because it hadn't rained for many days. What would happen if plants don't get water?",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "They grow bigger"
+        },
+        {
+          "id": "b",
+          "text": "They turn different colors"
+        },
+        {
+          "id": "c",
+          "text": "They wilt and die"
+        },
+        {
+          "id": "d",
+          "text": "They bloom more flowers"
+        }
+      ],
+      "answer": "They wilt and die",
+      "explanation": "Without water, plants will wilt and die. Plants need water to stay alive and healthy!",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "science"
+      ]
+    },
+    {
+      "id": "1s-034",
+      "subject": "science",
+      "topic": "Grade 1",
+      "skill": "Basic Science",
+      "prompt": "What do we call the place where fish live?",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Forest"
+        },
+        {
+          "id": "b",
+          "text": "Desert"
+        },
+        {
+          "id": "c",
+          "text": "Water"
+        },
+        {
+          "id": "d",
+          "text": "Cave"
+        }
+      ],
+      "answer": "Water",
+      "explanation": "Fish live in water! They can live in oceans, rivers, lakes, and ponds.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "science"
+      ]
+    },
+    {
+      "id": "1s-035",
+      "subject": "science",
+      "topic": "Grade 1",
+      "skill": "Basic Science",
+      "prompt": "When do flowers usually bloom?",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Winter"
+        },
+        {
+          "id": "b",
+          "text": "Spring"
+        },
+        {
+          "id": "c",
+          "text": "Never"
+        },
+        {
+          "id": "d",
+          "text": "Only at night"
+        }
+      ],
+      "answer": "Spring",
+      "explanation": "Flowers usually bloom in spring when the weather gets warm and sunny!",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "science"
+      ]
+    },
+    {
+      "id": "1s-036",
+      "subject": "science",
+      "topic": "Grade 1",
+      "skill": "Basic Science",
+      "prompt": "Story: Jack saw a frog jumping near a pond. The frog jumped into the water with a splash. Where do frogs like to live?",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "in the desert"
+        },
+        {
+          "id": "b",
+          "text": "near water"
+        },
+        {
+          "id": "c",
+          "text": "in trees only"
+        },
+        {
+          "id": "d",
+          "text": "in caves"
+        }
+      ],
+      "answer": "near water",
+      "explanation": "Frogs like to live near water! They need water to keep their skin moist and to lay their eggs.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "science"
+      ]
+    },
+    {
+      "id": "1s-037",
+      "subject": "science",
+      "topic": "Grade 1",
+      "skill": "Basic Science",
+      "prompt": "What do we use to taste food?",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Eyes"
+        },
+        {
+          "id": "b",
+          "text": "Nose"
+        },
+        {
+          "id": "c",
+          "text": "Tongue"
+        },
+        {
+          "id": "d",
+          "text": "Ears"
+        }
+      ],
+      "answer": "Tongue",
+      "explanation": "We use our tongue to taste food! Our tongue can taste sweet, sour, salty, and bitter.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "science"
+      ]
+    },
+    {
+      "id": "1s-038",
+      "subject": "science",
+      "topic": "Grade 1",
+      "skill": "Basic Science",
+      "prompt": "Which bird is known for its beautiful singing?",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Crow"
+        },
+        {
+          "id": "b",
+          "text": "Robin"
+        },
+        {
+          "id": "c",
+          "text": "Owl"
+        },
+        {
+          "id": "d",
+          "text": "Eagle"
+        }
+      ],
+      "answer": "Robin",
+      "explanation": "Robins are known for their beautiful singing! Many people love to hear robins sing in the morning.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "science"
+      ]
+    },
+    {
+      "id": "1s-039",
+      "subject": "science",
+      "topic": "Grade 1",
+      "skill": "Basic Science",
+      "prompt": "Story: During summer, Ben noticed it stayed light outside until very late. In winter, it got dark much earlier. Why does this happen?",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The sun changes size"
+        },
+        {
+          "id": "b",
+          "text": "Days are longer in summer"
+        },
+        {
+          "id": "c",
+          "text": "There are more clouds in winter"
+        },
+        {
+          "id": "d",
+          "text": "The moon is brighter in winter"
+        }
+      ],
+      "answer": "Days are longer in summer",
+      "explanation": "Days are longer in summer! The sun stays up longer, giving us more daylight hours.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "science"
+      ]
+    },
+    {
+      "id": "1s-040",
+      "subject": "science",
+      "topic": "Grade 1",
+      "skill": "Basic Science",
+      "prompt": "What do seeds need to start growing?",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Only soil"
+        },
+        {
+          "id": "b",
+          "text": "Only water"
+        },
+        {
+          "id": "c",
+          "text": "Water, warmth, and air"
+        },
+        {
+          "id": "d",
+          "text": "Only darkness"
+        }
+      ],
+      "answer": "Water, warmth, and air",
+      "explanation": "Seeds need water, warmth, and air to start growing into plants!",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "science"
+      ]
+    },
+    {
+      "id": "1s-041",
+      "subject": "science",
+      "topic": "Grade 1",
+      "skill": "Basic Science",
+      "prompt": "Which animal builds dams in rivers?",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Bear"
+        },
+        {
+          "id": "b",
+          "text": "Beaver"
+        },
+        {
+          "id": "c",
+          "text": "Rabbit"
+        },
+        {
+          "id": "d",
+          "text": "Deer"
+        }
+      ],
+      "answer": "Beaver",
+      "explanation": "Beavers build dams in rivers! They use sticks and mud to make their homes.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "science"
+      ]
+    },
+    {
+      "id": "1s-042",
+      "subject": "science",
+      "topic": "Grade 1",
+      "skill": "Basic Science",
+      "prompt": "Story: Sophie watched ants marching in a line carrying crumbs back to their home. Where do ants live?",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "in trees"
+        },
+        {
+          "id": "b",
+          "text": "underground in hills"
+        },
+        {
+          "id": "c",
+          "text": "in the water"
+        },
+        {
+          "id": "d",
+          "text": "in the clouds"
+        }
+      ],
+      "answer": "underground in hills",
+      "explanation": "Ants live underground in hills called ant hills! They work together to build their homes.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "science"
+      ]
+    },
+    {
+      "id": "1s-043",
+      "subject": "science",
+      "topic": "Grade 1",
+      "skill": "Basic Science",
+      "prompt": "What makes plants green?",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Water"
+        },
+        {
+          "id": "b",
+          "text": "Soil"
+        },
+        {
+          "id": "c",
+          "text": "Chlorophyll"
+        },
+        {
+          "id": "d",
+          "text": "Air"
+        }
+      ],
+      "answer": "Chlorophyll",
+      "explanation": "Chlorophyll makes plants green! It's a special part of leaves that helps plants make food.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "science"
+      ]
+    },
+    {
+      "id": "1s-044",
+      "subject": "science",
+      "topic": "Grade 1",
+      "skill": "Basic Science",
+      "prompt": "Which animal changes from a tadpole?",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Fish"
+        },
+        {
+          "id": "b",
+          "text": "Frog"
+        },
+        {
+          "id": "c",
+          "text": "Bird"
+        },
+        {
+          "id": "d",
+          "text": "Butterfly"
+        }
+      ],
+      "answer": "Frog",
+      "explanation": "A frog changes from a tadpole! Tadpoles live in water and grow into adult frogs.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "science"
+      ]
+    },
+    {
+      "id": "1s-045",
+      "subject": "science",
+      "topic": "Grade 1",
+      "skill": "Basic Science",
+      "prompt": "Story: During a thunderstorm, Lucas saw a bright flash in the sky, then heard a loud boom. What did he see and hear?",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "rainbow and wind"
+        },
+        {
+          "id": "b",
+          "text": "lightning and thunder"
+        },
+        {
+          "id": "c",
+          "text": "sun and rain"
+        },
+        {
+          "id": "d",
+          "text": "stars and music"
+        }
+      ],
+      "answer": "lightning and thunder",
+      "explanation": "Lucas saw lightning and heard thunder! Lightning is the bright flash, and thunder is the loud sound.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "science"
+      ]
+    },
+    {
+      "id": "1s-046",
+      "subject": "science",
+      "topic": "Grade 1",
+      "skill": "Basic Science",
+      "prompt": "What do bears do in winter?",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Migrate south"
+        },
+        {
+          "id": "b",
+          "text": "Hibernate (sleep a lot)"
+        },
+        {
+          "id": "c",
+          "text": "Build nests"
+        },
+        {
+          "id": "d",
+          "text": "Lay eggs"
+        }
+      ],
+      "answer": "Hibernate (sleep a lot)",
+      "explanation": "Bears hibernate in winter! They sleep for most of the cold winter months.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "science"
+      ]
+    },
+    {
+      "id": "1s-047",
+      "subject": "science",
+      "topic": "Grade 1",
+      "skill": "Basic Science",
+      "prompt": "How many senses do we have?",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "3"
+        },
+        {
+          "id": "b",
+          "text": "4"
+        },
+        {
+          "id": "c",
+          "text": "5"
+        },
+        {
+          "id": "d",
+          "text": "6"
+        }
+      ],
+      "answer": "5",
+      "explanation": "We have 5 senses: sight, hearing, smell, taste, and touch!",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "science"
+      ]
+    },
+    {
+      "id": "1s-048",
+      "subject": "science",
+      "topic": "Grade 1",
+      "skill": "Basic Science",
+      "prompt": "Story: Maya found a cocoon hanging from a tree branch. A few weeks later, a beautiful butterfly came out of it. What was inside the cocoon?",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "a baby bird"
+        },
+        {
+          "id": "b",
+          "text": "a caterpillar changing into a butterfly"
+        },
+        {
+          "id": "c",
+          "text": "a spider"
+        },
+        {
+          "id": "d",
+          "text": "leaves"
+        }
+      ],
+      "answer": "a caterpillar changing into a butterfly",
+      "explanation": "A caterpillar was changing into a butterfly inside the cocoon! This is called metamorphosis.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "science"
+      ]
+    },
+    {
+      "id": "1s-049",
+      "subject": "science",
+      "topic": "Grade 1",
+      "skill": "Basic Science",
+      "prompt": "What do we call animals that eat only plants?",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Carnivores"
+        },
+        {
+          "id": "b",
+          "text": "Herbivores"
+        },
+        {
+          "id": "c",
+          "text": "Omnivores"
+        },
+        {
+          "id": "d",
+          "text": "Hunters"
+        }
+      ],
+      "answer": "Herbivores",
+      "explanation": "Animals that eat only plants are called herbivores! Rabbits and deer are herbivores.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "science"
+      ]
+    },
+    {
+      "id": "1s-050",
+      "subject": "science",
+      "topic": "Grade 1",
+      "skill": "Basic Science",
+      "prompt": "Story: David planted two seeds. He put one in a sunny window and watered it. He put the other in a dark closet and didn't water it. Which seed grew better?",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The one in the closet"
+        },
+        {
+          "id": "b",
+          "text": "The one in the sunny window"
+        },
+        {
+          "id": "c",
+          "text": "Both grew the same"
+        },
+        {
+          "id": "d",
+          "text": "Neither grew"
+        }
+      ],
+      "answer": "The one in the sunny window",
+      "explanation": "The seed in the sunny window grew better! Plants need sunlight and water to grow healthy.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "science"
+      ]
+    }
+  ],
+  "sets": [
+    {
+      "id": "grade-1-science",
+      "title": "1st Grade Science",
+      "subject": "science",
+      "description": "Basic science concepts including plants, animals, weather, seasons, simple observations, and nature stories",
+      "questionIds": [
+        "1s-001",
+        "1s-002",
+        "1s-003",
+        "1s-004",
+        "1s-005",
+        "1s-006",
+        "1s-007",
+        "1s-008",
+        "1s-009",
+        "1s-010",
+        "1s-011",
+        "1s-012",
+        "1s-013",
+        "1s-014",
+        "1s-015",
+        "1s-016",
+        "1s-017",
+        "1s-018",
+        "1s-019",
+        "1s-020",
+        "1s-021",
+        "1s-022",
+        "1s-023",
+        "1s-024",
+        "1s-025",
+        "1s-026",
+        "1s-027",
+        "1s-028",
+        "1s-029",
+        "1s-030",
+        "1s-031",
+        "1s-032",
+        "1s-033",
+        "1s-034",
+        "1s-035",
+        "1s-036",
+        "1s-037",
+        "1s-038",
+        "1s-039",
+        "1s-040",
+        "1s-041",
+        "1s-042",
+        "1s-043",
+        "1s-044",
+        "1s-045",
+        "1s-046",
+        "1s-047",
+        "1s-048",
+        "1s-049",
+        "1s-050"
+      ],
+      "recommendedOrder": "random",
+      "timeLimitSeconds": 3000
+    }
+  ]
+}

@@ -63,7 +63,6 @@ function scoreMCQMulti(correctAnswer: string[], userAnswer: string[]): ScoreResu
   }
 
   const correctSet = new Set(correctAnswer)
-  const userSet = new Set(userAnswer)
   
   const correctSelections = userAnswer.filter(ans => correctSet.has(ans)).length
   const incorrectSelections = userAnswer.filter(ans => !correctSet.has(ans)).length

@@ -1,72 +1,13 @@
-"use client"
-
-import { useEffect, useState } from "react"
 import { SubjectCard } from "@/components/ui/subject-card"
-import { Button } from "@/components/ui/button"
-import { Badge } from "@/components/ui/badge"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Settings, Moon, Sun, Palette } from "lucide-react"
-import { useTheme } from "next-themes"
-import { getAppData, saveAppData } from "@/lib/persistence"
-import { initializeAppData } from "@/lib/data-initializer"
-import { AppData } from "@/types"
-import Link from "next/link"
+import { getStaticAppData } from "@/lib/static-data"
+import { AdminMenuClient } from "@/components/admin-menu-client"
+import { PERSONALIZATION, getUserName } from "@/lib/personalization"
 
-export default function Home() {
-  const [appData, setAppData] = useState<AppData | null>(null)
-  const [mounted, setMounted] = useState(false)
-  const [showAdminMenu, setShowAdminMenu] = useState(false)
-  const { theme, setTheme } = useTheme()
-
-  useEffect(() => {
-    setMounted(true)
-    
-    // Add keyboard shortcut to show admin menu (Ctrl + Shift + A)
-    const handleKeyPress = (e: KeyboardEvent) => {
-      if (e.ctrlKey && e.shiftKey && e.key === 'A') {
-        e.preventDefault()
-        setShowAdminMenu(prev => !prev)
-      }
-    }
-    
-    document.addEventListener('keydown', handleKeyPress)
-    
-    // Initialize app data from our JSON files
-    initializeAppData().then((success) => {
-      if (success) {
-        const data = getAppData()
-        if (data) {
-          setAppData(data)
-        }
-      } else {
-        console.error('Failed to initialize app data')
-        const emptyData: AppData = { questions: [], sets: [] }
-        saveAppData(emptyData)
-        setAppData(emptyData)
-      }
-    })
-    
-    return () => {
-      document.removeEventListener('keydown', handleKeyPress)
-    }
-  }, [])
-
-  const cycleTheme = () => {
-    if (theme === 'light') setTheme('dark')
-    else if (theme === 'dark') setTheme('high-contrast')
-    else setTheme('light')
-  }
-
-  if (!mounted || !appData) {
-    return (
-      <div className="min-h-screen flex items-center justify-center">
-        <div className="text-center space-y-4">
-          <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-primary mx-auto"></div>
-          <p className="kid-text text-muted-foreground">Loading your practice sessions...</p>
-        </div>
-      </div>
-    )
-  }
+// This page is now a Server Component that loads data at build time
+export default async function Home() {
+  // Load static data at build time
+  const appData = await getStaticAppData()
 
   // Count topics and sets by subject
   const subjectStats = {
@@ -88,54 +29,31 @@ export default function Home() {
     <main id="main-content" className="container mx-auto px-4 py-8 max-w-6xl">
       {/* Header */}
       <div className="flex justify-between items-center mb-8">
-        <div>
-          <h1 className="text-4xl font-bold text-primary mb-2">YaYa Practice</h1>
-          <p className="text-xl text-muted-foreground">Fun learning for elementary students!</p>
-        </div>
+      <div>
+        <h1 className="text-4xl font-bold text-primary mb-2">{getUserName()}&apos;s Learning Space</h1>
+        <p className="text-xl text-muted-foreground">Made especially for {PERSONALIZATION.user.fullName}!</p>
+      </div>
         
-        {/* Admin menu - hidden by default, shown with Ctrl+Shift+A */}
-        {showAdminMenu && (
-          <div className="flex gap-2 items-center">
-            <Badge variant="outline" className="text-xs text-orange-600 border-orange-300 bg-orange-50">
-              Admin Mode
-            </Badge>
-            <Button 
-              variant="outline" 
-              size="icon" 
-              onClick={cycleTheme}
-              className="focus-ring"
-              title="Change theme"
-            >
-              {theme === 'light' && <Sun className="h-4 w-4" />}
-              {theme === 'dark' && <Moon className="h-4 w-4" />}
-              {theme === 'high-contrast' && <Palette className="h-4 w-4" />}
-            </Button>
-            <Link href="/dashboard">
-              <Button variant="outline" size="icon" className="focus-ring" title="Settings & Dashboard">
-                <Settings className="h-4 w-4" />
-              </Button>
-            </Link>
-            <Link href="/test">
-              <Button variant="outline" className="focus-ring" title="Test Data">
-                Test Data
-              </Button>
-            </Link>
-          </div>
-        )}
+        {/* Admin menu - client component for interactivity */}
+        <AdminMenuClient />
       </div>
 
-      {/* Welcome Message */}
-      <Card className="mb-8 bg-gradient-to-r from-blue-50 to-purple-50 border-blue-200">
+      {/* Personalized Welcome Message */}
+      <Card className="mb-8 bg-gradient-to-r from-pink-50 to-purple-50 border-pink-200">
         <CardHeader>
-          <CardTitle className="kid-heading text-center">Welcome to Learning Fun!</CardTitle>
+          <CardTitle className="kid-heading text-center">{PERSONALIZATION.messages.welcome.title}</CardTitle>
         </CardHeader>
         <CardContent className="text-center">
           <p className="kid-text mb-4">
-            Choose a subject to start practicing. Each question is designed to help you learn and grow!
+            {PERSONALIZATION.messages.welcome.subtitle}
           </p>
           <p className="kid-text text-primary font-semibold">
-            Let&apos;s have fun learning together! 🎉
+            {PERSONALIZATION.messages.welcome.encouragement}
           </p>
+          <div className="mt-4 text-sm text-muted-foreground">
+            <p>✨ This learning space is made just for you, {getUserName()}! ✨</p>
+            <p>From {PERSONALIZATION.user.parentName} with love 💖</p>
+          </div>
         </CardContent>
       </Card>
 
@@ -143,24 +61,24 @@ export default function Home() {
       <div className="grid md:grid-cols-3 gap-6 mb-8">
         <SubjectCard
           subject="math"
-          title="Math"
-          description="Numbers, shapes, and problem solving fun!"
+          title="Math Magic"
+          description={PERSONALIZATION.messages.subjectIntros.math}
           topicCount={subjectStats.math.topics}
           completedCount={0} // TODO: Calculate from progress
         />
         
         <SubjectCard
           subject="english"
-          title="English"
-          description="Reading, writing, and language adventures!"
+          title="English Adventures"
+          description={PERSONALIZATION.messages.subjectIntros.english}
           topicCount={subjectStats.english.topics}
           completedCount={0} // TODO: Calculate from progress
         />
         
         <SubjectCard
           subject="science"
-          title="Science"
-          description="Explore the world around you!"
+          title="Science Discovery"
+          description={PERSONALIZATION.messages.subjectIntros.science}
           topicCount={subjectStats.science.topics}
           completedCount={0} // TODO: Calculate from progress
         />
@@ -191,13 +109,11 @@ export default function Home() {
       </div>
       
       {/* Admin access instructions - hidden but accessible */}
-      {!showAdminMenu && (
-        <div className="mt-12 text-center">
-          <p className="text-xs text-muted-foreground opacity-30 hover:opacity-100 transition-opacity duration-300">
-            For administrators: Press Ctrl+Shift+A to access settings
-          </p>
-        </div>
-      )}
+      <div className="mt-12 text-center">
+        <p className="text-xs text-muted-foreground opacity-30 hover:opacity-100 transition-opacity duration-300">
+          For administrators: Press Ctrl+Shift+A to access settings
+        </p>
+      </div>
     </main>
   )
 }

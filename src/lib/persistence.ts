@@ -244,8 +244,9 @@ export function importProfile(jsonString: string): ChildProfile {
     saveProfiles(profiles)
     
     return profile
-  } catch (error) {
-    throw new Error('Invalid profile data')
+  } catch (error: unknown) {
+    const errorMessage = error instanceof Error ? error.message : 'Invalid profile data';
+    throw new Error(`Failed to import profile: ${errorMessage}`);
   }
 }
 

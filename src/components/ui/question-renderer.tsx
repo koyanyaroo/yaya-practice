@@ -1,6 +1,7 @@
 "use client"
 
 import { useState } from "react"
+import Image from "next/image"
 import { Question, Answer } from "@/types"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
@@ -241,11 +242,13 @@ export function QuestionRenderer({
             </div>
             
             {question.media?.imageUrl && (
-              <div className="mt-4">
-                <img
+              <div className="mt-4 relative w-full h-64">
+                <Image
                   src={question.media.imageUrl}
                   alt="Question illustration"
-                  className="max-w-full h-auto rounded-lg"
+                  fill
+                  className="object-contain rounded-lg"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 />
               </div>
             )}
