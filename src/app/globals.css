@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-family-sans: 'Inter', sans-serif;
+  
+  --color-primary: #3b82f6;
+  --color-primary-foreground: #ffffff;
+  --color-secondary: #f1f5f9;
+  --color-secondary-foreground: #0f172a;
+  --color-destructive: #ef4444;
+  --color-destructive-foreground: #ffffff;
+  --color-muted: #f8fafc;
+  --color-muted-foreground: #64748b;
+  --color-accent: #f1f5f9;
+  --color-accent-foreground: #0f172a;
+  --color-card: #ffffff;
+  --color-card-foreground: #0f172a;
+  --color-border: #e2e8f0;
+  --color-input: #e2e8f0;
+  --color-ring: #3b82f6;
+  --color-background: #ffffff;
+  --color-foreground: #0f172a;
+  
+  /* Kid-friendly subject colors */
+  --color-math-50: #eff6ff;
+  --color-math-100: #dbeafe;
+  --color-math-200: #bfdbfe;
+  --color-math-500: #3b82f6;
+  --color-math-600: #2563eb;
+  
+  --color-english-50: #f0fdf4;
+  --color-english-100: #dcfce7;
+  --color-english-200: #bbf7d0;
+  --color-english-500: #22c55e;
+  --color-english-600: #16a34a;
+  
+  --color-science-50: #faf5ff;
+  --color-science-100: #f3e8ff;
+  --color-science-200: #e9d5ff;
+  --color-science-500: #a855f7;
+  --color-science-600: #9333ea;
+  
+  /* Kid-friendly font sizes */
+  --font-size-kid-sm: 16px;
+  --line-height-kid-sm: 24px;
+  --font-size-kid-base: 18px;
+  --line-height-kid-base: 28px;
+  --font-size-kid-lg: 20px;
+  --line-height-kid-lg: 32px;
+  --font-size-kid-xl: 24px;
+  --line-height-kid-xl: 36px;
+  --font-size-kid-2xl: 32px;
+  --line-height-kid-2xl: 48px;
+  
+  /* Custom spacing */
+  --spacing-18: 4.5rem;
+  --spacing-88: 22rem;
+}
+
+body {
+  font-family: var(--font-family-sans);
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+}
+
+.dark body {
+  background-color: #0f172a;
+  color: #f1f5f9;
+}
+
+.high-contrast body {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* Kid-friendly base styles */
+.kid-text {
+  font-size: var(--font-size-kid-base);
+  line-height: var(--line-height-kid-base);
+  line-height: 1.6;
+}
+
+.kid-heading {
+  font-size: var(--font-size-kid-xl);
+  line-height: var(--line-height-kid-xl);
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.kid-button {
+  min-height: 3rem;
+  padding: 0.5rem 1.5rem;
+  font-size: var(--font-size-kid-base);
+  font-weight: 500;
+  border-radius: 0.75rem;
+}
+
+.kid-card {
+  padding: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  border: 2px solid var(--color-border);
+}
+
+/* Subject-specific styles */
+.math-theme {
+  background-color: var(--color-math-50);
+  border-color: var(--color-math-500);
+  color: var(--color-math-600);
+}
+
+.english-theme {
+  background-color: var(--color-english-50);
+  border-color: var(--color-english-500);
+  color: var(--color-english-600);
+}
+
+.science-theme {
+  background-color: var(--color-science-50);
+  border-color: var(--color-science-500);
+  color: var(--color-science-600);
+}
+
+/* Accessibility helpers */
+.focus-ring:focus {
+  outline: none;
+  box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.5);
+}
+
+.skip-link {
+  position: absolute;
+  top: -2.5rem;
+  left: 1rem;
+  z-index: 50;
+  background-color: var(--color-primary);
+  color: var(--color-primary-foreground);
+  padding: 0.5rem 1rem;
+  border-radius: 0.375rem;
+  transition: all 0.2s;
+}
+
+.skip-link:focus {
+  top: 1rem;
+}
+
+/* Animations */
+@keyframes bounce-gentle {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
+
+@keyframes star-twinkle {
+  0%, 100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.7;
+    transform: scale(1.1);
+  }
+}
+
+.animate-bounce-gentle {
+  animation: bounce-gentle 2s ease-in-out infinite;
+}
+
+.animate-star-twinkle {
+  animation: star-twinkle 1.5s ease-in-out infinite;
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+  .animate-bounce-gentle,
+  .animate-star-twinkle {
+    animation: none;
+  }
+}

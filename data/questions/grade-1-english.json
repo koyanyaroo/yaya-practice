@@ -1,0 +1,408 @@
+{
+  "grade": 1,
+  "subject": "english",
+  "title": "1st Grade English",
+  "description": "Basic reading, writing, phonics, sight words, simple grammar concepts, and story comprehension",
+  "questions": [
+    {
+      "id": "1e-001",
+      "question": "What sound does the letter 'B' make?",
+      "type": "multiple-choice",
+      "options": ["/a/", "/b/", "/c/", "/d/"],
+      "correct": 1,
+      "explanation": "The letter B makes the /b/ sound, like in 'ball' or 'book'."
+    },
+    {
+      "id": "1e-002",
+      "question": "Which word rhymes with 'cat'?",
+      "type": "multiple-choice",
+      "options": ["dog", "hat", "sun", "tree"],
+      "correct": 1,
+      "explanation": "Hat rhymes with cat because they both end with the '-at' sound."
+    },
+    {
+      "id": "1e-003",
+      "question": "What letter does 'Apple' start with?",
+      "type": "multiple-choice",
+      "options": ["A", "B", "C", "D"],
+      "correct": 0,
+      "explanation": "Apple starts with the letter A. Say it slowly: A-pple."
+    },
+    {
+      "id": "1e-004",
+      "question": "Complete this sentence: 'I ___ a book.'",
+      "type": "multiple-choice",
+      "options": ["am", "is", "see", "are"],
+      "correct": 2,
+      "explanation": "'I see a book' makes sense. We use 'see' when we look at something."
+    },
+    {
+      "id": "1e-005",
+      "question": "How many letters are in the word 'dog'?",
+      "type": "multiple-choice",
+      "options": ["2", "3", "4", "5"],
+      "correct": 1,
+      "explanation": "The word 'dog' has 3 letters: d-o-g."
+    },
+    {
+      "id": "1e-006",
+      "question": "What sound does 'CH' make in 'chair'?",
+      "type": "multiple-choice",
+      "options": ["/k/", "/sh/", "/ch/", "/th/"],
+      "correct": 2,
+      "explanation": "CH makes the /ch/ sound, like in 'chair', 'cheese', and 'chicken'."
+    },
+    {
+      "id": "1e-007",
+      "question": "Which is the correct way to write this word?",
+      "type": "multiple-choice",
+      "options": ["teh", "the", "hte", "eht"],
+      "correct": 1,
+      "explanation": "'The' is spelled T-H-E. It's a very common sight word!"
+    },
+    {
+      "id": "1e-008",
+      "question": "What comes at the end of a sentence?",
+      "type": "multiple-choice",
+      "options": ["comma", "period", "question", "word"],
+      "correct": 1,
+      "explanation": "A period (.) comes at the end of a sentence to show it's finished."
+    },
+    {
+      "id": "1e-009",
+      "question": "Which word means the opposite of 'big'?",
+      "type": "multiple-choice",
+      "options": ["huge", "small", "tall", "wide"],
+      "correct": 1,
+      "explanation": "Small is the opposite of big. Big means large, small means little."
+    },
+    {
+      "id": "1e-010",
+      "question": "What letter makes the /s/ sound in 'sun'?",
+      "type": "multiple-choice",
+      "options": ["S", "C", "Z", "X"],
+      "correct": 0,
+      "explanation": "The letter S makes the /s/ sound in 'sun'. S is at the beginning."
+    },
+    {
+      "id": "1e-011",
+      "question": "Which word is a noun (names a person, place, or thing)?",
+      "type": "multiple-choice",
+      "options": ["run", "happy", "school", "quickly"],
+      "correct": 2,
+      "explanation": "School is a noun because it names a place where you learn."
+    },
+    {
+      "id": "1e-012",
+      "question": "Complete the pattern: cat, bat, hat, ___",
+      "type": "multiple-choice",
+      "options": ["dog", "rat", "big", "run"],
+      "correct": 1,
+      "explanation": "Rat fits the pattern because it rhymes with cat, bat, and hat (all end in -at)."
+    },
+    {
+      "id": "1e-013",
+      "question": "What do we call the ABC's?",
+      "type": "multiple-choice",
+      "options": ["numbers", "alphabet", "colors", "shapes"],
+      "correct": 1,
+      "explanation": "The ABC's are called the alphabet. There are 26 letters in the alphabet."
+    },
+    {
+      "id": "1e-014",
+      "question": "Which word has the long 'A' sound?",
+      "type": "multiple-choice",
+      "options": ["cat", "cake", "can", "cap"],
+      "correct": 1,
+      "explanation": "Cake has the long A sound (/ay/). The 'e' at the end makes the 'a' say its name."
+    },
+    {
+      "id": "1e-015",
+      "question": "How do we start every sentence?",
+      "type": "multiple-choice",
+      "options": ["with a period", "with a capital letter", "with a comma", "with a small letter"],
+      "correct": 1,
+      "explanation": "Every sentence starts with a capital letter to show it's the beginning."
+    },
+    {
+      "id": "1e-016",
+      "question": "Story: Sam has a red ball. He likes to play with it. What color is Sam's ball?",
+      "type": "multiple-choice",
+      "options": ["blue", "red", "green", "yellow"],
+      "correct": 1,
+      "explanation": "The story says 'Sam has a red ball', so his ball is red."
+    },
+    {
+      "id": "1e-017",
+      "question": "Which word has the 'ing' ending?",
+      "type": "multiple-choice",
+      "options": ["run", "running", "runs", "ran"],
+      "correct": 1,
+      "explanation": "Running has the 'ing' ending added to the word 'run'."
+    },
+    {
+      "id": "1e-018",
+      "question": "Story: The cat sits on the mat. The dog runs in the yard. Where does the cat sit?",
+      "type": "multiple-choice",
+      "options": ["on the chair", "on the mat", "in the yard", "on the bed"],
+      "correct": 1,
+      "explanation": "The story tells us 'The cat sits on the mat'."
+    },
+    {
+      "id": "1e-019",
+      "question": "What letter comes after 'M' in the alphabet?",
+      "type": "multiple-choice",
+      "options": ["L", "N", "O", "P"],
+      "correct": 1,
+      "explanation": "In the alphabet, N comes after M: L, M, N, O, P."
+    },
+    {
+      "id": "1e-020",
+      "question": "Which word is spelled correctly?",
+      "type": "multiple-choice",
+      "options": ["wuz", "wos", "was", "waz"],
+      "correct": 2,
+      "explanation": "'Was' is the correct spelling. It's a common sight word!"
+    },
+    {
+      "id": "1e-021",
+      "question": "Story: Lily went to the park. She played on the swings. Then she ate lunch. What did Lily do first?",
+      "type": "multiple-choice",
+      "options": ["ate lunch", "went home", "went to the park", "played on swings"],
+      "correct": 2,
+      "explanation": "The story says 'Lily went to the park' first, then she played and ate."
+    },
+    {
+      "id": "1e-022",
+      "question": "What sound does 'SH' make in 'ship'?",
+      "type": "multiple-choice",
+      "options": ["/s/", "/sh/", "/th/", "/ch/"],
+      "correct": 1,
+      "explanation": "SH makes the /sh/ sound, like in 'ship', 'shoe', and 'fish'."
+    },
+    {
+      "id": "1e-023",
+      "question": "Which word means more than one?",
+      "type": "multiple-choice",
+      "options": ["cat", "cats", "running", "big"],
+      "correct": 1,
+      "explanation": "Cats means more than one cat. We add 's' to make words plural (more than one)."
+    },
+    {
+      "id": "1e-024",
+      "question": "Story: Ben loves books. He reads every day. His favorite book is about dinosaurs. What does Ben love?",
+      "type": "multiple-choice",
+      "options": ["dinosaurs", "books", "games", "toys"],
+      "correct": 1,
+      "explanation": "The first sentence tells us 'Ben loves books'."
+    },
+    {
+      "id": "1e-025",
+      "question": "Which letters are vowels?",
+      "type": "multiple-choice",
+      "options": ["B, C, D", "A, E, I, O, U", "X, Y, Z", "F, G, H"],
+      "correct": 1,
+      "explanation": "The vowels are A, E, I, O, U. Sometimes Y can be a vowel too!"
+    },
+    {
+      "id": "1e-026",
+      "question": "What is the first word in this sentence: 'The dog barks loudly'?",
+      "type": "multiple-choice",
+      "options": ["dog", "The", "barks", "loudly"],
+      "correct": 1,
+      "explanation": "'The' is the first word in the sentence. It starts with a capital letter."
+    },
+    {
+      "id": "1e-027",
+      "question": "Story: Mom baked cookies. They smell so good! The cookies are in the oven. Where are the cookies?",
+      "type": "multiple-choice",
+      "options": ["on the table", "in the jar", "in the oven", "in the bag"],
+      "correct": 2,
+      "explanation": "The story says 'The cookies are in the oven'."
+    },
+    {
+      "id": "1e-028",
+      "question": "Which word has the short 'E' sound?",
+      "type": "multiple-choice",
+      "options": ["bee", "bed", "be", "me"],
+      "correct": 1,
+      "explanation": "Bed has the short E sound (/eh/). The other words have the long E sound."
+    },
+    {
+      "id": "1e-029",
+      "question": "What do we put at the end of a question?",
+      "type": "multiple-choice",
+      "options": ["period", "comma", "question mark", "exclamation point"],
+      "correct": 2,
+      "explanation": "We put a question mark (?) at the end of questions like 'How are you?'"
+    },
+    {
+      "id": "1e-030",
+      "question": "Story: It was raining outside. Emma put on her raincoat and boots. Then she went outside to play. Why did Emma put on her raincoat?",
+      "type": "multiple-choice",
+      "options": ["it was sunny", "it was raining", "it was cold", "it was hot"],
+      "correct": 1,
+      "explanation": "Emma put on her raincoat because 'it was raining outside'."
+    },
+    {
+      "id": "1e-031",
+      "question": "Which word rhymes with 'book'?",
+      "type": "multiple-choice",
+      "options": ["look", "bike", "ball", "bus"],
+      "correct": 0,
+      "explanation": "Look rhymes with book because they both end with the 'ook' sound."
+    },
+    {
+      "id": "1e-032",
+      "question": "Complete this sentence: 'She ___ happy.'",
+      "type": "multiple-choice",
+      "options": ["am", "is", "are", "be"],
+      "correct": 1,
+      "explanation": "'She is happy' is correct. We use 'is' with 'she', 'he', and 'it'."
+    },
+    {
+      "id": "1e-033",
+      "question": "Story: Max has three toys: a car, a ball, and a bear. He plays with the car first. How many toys does Max have?",
+      "type": "multiple-choice",
+      "options": ["two", "three", "four", "five"],
+      "correct": 1,
+      "explanation": "The story says 'Max has three toys: a car, a ball, and a bear'."
+    },
+    {
+      "id": "1e-034",
+      "question": "What sound does 'TH' make in 'this'?",
+      "type": "multiple-choice",
+      "options": ["/t/", "/th/", "/s/", "/h/"],
+      "correct": 1,
+      "explanation": "TH makes the /th/ sound in 'this', 'that', and 'they'."
+    },
+    {
+      "id": "1e-035",
+      "question": "Which word is an action word (verb)?",
+      "type": "multiple-choice",
+      "options": ["jump", "red", "house", "big"],
+      "correct": 0,
+      "explanation": "Jump is an action word (verb) because it shows what someone does."
+    },
+    {
+      "id": "1e-036",
+      "question": "Story: The sun is bright today. Birds are singing in the trees. Flowers are blooming in the garden. What is the weather like?",
+      "type": "multiple-choice",
+      "options": ["rainy", "snowy", "bright and sunny", "cloudy"],
+      "correct": 2,
+      "explanation": "The story says 'The sun is bright today', so it's bright and sunny."
+    },
+    {
+      "id": "1e-037",
+      "question": "Which word has two syllables (parts)?",
+      "type": "multiple-choice",
+      "options": ["cat", "dog", "rabbit", "pig"],
+      "correct": 2,
+      "explanation": "Rabbit has two syllables: rab-bit. You can clap for each part!"
+    },
+    {
+      "id": "1e-038",
+      "question": "What letter does 'zebra' start with?",
+      "type": "multiple-choice",
+      "options": ["Y", "Z", "X", "W"],
+      "correct": 1,
+      "explanation": "Zebra starts with the letter Z. Z makes the /z/ sound."
+    },
+    {
+      "id": "1e-039",
+      "question": "Story: Anna and her dad went fishing. They caught two fish. Then they went home for dinner. Who went fishing with Anna?",
+      "type": "multiple-choice",
+      "options": ["her mom", "her dad", "her brother", "her friend"],
+      "correct": 1,
+      "explanation": "The story says 'Anna and her dad went fishing'."
+    },
+    {
+      "id": "1e-040",
+      "question": "Which word means the opposite of 'hot'?",
+      "type": "multiple-choice",
+      "options": ["warm", "cold", "cool", "freeze"],
+      "correct": 1,
+      "explanation": "Cold is the opposite of hot. Hot means very warm, cold means not warm."
+    },
+    {
+      "id": "1e-041",
+      "question": "Complete this sight word: 'c_me'",
+      "type": "multiple-choice",
+      "options": ["a", "o", "u", "i"],
+      "correct": 1,
+      "explanation": "The word is 'come' - c-o-m-e. Come is an important sight word!"
+    },
+    {
+      "id": "1e-042",
+      "question": "Story: Tom's birthday party is tomorrow. His friends will come to play games. Mom is making a cake. When is Tom's birthday party?",
+      "type": "multiple-choice",
+      "options": ["today", "tomorrow", "yesterday", "next week"],
+      "correct": 1,
+      "explanation": "The story says 'Tom's birthday party is tomorrow'."
+    },
+    {
+      "id": "1e-043",
+      "question": "What sound does 'QU' make in 'queen'?",
+      "type": "multiple-choice",
+      "options": ["/q/", "/kw/", "/k/", "/w/"],
+      "correct": 1,
+      "explanation": "QU makes the /kw/ sound in 'queen', 'quick', and 'quiet'."
+    },
+    {
+      "id": "1e-044",
+      "question": "Which word is a describing word (adjective)?",
+      "type": "multiple-choice",
+      "options": ["run", "fast", "jump", "walk"],
+      "correct": 1,
+      "explanation": "Fast is a describing word (adjective) that tells us how something moves."
+    },
+    {
+      "id": "1e-045",
+      "question": "Story: The little mouse was hungry. He found some cheese in the kitchen. The mouse ate all the cheese. Where did the mouse find the cheese?",
+      "type": "multiple-choice",
+      "options": ["in the bedroom", "in the kitchen", "in the garden", "in the car"],
+      "correct": 1,
+      "explanation": "The story says the mouse 'found some cheese in the kitchen'."
+    },
+    {
+      "id": "1e-046",
+      "question": "How many sounds do you hear in the word 'cat'?",
+      "type": "multiple-choice",
+      "options": ["2", "3", "4", "5"],
+      "correct": 1,
+      "explanation": "The word 'cat' has 3 sounds: /c/ - /a/ - /t/."
+    },
+    {
+      "id": "1e-047",
+      "question": "Which word has the long 'I' sound?",
+      "type": "multiple-choice",
+      "options": ["sit", "hit", "kite", "bit"],
+      "correct": 2,
+      "explanation": "Kite has the long I sound (/eye/). The 'e' at the end makes the 'i' say its name."
+    },
+    {
+      "id": "1e-048",
+      "question": "Story: Jack planted seeds in his garden. Every day he watered them. Soon, green plants started to grow. What did Jack plant?",
+      "type": "multiple-choice",
+      "options": ["flowers", "seeds", "trees", "grass"],
+      "correct": 1,
+      "explanation": "The story says 'Jack planted seeds in his garden'."
+    },
+    {
+      "id": "1e-049",
+      "question": "What comes before 'B' in the alphabet?",
+      "type": "multiple-choice",
+      "options": ["C", "A", "D", "E"],
+      "correct": 1,
+      "explanation": "A comes before B in the alphabet: A, B, C, D, E."
+    },
+    {
+      "id": "1e-050",
+      "question": "Story: Sarah loves to read books about animals. Her favorite animal is the elephant. She has three books about elephants. What is Sarah's favorite animal?",
+      "type": "multiple-choice",
+      "options": ["tiger", "elephant", "lion", "bear"],
+      "correct": 1,
+      "explanation": "The story says 'Her favorite animal is the elephant'."
+    }
+  ]
+}
