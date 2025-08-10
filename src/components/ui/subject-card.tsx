@@ -2,7 +2,6 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
 import { Subject } from "@/types"
-import { getSubjectColor } from "@/lib/utils"
 import { Calculator, BookOpen, FlaskConical } from "lucide-react"
 import Link from "next/link"
 

@@ -134,7 +134,7 @@ export default function Home() {
             Choose a subject to start practicing. Each question is designed to help you learn and grow!
           </p>
           <p className="kid-text text-primary font-semibold">
-            Let's have fun learning together! 🎉
+            Let&apos;s have fun learning together! 🎉
           </p>
         </CardContent>
       </Card>

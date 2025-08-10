@@ -213,7 +213,7 @@ export default function TestPage() {
                 <div>
                   <strong>Options:</strong>
                   <ul className="list-disc ml-6">
-                    {appData.questions[0].choices.map((choice, index) => (
+                  {appData.questions[0].choices.map((choice) => (
                       <li key={choice.id}>
                         {choice.text} {choice.text === appData.questions[0].answer && "✓"}
                       </li>

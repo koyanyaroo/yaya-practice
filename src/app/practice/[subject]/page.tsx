@@ -1,20 +1,19 @@
 "use client"
 
 import { useEffect, useState } from "react"
-import { useParams, useRouter } from "next/navigation"
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
+import { useParams } from "next/navigation"
+import { Card, CardContent } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
 import { Progress } from "@/components/ui/progress"
 import { ArrowLeft, Play, Star, Clock, Target } from "lucide-react"
 import { getAppData } from "@/lib/persistence"
-import { Subject, AppData, QuestionSet } from "@/types"
-import { getSubjectColor, formatTime } from "@/lib/utils"
+import { Subject, AppData, QuestionSet, Question } from "@/types"
+import { formatTime } from "@/lib/utils"
 import Link from "next/link"
 
 export default function SubjectPracticePage() {
   const params = useParams()
-  const router = useRouter()
   const subject = params.subject as Subject
   const [appData, setAppData] = useState<AppData | null>(null)
   const [loading, setLoading] = useState(true)
@@ -43,7 +42,7 @@ export default function SubjectPracticePage() {
       <div className="min-h-screen flex items-center justify-center">
         <div className="text-center space-y-4">
           <h1 className="kid-heading">Oops!</h1>
-          <p className="kid-text text-muted-foreground">We couldn't find that subject.</p>
+          <p className="kid-text text-muted-foreground">We couldn&apos;t find that subject.</p>
           <Link href="/">
             <Button className="kid-button">Go Home</Button>
           </Link>
@@ -162,7 +161,7 @@ export default function SubjectPracticePage() {
   )
 }
 
-function SetCard({ set, questions }: { set: QuestionSet; questions: any[] }) {
+function SetCard({ set, questions }: { set: QuestionSet; questions: Question[] }) {
   const setQuestions = questions.filter(q => set.questionIds.includes(q.id))
   const avgDifficulty = setQuestions.length > 0 
     ? setQuestions.filter(q => q.difficulty).reduce((acc, q) => {

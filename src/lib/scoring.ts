@@ -67,7 +67,7 @@ function scoreMCQMulti(correctAnswer: string[], userAnswer: string[]): ScoreResu
   
   const correctSelections = userAnswer.filter(ans => correctSet.has(ans)).length
   const incorrectSelections = userAnswer.filter(ans => !correctSet.has(ans)).length
-  const missedSelections = correctAnswer.filter(ans => !userSet.has(ans)).length
+  // const missedSelections = correctAnswer.filter(ans => !userSet.has(ans)).length
   
   const isCorrect = correctSelections === correctAnswer.length && incorrectSelections === 0
   const partialCredit = Math.max(0, (correctSelections - incorrectSelections) / correctAnswer.length)
@@ -142,7 +142,7 @@ function scoreMatch(
   }
 
   const correctPairs = new Set(correctAnswer.map(pair => `${pair.leftId}-${pair.rightId}`))
-  const userPairs = new Set(userAnswer.map(pair => `${pair.leftId}-${pair.rightId}`))
+  // const userPairs = new Set(userAnswer.map(pair => `${pair.leftId}-${pair.rightId}`))
   
   const correctMatches = userAnswer.filter(pair => 
     correctPairs.has(`${pair.leftId}-${pair.rightId}`)

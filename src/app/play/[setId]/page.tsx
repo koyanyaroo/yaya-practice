@@ -12,8 +12,6 @@ import {
   ArrowRight, 
   Home, 
   RotateCcw, 
-  CheckCircle, 
-  Award,
   Clock,
   Star
 } from "lucide-react"

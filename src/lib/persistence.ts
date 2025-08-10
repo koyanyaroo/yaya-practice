@@ -17,20 +17,23 @@ export function getProfiles(): ChildProfile[] {
     
     const profiles = JSON.parse(stored)
     // Convert date strings back to Date objects
-    return profiles.map((profile: any) => ({
-      ...profile,
-      createdAt: new Date(profile.createdAt),
-      progress: profile.progress.map((progress: any) => ({
-        ...progress,
-        completedAt: progress.completedAt ? new Date(progress.completedAt) : undefined,
-        attempts: progress.attempts.map((attempt: any) => ({
-          ...attempt,
-          timestamp: new Date(attempt.timestamp)
+    return profiles.map((profile: unknown) => {
+      const p = profile as Record<string, unknown>
+      return {
+        ...p,
+        createdAt: new Date(p.createdAt as string),
+        progress: (p.progress as Array<Record<string, unknown>>).map((progress) => ({
+          ...progress,
+          completedAt: progress.completedAt ? new Date(progress.completedAt as string) : undefined,
+          attempts: (progress.attempts as Array<Record<string, unknown>>).map((attempt) => ({
+            ...attempt,
+            timestamp: new Date(attempt.timestamp as string)
+          }))
         }))
-      }))
-    }))
-  } catch (error) {
-    console.error('Error loading profiles:', error)
+      } as ChildProfile
+    })
+  } catch {
+    console.error('Error loading profiles')
     return []
   }
 }
@@ -226,12 +229,12 @@ export function importProfile(jsonString: string): ChildProfile {
       ...profileData,
       id: generateProfileId(), // Generate new ID to avoid conflicts
       createdAt: new Date(profileData.createdAt),
-      progress: profileData.progress.map((progress: any) => ({
+      progress: (profileData.progress as Array<Record<string, unknown>>).map((progress) => ({
         ...progress,
-        completedAt: progress.completedAt ? new Date(progress.completedAt) : undefined,
-        attempts: progress.attempts.map((attempt: any) => ({
+        completedAt: progress.completedAt ? new Date(progress.completedAt as string) : undefined,
+        attempts: (progress.attempts as Array<Record<string, unknown>>).map((attempt) => ({
           ...attempt,
-          timestamp: new Date(attempt.timestamp)
+          timestamp: new Date(attempt.timestamp as string)
         }))
       }))
     }
