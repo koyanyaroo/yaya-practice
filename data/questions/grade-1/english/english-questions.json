@@ -1,869 +1,317 @@
 {
   "questions": [
     {
-      "id": "1e-001",
+      "id": "1e-051",
       "subject": "english",
       "topic": "Grade 1",
-      "skill": "Reading",
-      "prompt": "What sound does the letter 'B' make?",
+      "skill": "Comprehension",
+      "prompt": "Story: Mia could not find her kitten. She looked under the bed and behind the sofa. At last, she found the kitten sleeping in the laundry basket. Where did Mia look first?",
       "type": "mcq_single",
       "choices": [
         {
           "id": "a",
-          "text": "/a/"
+          "text": "under the bed"
         },
         {
           "id": "b",
-          "text": "/b/"
+          "text": "in the garden"
         },
         {
           "id": "c",
-          "text": "/c/"
+          "text": "on the table"
         },
         {
           "id": "d",
-          "text": "/d/"
+          "text": "in the car"
         }
       ],
-      "answer": "/b/",
-      "explanation": "The letter B makes the /b/ sound, like in 'ball' or 'book'.",
+      "answer": "under the bed",
+      "explanation": "The sentence lists 'under the bed' first.",
       "difficulty": "easy",
       "tags": [
         "grade-1",
-        "english"
+        "english",
+        "comprehension"
       ]
     },
     {
-      "id": "1e-002",
+      "id": "1e-052",
       "subject": "english",
       "topic": "Grade 1",
-      "skill": "Reading",
-      "prompt": "Which word rhymes with 'cat'?",
+      "skill": "Comprehension",
+      "prompt": "Story: Mia could not find her kitten. She looked under the bed and behind the sofa. At last, she found the kitten sleeping in the laundry basket. Where did she find the kitten?",
       "type": "mcq_single",
       "choices": [
         {
           "id": "a",
-          "text": "dog"
+          "text": "behind the sofa"
         },
         {
           "id": "b",
-          "text": "hat"
+          "text": "in the laundry basket"
         },
         {
           "id": "c",
-          "text": "sun"
+          "text": "under the bed"
         },
         {
           "id": "d",
-          "text": "tree"
+          "text": "on the chair"
         }
       ],
-      "answer": "hat",
-      "explanation": "Hat rhymes with cat because they both end with the '-at' sound.",
+      "answer": "in the laundry basket",
+      "explanation": "The kitten was sleeping in the laundry basket.",
       "difficulty": "easy",
       "tags": [
         "grade-1",
-        "english"
+        "english",
+        "comprehension"
       ]
     },
     {
-      "id": "1e-003",
+      "id": "1e-053",
       "subject": "english",
       "topic": "Grade 1",
-      "skill": "Reading",
-      "prompt": "What letter does 'Apple' start with?",
+      "skill": "Comprehension",
+      "prompt": "Story: Mia could not find her kitten. She looked under the bed and behind the sofa. At last, she found the kitten sleeping in the laundry basket. What was the kitten doing when Mia found it?",
       "type": "mcq_single",
       "choices": [
         {
           "id": "a",
-          "text": "A"
+          "text": "eating"
         },
         {
           "id": "b",
-          "text": "B"
+          "text": "playing"
         },
         {
           "id": "c",
-          "text": "C"
+          "text": "sleeping"
         },
         {
           "id": "d",
-          "text": "D"
+          "text": "running"
         }
       ],
-      "answer": "A",
-      "explanation": "Apple starts with the letter A. Say it slowly: A-pple.",
+      "answer": "sleeping",
+      "explanation": "The story says 'sleeping in the laundry basket'.",
       "difficulty": "easy",
       "tags": [
         "grade-1",
-        "english"
+        "english",
+        "comprehension"
       ]
     },
     {
-      "id": "1e-004",
+      "id": "1e-054",
       "subject": "english",
       "topic": "Grade 1",
-      "skill": "Reading",
-      "prompt": "Complete this sentence: 'I ___ a book.'",
+      "skill": "Comprehension",
+      "prompt": "Story: It rained on Sam's picnic day. Sam and his dad spread a blanket on the living room floor. They ate sandwiches and played cards inside. Why did they have the picnic indoors?",
       "type": "mcq_single",
       "choices": [
         {
           "id": "a",
-          "text": "am"
+          "text": "it was windy"
         },
         {
           "id": "b",
-          "text": "is"
+          "text": "it was raining"
         },
         {
           "id": "c",
-          "text": "see"
+          "text": "they were tired"
         },
         {
           "id": "d",
-          "text": "are"
+          "text": "they forgot the basket"
         }
       ],
-      "answer": "see",
-      "explanation": "'I see a book' makes sense. We use 'see' when we look at something.",
+      "answer": "it was raining",
+      "explanation": "The first sentence says it rained on picnic day.",
       "difficulty": "easy",
       "tags": [
         "grade-1",
-        "english"
+        "english",
+        "comprehension"
       ]
     },
     {
-      "id": "1e-005",
+      "id": "1e-055",
       "subject": "english",
       "topic": "Grade 1",
-      "skill": "Reading",
-      "prompt": "How many letters are in the word 'dog'?",
+      "skill": "Comprehension",
+      "prompt": "Story: It rained on Sam's picnic day. Sam and his dad spread a blanket on the living room floor. They ate sandwiches and played cards inside. What did they eat?",
       "type": "mcq_single",
       "choices": [
         {
           "id": "a",
-          "text": "2"
-        },
-        {
-          "id": "b",
-          "text": "3"
-        },
-        {
-          "id": "c",
-          "text": "4"
-        },
-        {
-          "id": "d",
-          "text": "5"
-        }
-      ],
-      "answer": "3",
-      "explanation": "The word 'dog' has 3 letters: d-o-g.",
-      "difficulty": "easy",
-      "tags": [
-        "grade-1",
-        "english"
-      ]
-    },
-    {
-      "id": "1e-006",
-      "subject": "english",
-      "topic": "Grade 1",
-      "skill": "Reading",
-      "prompt": "What sound does 'CH' make in 'chair'?",
-      "type": "mcq_single",
-      "choices": [
-        {
-          "id": "a",
-          "text": "/k/"
-        },
-        {
-          "id": "b",
-          "text": "/sh/"
-        },
-        {
-          "id": "c",
-          "text": "/ch/"
-        },
-        {
-          "id": "d",
-          "text": "/th/"
-        }
-      ],
-      "answer": "/ch/",
-      "explanation": "CH makes the /ch/ sound, like in 'chair', 'cheese', and 'chicken'.",
-      "difficulty": "easy",
-      "tags": [
-        "grade-1",
-        "english"
-      ]
-    },
-    {
-      "id": "1e-007",
-      "subject": "english",
-      "topic": "Grade 1",
-      "skill": "Reading",
-      "prompt": "Which is the correct way to write this word?",
-      "type": "mcq_single",
-      "choices": [
-        {
-          "id": "a",
-          "text": "teh"
-        },
-        {
-          "id": "b",
-          "text": "the"
-        },
-        {
-          "id": "c",
-          "text": "hte"
-        },
-        {
-          "id": "d",
-          "text": "eht"
-        }
-      ],
-      "answer": "the",
-      "explanation": "'The' is spelled T-H-E. It's a very common sight word!",
-      "difficulty": "easy",
-      "tags": [
-        "grade-1",
-        "english"
-      ]
-    },
-    {
-      "id": "1e-008",
-      "subject": "english",
-      "topic": "Grade 1",
-      "skill": "Reading",
-      "prompt": "What comes at the end of a sentence?",
-      "type": "mcq_single",
-      "choices": [
-        {
-          "id": "a",
-          "text": "comma"
-        },
-        {
-          "id": "b",
-          "text": "period"
-        },
-        {
-          "id": "c",
-          "text": "question"
-        },
-        {
-          "id": "d",
-          "text": "word"
-        }
-      ],
-      "answer": "period",
-      "explanation": "A period (.) comes at the end of a sentence to show it's finished.",
-      "difficulty": "easy",
-      "tags": [
-        "grade-1",
-        "english"
-      ]
-    },
-    {
-      "id": "1e-009",
-      "subject": "english",
-      "topic": "Grade 1",
-      "skill": "Reading",
-      "prompt": "Which word means the opposite of 'big'?",
-      "type": "mcq_single",
-      "choices": [
-        {
-          "id": "a",
-          "text": "huge"
-        },
-        {
-          "id": "b",
-          "text": "small"
-        },
-        {
-          "id": "c",
-          "text": "tall"
-        },
-        {
-          "id": "d",
-          "text": "wide"
-        }
-      ],
-      "answer": "small",
-      "explanation": "Small is the opposite of big. Big means large, small means little.",
-      "difficulty": "easy",
-      "tags": [
-        "grade-1",
-        "english"
-      ]
-    },
-    {
-      "id": "1e-010",
-      "subject": "english",
-      "topic": "Grade 1",
-      "skill": "Reading",
-      "prompt": "What letter makes the /s/ sound in 'sun'?",
-      "type": "mcq_single",
-      "choices": [
-        {
-          "id": "a",
-          "text": "S"
-        },
-        {
-          "id": "b",
-          "text": "C"
-        },
-        {
-          "id": "c",
-          "text": "Z"
-        },
-        {
-          "id": "d",
-          "text": "X"
-        }
-      ],
-      "answer": "S",
-      "explanation": "The letter S makes the /s/ sound in 'sun'. S is at the beginning.",
-      "difficulty": "easy",
-      "tags": [
-        "grade-1",
-        "english"
-      ]
-    },
-    {
-      "id": "1e-011",
-      "subject": "english",
-      "topic": "Grade 1",
-      "skill": "Reading",
-      "prompt": "Which word is a noun (names a person, place, or thing)?",
-      "type": "mcq_single",
-      "choices": [
-        {
-          "id": "a",
-          "text": "run"
-        },
-        {
-          "id": "b",
-          "text": "happy"
-        },
-        {
-          "id": "c",
-          "text": "school"
-        },
-        {
-          "id": "d",
-          "text": "quickly"
-        }
-      ],
-      "answer": "school",
-      "explanation": "School is a noun because it names a place where you learn.",
-      "difficulty": "easy",
-      "tags": [
-        "grade-1",
-        "english"
-      ]
-    },
-    {
-      "id": "1e-012",
-      "subject": "english",
-      "topic": "Grade 1",
-      "skill": "Reading",
-      "prompt": "Complete the pattern: cat, bat, hat, ___",
-      "type": "mcq_single",
-      "choices": [
-        {
-          "id": "a",
-          "text": "dog"
-        },
-        {
-          "id": "b",
-          "text": "rat"
-        },
-        {
-          "id": "c",
-          "text": "big"
-        },
-        {
-          "id": "d",
-          "text": "run"
-        }
-      ],
-      "answer": "rat",
-      "explanation": "Rat fits the pattern because it rhymes with cat, bat, and hat (all end in -at).",
-      "difficulty": "easy",
-      "tags": [
-        "grade-1",
-        "english"
-      ]
-    },
-    {
-      "id": "1e-013",
-      "subject": "english",
-      "topic": "Grade 1",
-      "skill": "Reading",
-      "prompt": "What do we call the ABC's?",
-      "type": "mcq_single",
-      "choices": [
-        {
-          "id": "a",
-          "text": "numbers"
-        },
-        {
-          "id": "b",
-          "text": "alphabet"
-        },
-        {
-          "id": "c",
-          "text": "colors"
-        },
-        {
-          "id": "d",
-          "text": "shapes"
-        }
-      ],
-      "answer": "alphabet",
-      "explanation": "The ABC's are called the alphabet. There are 26 letters in the alphabet.",
-      "difficulty": "easy",
-      "tags": [
-        "grade-1",
-        "english"
-      ]
-    },
-    {
-      "id": "1e-014",
-      "subject": "english",
-      "topic": "Grade 1",
-      "skill": "Reading",
-      "prompt": "Which word has the long 'A' sound?",
-      "type": "mcq_single",
-      "choices": [
-        {
-          "id": "a",
-          "text": "cat"
-        },
-        {
-          "id": "b",
           "text": "cake"
         },
         {
+          "id": "b",
+          "text": "sandwiches"
+        },
+        {
           "id": "c",
-          "text": "can"
+          "text": "pizza"
         },
         {
           "id": "d",
-          "text": "cap"
+          "text": "soup"
         }
       ],
-      "answer": "cake",
-      "explanation": "Cake has the long A sound (/ay/). The 'e' at the end makes the 'a' say its name.",
+      "answer": "sandwiches",
+      "explanation": "They ate sandwiches inside.",
       "difficulty": "easy",
       "tags": [
         "grade-1",
-        "english"
+        "english",
+        "comprehension"
       ]
     },
     {
-      "id": "1e-015",
+      "id": "1e-056",
       "subject": "english",
       "topic": "Grade 1",
-      "skill": "Reading",
-      "prompt": "How do we start every sentence?",
+      "skill": "Comprehension",
+      "prompt": "Story: It rained on Sam's picnic day. Sam and his dad spread a blanket on the living room floor. They ate sandwiches and played cards inside. What game did they play?",
       "type": "mcq_single",
       "choices": [
         {
           "id": "a",
-          "text": "with a period"
+          "text": "cards"
         },
         {
           "id": "b",
-          "text": "with a capital letter"
+          "text": "soccer"
         },
         {
           "id": "c",
-          "text": "with a comma"
+          "text": "tag"
         },
         {
           "id": "d",
-          "text": "with a small letter"
+          "text": "hide-and-seek"
         }
       ],
-      "answer": "with a capital letter",
-      "explanation": "Every sentence starts with a capital letter to show it's the beginning.",
+      "answer": "cards",
+      "explanation": "They played cards inside.",
       "difficulty": "easy",
       "tags": [
         "grade-1",
-        "english"
+        "english",
+        "comprehension"
       ]
     },
     {
-      "id": "1e-016",
+      "id": "1e-057",
       "subject": "english",
       "topic": "Grade 1",
-      "skill": "Reading",
-      "prompt": "Story: Sam has a red ball. He likes to play with it. What color is Sam's ball?",
+      "skill": "Comprehension",
+      "prompt": "Story: Lina went to the library with her mum. She got a card and borrowed two books about birds. The librarian smiled and said, 'See you next week!' How many books did Lina borrow?",
       "type": "mcq_single",
       "choices": [
         {
           "id": "a",
-          "text": "blue"
+          "text": "one"
         },
         {
           "id": "b",
-          "text": "red"
+          "text": "two"
         },
         {
           "id": "c",
-          "text": "green"
+          "text": "three"
         },
         {
           "id": "d",
-          "text": "yellow"
+          "text": "four"
         }
       ],
-      "answer": "red",
-      "explanation": "The story says 'Sam has a red ball', so his ball is red.",
+      "answer": "two",
+      "explanation": "The story says she borrowed two books.",
       "difficulty": "easy",
       "tags": [
         "grade-1",
-        "english"
+        "english",
+        "comprehension"
       ]
     },
     {
-      "id": "1e-017",
+      "id": "1e-058",
       "subject": "english",
       "topic": "Grade 1",
-      "skill": "Reading",
-      "prompt": "Which word has the 'ing' ending?",
+      "skill": "Comprehension",
+      "prompt": "Story: Lina went to the library with her mum. She got a card and borrowed two books about birds. The librarian smiled and said, 'See you next week!' What were the books about?",
       "type": "mcq_single",
       "choices": [
         {
           "id": "a",
-          "text": "run"
+          "text": "dogs"
         },
         {
           "id": "b",
-          "text": "running"
+          "text": "cars"
         },
         {
           "id": "c",
-          "text": "runs"
+          "text": "birds"
         },
         {
           "id": "d",
-          "text": "ran"
+          "text": "plants"
         }
       ],
-      "answer": "running",
-      "explanation": "Running has the 'ing' ending added to the word 'run'.",
+      "answer": "birds",
+      "explanation": "They were two books about birds.",
       "difficulty": "easy",
       "tags": [
         "grade-1",
-        "english"
+        "english",
+        "comprehension"
       ]
     },
     {
-      "id": "1e-018",
+      "id": "1e-059",
       "subject": "english",
       "topic": "Grade 1",
-      "skill": "Reading",
-      "prompt": "Story: The cat sits on the mat. The dog runs in the yard. Where does the cat sit?",
+      "skill": "Comprehension",
+      "prompt": "Story: Lina went to the library with her mum. She got a card and borrowed two books about birds. The librarian smiled and said, 'See you next week!' Who said 'See you next week!'?",
       "type": "mcq_single",
       "choices": [
         {
           "id": "a",
-          "text": "on the chair"
+          "text": "Lina"
         },
         {
           "id": "b",
-          "text": "on the mat"
+          "text": "her mum"
         },
         {
           "id": "c",
-          "text": "in the yard"
+          "text": "the librarian"
         },
         {
           "id": "d",
-          "text": "on the bed"
+          "text": "her teacher"
         }
       ],
-      "answer": "on the mat",
-      "explanation": "The story tells us 'The cat sits on the mat'.",
+      "answer": "the librarian",
+      "explanation": "The librarian spoke to Lina.",
       "difficulty": "easy",
       "tags": [
         "grade-1",
-        "english"
+        "english",
+        "comprehension"
       ]
     },
     {
-      "id": "1e-019",
+      "id": "1e-060",
       "subject": "english",
       "topic": "Grade 1",
-      "skill": "Reading",
-      "prompt": "What letter comes after 'M' in the alphabet?",
-      "type": "mcq_single",
-      "choices": [
-        {
-          "id": "a",
-          "text": "L"
-        },
-        {
-          "id": "b",
-          "text": "N"
-        },
-        {
-          "id": "c",
-          "text": "O"
-        },
-        {
-          "id": "d",
-          "text": "P"
-        }
-      ],
-      "answer": "N",
-      "explanation": "In the alphabet, N comes after M: L, M, N, O, P.",
-      "difficulty": "easy",
-      "tags": [
-        "grade-1",
-        "english"
-      ]
-    },
-    {
-      "id": "1e-020",
-      "subject": "english",
-      "topic": "Grade 1",
-      "skill": "Reading",
-      "prompt": "Which word is spelled correctly?",
-      "type": "mcq_single",
-      "choices": [
-        {
-          "id": "a",
-          "text": "wuz"
-        },
-        {
-          "id": "b",
-          "text": "wos"
-        },
-        {
-          "id": "c",
-          "text": "was"
-        },
-        {
-          "id": "d",
-          "text": "waz"
-        }
-      ],
-      "answer": "was",
-      "explanation": "'Was' is the correct spelling. It's a common sight word!",
-      "difficulty": "easy",
-      "tags": [
-        "grade-1",
-        "english"
-      ]
-    },
-    {
-      "id": "1e-021",
-      "subject": "english",
-      "topic": "Grade 1",
-      "skill": "Reading",
-      "prompt": "Story: Lily went to the park. She played on the swings. Then she ate lunch. What did Lily do first?",
-      "type": "mcq_single",
-      "choices": [
-        {
-          "id": "a",
-          "text": "ate lunch"
-        },
-        {
-          "id": "b",
-          "text": "went home"
-        },
-        {
-          "id": "c",
-          "text": "went to the park"
-        },
-        {
-          "id": "d",
-          "text": "played on swings"
-        }
-      ],
-      "answer": "went to the park",
-      "explanation": "The story says 'Lily went to the park' first, then she played and ate.",
-      "difficulty": "easy",
-      "tags": [
-        "grade-1",
-        "english"
-      ]
-    },
-    {
-      "id": "1e-022",
-      "subject": "english",
-      "topic": "Grade 1",
-      "skill": "Reading",
-      "prompt": "What sound does 'SH' make in 'ship'?",
-      "type": "mcq_single",
-      "choices": [
-        {
-          "id": "a",
-          "text": "/s/"
-        },
-        {
-          "id": "b",
-          "text": "/sh/"
-        },
-        {
-          "id": "c",
-          "text": "/th/"
-        },
-        {
-          "id": "d",
-          "text": "/ch/"
-        }
-      ],
-      "answer": "/sh/",
-      "explanation": "SH makes the /sh/ sound, like in 'ship', 'shoe', and 'fish'.",
-      "difficulty": "easy",
-      "tags": [
-        "grade-1",
-        "english"
-      ]
-    },
-    {
-      "id": "1e-023",
-      "subject": "english",
-      "topic": "Grade 1",
-      "skill": "Reading",
-      "prompt": "Which word means more than one?",
-      "type": "mcq_single",
-      "choices": [
-        {
-          "id": "a",
-          "text": "cat"
-        },
-        {
-          "id": "b",
-          "text": "cats"
-        },
-        {
-          "id": "c",
-          "text": "running"
-        },
-        {
-          "id": "d",
-          "text": "big"
-        }
-      ],
-      "answer": "cats",
-      "explanation": "Cats means more than one cat. We add 's' to make words plural (more than one).",
-      "difficulty": "easy",
-      "tags": [
-        "grade-1",
-        "english"
-      ]
-    },
-    {
-      "id": "1e-024",
-      "subject": "english",
-      "topic": "Grade 1",
-      "skill": "Reading",
-      "prompt": "Story: Ben loves books. He reads every day. His favorite book is about dinosaurs. What does Ben love?",
-      "type": "mcq_single",
-      "choices": [
-        {
-          "id": "a",
-          "text": "dinosaurs"
-        },
-        {
-          "id": "b",
-          "text": "books"
-        },
-        {
-          "id": "c",
-          "text": "games"
-        },
-        {
-          "id": "d",
-          "text": "toys"
-        }
-      ],
-      "answer": "books",
-      "explanation": "The first sentence tells us 'Ben loves books'.",
-      "difficulty": "easy",
-      "tags": [
-        "grade-1",
-        "english"
-      ]
-    },
-    {
-      "id": "1e-025",
-      "subject": "english",
-      "topic": "Grade 1",
-      "skill": "Reading",
-      "prompt": "Which letters are vowels?",
-      "type": "mcq_single",
-      "choices": [
-        {
-          "id": "a",
-          "text": "B, C, D"
-        },
-        {
-          "id": "b",
-          "text": "A, E, I, O, U"
-        },
-        {
-          "id": "c",
-          "text": "X, Y, Z"
-        },
-        {
-          "id": "d",
-          "text": "F, G, H"
-        }
-      ],
-      "answer": "A, E, I, O, U",
-      "explanation": "The vowels are A, E, I, O, U. Sometimes Y can be a vowel too!",
-      "difficulty": "easy",
-      "tags": [
-        "grade-1",
-        "english"
-      ]
-    },
-    {
-      "id": "1e-026",
-      "subject": "english",
-      "topic": "Grade 1",
-      "skill": "Reading",
-      "prompt": "What is the first word in this sentence: 'The dog barks loudly'?",
-      "type": "mcq_single",
-      "choices": [
-        {
-          "id": "a",
-          "text": "dog"
-        },
-        {
-          "id": "b",
-          "text": "The"
-        },
-        {
-          "id": "c",
-          "text": "barks"
-        },
-        {
-          "id": "d",
-          "text": "loudly"
-        }
-      ],
-      "answer": "The",
-      "explanation": "'The' is the first word in the sentence. It starts with a capital letter.",
-      "difficulty": "easy",
-      "tags": [
-        "grade-1",
-        "english"
-      ]
-    },
-    {
-      "id": "1e-027",
-      "subject": "english",
-      "topic": "Grade 1",
-      "skill": "Reading",
-      "prompt": "Story: Mom baked cookies. They smell so good! The cookies are in the oven. Where are the cookies?",
+      "skill": "Comprehension",
+      "prompt": "Story: Tom put his loose tooth under his pillow. In the morning, the tooth was gone and a shiny coin was there. Tom smiled and showed his mum. Where did Tom put his tooth?",
       "type": "mcq_single",
       "choices": [
         {
@@ -872,262 +320,644 @@
         },
         {
           "id": "b",
-          "text": "in the jar"
+          "text": "in a box"
         },
         {
           "id": "c",
-          "text": "in the oven"
+          "text": "under his pillow"
         },
         {
           "id": "d",
-          "text": "in the bag"
+          "text": "on a shelf"
         }
       ],
-      "answer": "in the oven",
-      "explanation": "The story says 'The cookies are in the oven'.",
+      "answer": "under his pillow",
+      "explanation": "He placed the tooth under his pillow.",
       "difficulty": "easy",
       "tags": [
         "grade-1",
-        "english"
+        "english",
+        "comprehension"
       ]
     },
     {
-      "id": "1e-028",
+      "id": "1e-061",
       "subject": "english",
       "topic": "Grade 1",
-      "skill": "Reading",
-      "prompt": "Which word has the short 'E' sound?",
+      "skill": "Comprehension",
+      "prompt": "Story: Tom put his loose tooth under his pillow. In the morning, the tooth was gone and a shiny coin was there. Tom smiled and showed his mum. What did Tom find in the morning?",
       "type": "mcq_single",
       "choices": [
         {
           "id": "a",
-          "text": "bee"
+          "text": "a button"
         },
         {
           "id": "b",
-          "text": "bed"
+          "text": "a coin"
         },
         {
           "id": "c",
-          "text": "be"
+          "text": "a letter"
         },
         {
           "id": "d",
-          "text": "me"
+          "text": "a toy"
         }
       ],
-      "answer": "bed",
-      "explanation": "Bed has the short E sound (/eh/). The other words have the long E sound.",
+      "answer": "a coin",
+      "explanation": "He found a shiny coin.",
       "difficulty": "easy",
       "tags": [
         "grade-1",
-        "english"
+        "english",
+        "comprehension"
       ]
     },
     {
-      "id": "1e-029",
+      "id": "1e-062",
       "subject": "english",
       "topic": "Grade 1",
-      "skill": "Reading",
-      "prompt": "What do we put at the end of a question?",
+      "skill": "Comprehension",
+      "prompt": "Story: Tom put his loose tooth under his pillow. In the morning, the tooth was gone and a shiny coin was there. Tom smiled and showed his mum. How did Tom feel?",
       "type": "mcq_single",
       "choices": [
         {
           "id": "a",
-          "text": "period"
+          "text": "sad"
         },
         {
           "id": "b",
-          "text": "comma"
+          "text": "angry"
         },
         {
           "id": "c",
-          "text": "question mark"
+          "text": "scared"
         },
         {
           "id": "d",
-          "text": "exclamation point"
+          "text": "happy"
         }
       ],
-      "answer": "question mark",
-      "explanation": "We put a question mark (?) at the end of questions like 'How are you?'",
+      "answer": "happy",
+      "explanation": "He smiled, showing he felt happy.",
       "difficulty": "easy",
       "tags": [
         "grade-1",
-        "english"
+        "english",
+        "comprehension"
       ]
     },
     {
-      "id": "1e-030",
+      "id": "1e-063",
       "subject": "english",
       "topic": "Grade 1",
-      "skill": "Reading",
-      "prompt": "Story: It was raining outside. Emma put on her raincoat and boots. Then she went outside to play. Why did Emma put on her raincoat?",
+      "skill": "Comprehension",
+      "prompt": "Story: A bee landed on a yellow flower. It drank sweet nectar and flew back to the hive. The bee wiggled to tell other bees where the flower was. What color was the flower?",
       "type": "mcq_single",
       "choices": [
         {
           "id": "a",
-          "text": "it was sunny"
+          "text": "red"
         },
         {
           "id": "b",
-          "text": "it was raining"
+          "text": "blue"
         },
         {
           "id": "c",
-          "text": "it was cold"
+          "text": "yellow"
         },
         {
           "id": "d",
-          "text": "it was hot"
+          "text": "purple"
         }
       ],
-      "answer": "it was raining",
-      "explanation": "Emma put on her raincoat because 'it was raining outside'.",
+      "answer": "yellow",
+      "explanation": "The flower was yellow.",
       "difficulty": "easy",
       "tags": [
         "grade-1",
-        "english"
+        "english",
+        "comprehension"
       ]
     },
     {
-      "id": "1e-031",
+      "id": "1e-064",
       "subject": "english",
       "topic": "Grade 1",
-      "skill": "Reading",
-      "prompt": "Which word rhymes with 'book'?",
+      "skill": "Comprehension",
+      "prompt": "Story: A bee landed on a yellow flower. It drank sweet nectar and flew back to the hive. The bee wiggled to tell other bees where the flower was. Where did the bee go after drinking nectar?",
       "type": "mcq_single",
       "choices": [
         {
           "id": "a",
-          "text": "look"
+          "text": "the lake"
         },
         {
           "id": "b",
-          "text": "bike"
+          "text": "the hive"
         },
         {
           "id": "c",
-          "text": "ball"
+          "text": "the tree"
         },
         {
           "id": "d",
-          "text": "bus"
+          "text": "the garden gate"
         }
       ],
-      "answer": "look",
-      "explanation": "Look rhymes with book because they both end with the 'ook' sound.",
+      "answer": "the hive",
+      "explanation": "It flew back to the hive.",
       "difficulty": "easy",
       "tags": [
         "grade-1",
-        "english"
+        "english",
+        "comprehension"
       ]
     },
     {
-      "id": "1e-032",
+      "id": "1e-065",
       "subject": "english",
       "topic": "Grade 1",
-      "skill": "Reading",
-      "prompt": "Complete this sentence: 'She ___ happy.'",
+      "skill": "Comprehension",
+      "prompt": "Story: A bee landed on a yellow flower. It drank sweet nectar and flew back to the hive. The bee wiggled to tell other bees where the flower was. Why did the bee wiggle?",
       "type": "mcq_single",
       "choices": [
         {
           "id": "a",
-          "text": "am"
+          "text": "to cool down"
         },
         {
           "id": "b",
-          "text": "is"
+          "text": "to scare birds"
         },
         {
           "id": "c",
-          "text": "are"
+          "text": "to tell other bees"
         },
         {
           "id": "d",
-          "text": "be"
+          "text": "to clean its wings"
         }
       ],
-      "answer": "is",
-      "explanation": "'She is happy' is correct. We use 'is' with 'she', 'he', and 'it'.",
+      "answer": "to tell other bees",
+      "explanation": "The wiggle tells other bees where the flower is.",
       "difficulty": "easy",
       "tags": [
         "grade-1",
-        "english"
+        "english",
+        "comprehension"
       ]
     },
     {
-      "id": "1e-033",
+      "id": "1e-066",
       "subject": "english",
       "topic": "Grade 1",
-      "skill": "Reading",
-      "prompt": "Story: Max has three toys: a car, a ball, and a bear. He plays with the car first. How many toys does Max have?",
+      "skill": "Comprehension",
+      "prompt": "Story: Our class had Sports Day. I ran in a race and won a small ribbon. My friend Aya clapped for everyone, win or lose. What event did the class have?",
       "type": "mcq_single",
       "choices": [
         {
           "id": "a",
+          "text": "Art Day"
+        },
+        {
+          "id": "b",
+          "text": "Sports Day"
+        },
+        {
+          "id": "c",
+          "text": "Science Fair"
+        },
+        {
+          "id": "d",
+          "text": "Music Show"
+        }
+      ],
+      "answer": "Sports Day",
+      "explanation": "It was Sports Day.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "english",
+        "comprehension"
+      ]
+    },
+    {
+      "id": "1e-067",
+      "subject": "english",
+      "topic": "Grade 1",
+      "skill": "Comprehension",
+      "prompt": "Story: Our class had Sports Day. I ran in a race and won a small ribbon. My friend Aya clapped for everyone, win or lose. What did the narrator win?",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "a medal"
+        },
+        {
+          "id": "b",
+          "text": "a trophy"
+        },
+        {
+          "id": "c",
+          "text": "a small ribbon"
+        },
+        {
+          "id": "d",
+          "text": "a sticker book"
+        }
+      ],
+      "answer": "a small ribbon",
+      "explanation": "They won a small ribbon.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "english",
+        "comprehension"
+      ]
+    },
+    {
+      "id": "1e-068",
+      "subject": "english",
+      "topic": "Grade 1",
+      "skill": "Comprehension",
+      "prompt": "Story: Our class had Sports Day. I ran in a race and won a small ribbon. My friend Aya clapped for everyone, win or lose. What did Aya do?",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "ran home"
+        },
+        {
+          "id": "b",
+          "text": "clapped for everyone"
+        },
+        {
+          "id": "c",
+          "text": "took photos"
+        },
+        {
+          "id": "d",
+          "text": "sold drinks"
+        }
+      ],
+      "answer": "clapped for everyone",
+      "explanation": "Aya clapped for all, win or lose.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "english",
+        "comprehension"
+      ]
+    },
+    {
+      "id": "1e-069",
+      "subject": "english",
+      "topic": "Grade 1",
+      "skill": "Comprehension",
+      "prompt": "Story: Grandma grows tomatoes in her garden. Every morning, she waters them and picks the ripe ones. Today she gave me two to take home. What does Grandma grow?",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "roses"
+        },
+        {
+          "id": "b",
+          "text": "tomatoes"
+        },
+        {
+          "id": "c",
+          "text": "carrots"
+        },
+        {
+          "id": "d",
+          "text": "beans"
+        }
+      ],
+      "answer": "tomatoes",
+      "explanation": "She grows tomatoes in her garden.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "english",
+        "comprehension"
+      ]
+    },
+    {
+      "id": "1e-070",
+      "subject": "english",
+      "topic": "Grade 1",
+      "skill": "Comprehension",
+      "prompt": "Story: Grandma grows tomatoes in her garden. Every morning, she waters them and picks the ripe ones. Today she gave me two to take home. When does she water them?",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "at night"
+        },
+        {
+          "id": "b",
+          "text": "every morning"
+        },
+        {
+          "id": "c",
+          "text": "once a week"
+        },
+        {
+          "id": "d",
+          "text": "never"
+        }
+      ],
+      "answer": "every morning",
+      "explanation": "She waters them every morning.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "english",
+        "comprehension"
+      ]
+    },
+    {
+      "id": "1e-071",
+      "subject": "english",
+      "topic": "Grade 1",
+      "skill": "Comprehension",
+      "prompt": "Story: Grandma grows tomatoes in her garden. Every morning, she waters them and picks the ripe ones. Today she gave me two to take home. How many tomatoes did I get today?",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "one"
+        },
+        {
+          "id": "b",
           "text": "two"
         },
         {
-          "id": "b",
+          "id": "c",
           "text": "three"
         },
         {
-          "id": "c",
-          "text": "four"
-        },
-        {
           "id": "d",
-          "text": "five"
+          "text": "four"
         }
       ],
-      "answer": "three",
-      "explanation": "The story says 'Max has three toys: a car, a ball, and a bear'.",
+      "answer": "two",
+      "explanation": "She gave two tomatoes.",
       "difficulty": "easy",
       "tags": [
         "grade-1",
-        "english"
+        "english",
+        "comprehension"
       ]
     },
     {
-      "id": "1e-034",
+      "id": "1e-072",
       "subject": "english",
       "topic": "Grade 1",
-      "skill": "Reading",
-      "prompt": "What sound does 'TH' make in 'this'?",
+      "skill": "Comprehension",
+      "prompt": "Story: Ben's toy car fell off the table and a wheel broke. Ben felt upset, but his sister found some glue. Together they fixed the car and played again. What happened to Ben's toy car?",
       "type": "mcq_single",
       "choices": [
         {
           "id": "a",
-          "text": "/t/"
+          "text": "it got lost"
         },
         {
           "id": "b",
-          "text": "/th/"
+          "text": "it ran out of batteries"
         },
         {
           "id": "c",
-          "text": "/s/"
+          "text": "a wheel broke"
         },
         {
           "id": "d",
-          "text": "/h/"
+          "text": "it turned blue"
         }
       ],
-      "answer": "/th/",
-      "explanation": "TH makes the /th/ sound in 'this', 'that', and 'they'.",
+      "answer": "a wheel broke",
+      "explanation": "A wheel broke when it fell.",
       "difficulty": "easy",
       "tags": [
         "grade-1",
-        "english"
+        "english",
+        "comprehension"
       ]
     },
     {
-      "id": "1e-035",
+      "id": "1e-073",
       "subject": "english",
       "topic": "Grade 1",
-      "skill": "Reading",
-      "prompt": "Which word is an action word (verb)?",
+      "skill": "Comprehension",
+      "prompt": "Story: Ben's toy car fell off the table and a wheel broke. Ben felt upset, but his sister found some glue. Together they fixed the car and played again. Who helped fix the car?",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "his dad"
+        },
+        {
+          "id": "b",
+          "text": "his teacher"
+        },
+        {
+          "id": "c",
+          "text": "his sister"
+        },
+        {
+          "id": "d",
+          "text": "his friend"
+        }
+      ],
+      "answer": "his sister",
+      "explanation": "His sister found glue and helped.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "english",
+        "comprehension"
+      ]
+    },
+    {
+      "id": "1e-074",
+      "subject": "english",
+      "topic": "Grade 1",
+      "skill": "Comprehension",
+      "prompt": "Story: Ben's toy car fell off the table and a wheel broke. Ben felt upset, but his sister found some glue. Together they fixed the car and played again. How did they feel at the end?",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "still upset"
+        },
+        {
+          "id": "b",
+          "text": "bored"
+        },
+        {
+          "id": "c",
+          "text": "sleepy"
+        },
+        {
+          "id": "d",
+          "text": "happy"
+        }
+      ],
+      "answer": "happy",
+      "explanation": "They fixed it and played again, so they were happy.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "english",
+        "comprehension"
+      ]
+    },
+    {
+      "id": "1e-075",
+      "subject": "english",
+      "topic": "Grade 1",
+      "skill": "Vocabulary",
+      "prompt": "Which word means the same as 'tiny'?",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "small"
+        },
+        {
+          "id": "b",
+          "text": "loud"
+        },
+        {
+          "id": "c",
+          "text": "fast"
+        },
+        {
+          "id": "d",
+          "text": "bright"
+        }
+      ],
+      "answer": "small",
+      "explanation": "Small is a synonym for tiny.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "english",
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "1e-076",
+      "subject": "english",
+      "topic": "Grade 1",
+      "skill": "Vocabulary",
+      "prompt": "Which word is the opposite of 'open'?",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "wide"
+        },
+        {
+          "id": "b",
+          "text": "close"
+        },
+        {
+          "id": "c",
+          "text": "far"
+        },
+        {
+          "id": "d",
+          "text": "near"
+        }
+      ],
+      "answer": "close",
+      "explanation": "Close is the antonym of open.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "english",
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "1e-077",
+      "subject": "english",
+      "topic": "Grade 1",
+      "skill": "Vocabulary",
+      "prompt": "Choose the animal.",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "chair"
+        },
+        {
+          "id": "b",
+          "text": "banana"
+        },
+        {
+          "id": "c",
+          "text": "tiger"
+        },
+        {
+          "id": "d",
+          "text": "pencil"
+        }
+      ],
+      "answer": "tiger",
+      "explanation": "Tiger is an animal; others are objects or food.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "english",
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "1e-078",
+      "subject": "english",
+      "topic": "Grade 1",
+      "skill": "Vocabulary",
+      "prompt": "Which two words rhyme?",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "cat & sun"
+        },
+        {
+          "id": "b",
+          "text": "hat & cat"
+        },
+        {
+          "id": "c",
+          "text": "bed & big"
+        },
+        {
+          "id": "d",
+          "text": "dog & dig"
+        }
+      ],
+      "answer": "hat & cat",
+      "explanation": "Hat and cat share the -at sound.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "english",
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "1e-079",
+      "subject": "english",
+      "topic": "Grade 1",
+      "skill": "Vocabulary",
+      "prompt": "Pick the word that is a color.",
       "type": "mcq_single",
       "choices": [
         {
@@ -1136,64 +966,474 @@
         },
         {
           "id": "b",
-          "text": "red"
+          "text": "green"
         },
         {
           "id": "c",
-          "text": "house"
+          "text": "school"
         },
         {
           "id": "d",
-          "text": "big"
+          "text": "soft"
         }
       ],
-      "answer": "jump",
-      "explanation": "Jump is an action word (verb) because it shows what someone does.",
+      "answer": "green",
+      "explanation": "Green names a color.",
       "difficulty": "easy",
       "tags": [
         "grade-1",
-        "english"
+        "english",
+        "vocabulary"
       ]
     },
     {
-      "id": "1e-036",
+      "id": "1e-080",
       "subject": "english",
       "topic": "Grade 1",
-      "skill": "Reading",
-      "prompt": "Story: The sun is bright today. Birds are singing in the trees. Flowers are blooming in the garden. What is the weather like?",
+      "skill": "Vocabulary",
+      "prompt": "Which word belongs with 'fork' and 'spoon'?",
       "type": "mcq_single",
       "choices": [
         {
           "id": "a",
-          "text": "rainy"
+          "text": "plate"
         },
         {
           "id": "b",
-          "text": "snowy"
+          "text": "knife"
         },
         {
           "id": "c",
-          "text": "bright and sunny"
+          "text": "cup"
         },
         {
           "id": "d",
-          "text": "cloudy"
+          "text": "napkin"
         }
       ],
-      "answer": "bright and sunny",
-      "explanation": "The story says 'The sun is bright today', so it's bright and sunny.",
+      "answer": "knife",
+      "explanation": "Fork, spoon, and knife are all cutlery.",
       "difficulty": "easy",
       "tags": [
         "grade-1",
-        "english"
+        "english",
+        "vocabulary"
       ]
     },
     {
-      "id": "1e-037",
+      "id": "1e-081",
       "subject": "english",
       "topic": "Grade 1",
-      "skill": "Reading",
-      "prompt": "Which word has two syllables (parts)?",
+      "skill": "Vocabulary",
+      "prompt": "Choose the best word to complete: 'The turtle is very ___.\"",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "quick"
+        },
+        {
+          "id": "b",
+          "text": "slow"
+        },
+        {
+          "id": "c",
+          "text": "loud"
+        },
+        {
+          "id": "d",
+          "text": "tall"
+        }
+      ],
+      "answer": "slow",
+      "explanation": "Turtles are known for moving slowly.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "english",
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "1e-082",
+      "subject": "english",
+      "topic": "Grade 1",
+      "skill": "Vocabulary",
+      "prompt": "Which pair are homophones (sound the same)?",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "two & to"
+        },
+        {
+          "id": "b",
+          "text": "big & bag"
+        },
+        {
+          "id": "c",
+          "text": "see & say"
+        },
+        {
+          "id": "d",
+          "text": "red & read"
+        }
+      ],
+      "answer": "two & to",
+      "explanation": "Two and to sound the same.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "english",
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "1e-083",
+      "subject": "english",
+      "topic": "Grade 1",
+      "skill": "Vocabulary",
+      "prompt": "Which word is a place?",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "happy"
+        },
+        {
+          "id": "b",
+          "text": "market"
+        },
+        {
+          "id": "c",
+          "text": "run"
+        },
+        {
+          "id": "d",
+          "text": "blue"
+        }
+      ],
+      "answer": "market",
+      "explanation": "Market is a place.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "english",
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "1e-084",
+      "subject": "english",
+      "topic": "Grade 1",
+      "skill": "Vocabulary",
+      "prompt": "Choose the describing word (adjective).",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "slow"
+        },
+        {
+          "id": "b",
+          "text": "run"
+        },
+        {
+          "id": "c",
+          "text": "sing"
+        },
+        {
+          "id": "d",
+          "text": "walk"
+        }
+      ],
+      "answer": "slow",
+      "explanation": "Slow describes how something moves.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "english",
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "1e-085",
+      "subject": "english",
+      "topic": "Grade 1",
+      "skill": "Grammar",
+      "prompt": "Choose the correct sentence.",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "She are my sister."
+        },
+        {
+          "id": "b",
+          "text": "She is my sister."
+        },
+        {
+          "id": "c",
+          "text": "She am my sister."
+        },
+        {
+          "id": "d",
+          "text": "She be my sister."
+        }
+      ],
+      "answer": "She is my sister.",
+      "explanation": "Use 'is' with she/he/it.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "english",
+        "grammar"
+      ]
+    },
+    {
+      "id": "1e-086",
+      "subject": "english",
+      "topic": "Grade 1",
+      "skill": "Grammar",
+      "prompt": "Pick the correct pronoun: '___ is my book.'",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "He"
+        },
+        {
+          "id": "b",
+          "text": "She"
+        },
+        {
+          "id": "c",
+          "text": "It"
+        },
+        {
+          "id": "d",
+          "text": "We"
+        }
+      ],
+      "answer": "It",
+      "explanation": "'It' refers to a thing like a book.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "english",
+        "grammar"
+      ]
+    },
+    {
+      "id": "1e-087",
+      "subject": "english",
+      "topic": "Grade 1",
+      "skill": "Grammar",
+      "prompt": "Fill the blank: 'They ___ to school.'",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "goes"
+        },
+        {
+          "id": "b",
+          "text": "go"
+        },
+        {
+          "id": "c",
+          "text": "going"
+        },
+        {
+          "id": "d",
+          "text": "gone"
+        }
+      ],
+      "answer": "go",
+      "explanation": "Use 'go' with they.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "english",
+        "grammar"
+      ]
+    },
+    {
+      "id": "1e-088",
+      "subject": "english",
+      "topic": "Grade 1",
+      "skill": "Grammar",
+      "prompt": "Choose the plural form of 'cat'.",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "cat's"
+        },
+        {
+          "id": "b",
+          "text": "cats"
+        },
+        {
+          "id": "c",
+          "text": "cates"
+        },
+        {
+          "id": "d",
+          "text": "catz"
+        }
+      ],
+      "answer": "cats",
+      "explanation": "Add 's' to make plural: cats.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "english",
+        "grammar"
+      ]
+    },
+    {
+      "id": "1e-089",
+      "subject": "english",
+      "topic": "Grade 1",
+      "skill": "Grammar",
+      "prompt": "Select the action word (verb).",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "jump"
+        },
+        {
+          "id": "b",
+          "text": "blue"
+        },
+        {
+          "id": "c",
+          "text": "pretty"
+        },
+        {
+          "id": "d",
+          "text": "book"
+        }
+      ],
+      "answer": "jump",
+      "explanation": "Jump is a verb.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "english",
+        "grammar"
+      ]
+    },
+    {
+      "id": "1e-090",
+      "subject": "english",
+      "topic": "Grade 1",
+      "skill": "Grammar",
+      "prompt": "Choose the correct word: 'I ___ a sandwich.'",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "eat"
+        },
+        {
+          "id": "b",
+          "text": "eats"
+        },
+        {
+          "id": "c",
+          "text": "eated"
+        },
+        {
+          "id": "d",
+          "text": "eating"
+        }
+      ],
+      "answer": "eat",
+      "explanation": "With 'I', use base form 'eat'.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "english",
+        "grammar"
+      ]
+    },
+    {
+      "id": "1e-091",
+      "subject": "english",
+      "topic": "Grade 1",
+      "skill": "Grammar",
+      "prompt": "Pick the best: 'He ___ happy today.'",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "are"
+        },
+        {
+          "id": "b",
+          "text": "am"
+        },
+        {
+          "id": "c",
+          "text": "is"
+        },
+        {
+          "id": "d",
+          "text": "be"
+        }
+      ],
+      "answer": "is",
+      "explanation": "Use 'is' with he.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "english",
+        "grammar"
+      ]
+    },
+    {
+      "id": "1e-092",
+      "subject": "english",
+      "topic": "Grade 1",
+      "skill": "Grammar",
+      "prompt": "Choose the correct order.",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "ball the throw"
+        },
+        {
+          "id": "b",
+          "text": "throw the ball"
+        },
+        {
+          "id": "c",
+          "text": "the throw ball"
+        },
+        {
+          "id": "d",
+          "text": "ball throw the"
+        }
+      ],
+      "answer": "throw the ball",
+      "explanation": "Verb-object order is correct.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "english",
+        "grammar"
+      ]
+    },
+    {
+      "id": "1e-093",
+      "subject": "english",
+      "topic": "Grade 1",
+      "skill": "Grammar",
+      "prompt": "Select the preposition in 'The cat is under the table.'",
       "type": "mcq_single",
       "choices": [
         {
@@ -1202,130 +1442,134 @@
         },
         {
           "id": "b",
-          "text": "dog"
+          "text": "under"
         },
         {
           "id": "c",
-          "text": "rabbit"
+          "text": "table"
         },
         {
           "id": "d",
-          "text": "pig"
+          "text": "is"
         }
       ],
-      "answer": "rabbit",
-      "explanation": "Rabbit has two syllables: rab-bit. You can clap for each part!",
+      "answer": "under",
+      "explanation": "'Under' shows position.",
       "difficulty": "easy",
       "tags": [
         "grade-1",
-        "english"
+        "english",
+        "grammar"
       ]
     },
     {
-      "id": "1e-038",
+      "id": "1e-094",
       "subject": "english",
       "topic": "Grade 1",
-      "skill": "Reading",
-      "prompt": "What letter does 'zebra' start with?",
+      "skill": "Grammar",
+      "prompt": "Pick the sentence with a capital letter.",
       "type": "mcq_single",
       "choices": [
         {
           "id": "a",
-          "text": "Y"
+          "text": "the dog runs."
         },
         {
           "id": "b",
-          "text": "Z"
+          "text": "the Dog runs."
         },
         {
           "id": "c",
-          "text": "X"
+          "text": "The dog runs."
         },
         {
           "id": "d",
-          "text": "W"
+          "text": "the dog Runs."
         }
       ],
-      "answer": "Z",
-      "explanation": "Zebra starts with the letter Z. Z makes the /z/ sound.",
+      "answer": "The dog runs.",
+      "explanation": "Sentences start with a capital letter.",
       "difficulty": "easy",
       "tags": [
         "grade-1",
-        "english"
+        "english",
+        "grammar"
       ]
     },
     {
-      "id": "1e-039",
+      "id": "1e-095",
       "subject": "english",
       "topic": "Grade 1",
-      "skill": "Reading",
-      "prompt": "Story: Anna and her dad went fishing. They caught two fish. Then they went home for dinner. Who went fishing with Anna?",
+      "skill": "Spelling",
+      "prompt": "Choose the correct spelling.",
       "type": "mcq_single",
       "choices": [
         {
           "id": "a",
-          "text": "her mom"
+          "text": "frend"
         },
         {
           "id": "b",
-          "text": "her dad"
+          "text": "friend"
         },
         {
           "id": "c",
-          "text": "her brother"
+          "text": "freind"
         },
         {
           "id": "d",
-          "text": "her friend"
+          "text": "frind"
         }
       ],
-      "answer": "her dad",
-      "explanation": "The story says 'Anna and her dad went fishing'.",
+      "answer": "friend",
+      "explanation": "Friend is spelled f-r-i-e-n-d.",
       "difficulty": "easy",
       "tags": [
         "grade-1",
-        "english"
+        "english",
+        "spelling"
       ]
     },
     {
-      "id": "1e-040",
+      "id": "1e-096",
       "subject": "english",
       "topic": "Grade 1",
-      "skill": "Reading",
-      "prompt": "Which word means the opposite of 'hot'?",
+      "skill": "Spelling",
+      "prompt": "Which spelling is correct?",
       "type": "mcq_single",
       "choices": [
         {
           "id": "a",
-          "text": "warm"
+          "text": "skool"
         },
         {
           "id": "b",
-          "text": "cold"
+          "text": "school"
         },
         {
           "id": "c",
-          "text": "cool"
+          "text": "scool"
         },
         {
           "id": "d",
-          "text": "freeze"
+          "text": "skoal"
         }
       ],
-      "answer": "cold",
-      "explanation": "Cold is the opposite of hot. Hot means very warm, cold means not warm.",
+      "answer": "school",
+      "explanation": "School is the correct spelling.",
       "difficulty": "easy",
       "tags": [
         "grade-1",
-        "english"
+        "english",
+        "spelling"
       ]
     },
     {
-      "id": "1e-041",
+      "id": "1e-097",
       "subject": "english",
       "topic": "Grade 1",
-      "skill": "Reading",
-      "prompt": "Complete this sight word: 'c_me'",
+      "skill": "Spelling",
+      "prompt": "Pick the missing letter: 'b__by' (a small child).",
       "type": "mcq_single",
       "choices": [
         {
@@ -1334,196 +1578,474 @@
         },
         {
           "id": "b",
+          "text": "e"
+        },
+        {
+          "id": "c",
           "text": "o"
         },
         {
-          "id": "c",
+          "id": "d",
           "text": "u"
-        },
-        {
-          "id": "d",
-          "text": "i"
         }
       ],
-      "answer": "o",
-      "explanation": "The word is 'come' - c-o-m-e. Come is an important sight word!",
+      "answer": "a",
+      "explanation": "Baby is spelled b-a-b-y.",
       "difficulty": "easy",
       "tags": [
         "grade-1",
-        "english"
+        "english",
+        "spelling"
       ]
     },
     {
-      "id": "1e-042",
+      "id": "1e-098",
       "subject": "english",
       "topic": "Grade 1",
-      "skill": "Reading",
-      "prompt": "Story: Tom's birthday party is tomorrow. His friends will come to play games. Mom is making a cake. When is Tom's birthday party?",
+      "skill": "Spelling",
+      "prompt": "Choose the correct word for /kwin/.",
       "type": "mcq_single",
       "choices": [
         {
           "id": "a",
-          "text": "today"
+          "text": "queen"
         },
         {
           "id": "b",
-          "text": "tomorrow"
+          "text": "quin"
         },
         {
           "id": "c",
-          "text": "yesterday"
+          "text": "qween"
         },
         {
           "id": "d",
-          "text": "next week"
+          "text": "kwin"
         }
       ],
-      "answer": "tomorrow",
-      "explanation": "The story says 'Tom's birthday party is tomorrow'.",
+      "answer": "queen",
+      "explanation": "Queen spells the /kw/ sound with 'qu'.",
       "difficulty": "easy",
       "tags": [
         "grade-1",
-        "english"
+        "english",
+        "spelling"
       ]
     },
     {
-      "id": "1e-043",
+      "id": "1e-099",
       "subject": "english",
       "topic": "Grade 1",
-      "skill": "Reading",
-      "prompt": "What sound does 'QU' make in 'queen'?",
+      "skill": "Spelling",
+      "prompt": "Which word is spelled correctly?",
       "type": "mcq_single",
       "choices": [
         {
           "id": "a",
-          "text": "/q/"
+          "text": "beecaus"
         },
         {
           "id": "b",
-          "text": "/kw/"
+          "text": "becauss"
         },
         {
           "id": "c",
-          "text": "/k/"
+          "text": "because"
         },
         {
           "id": "d",
-          "text": "/w/"
+          "text": "becose"
         }
       ],
-      "answer": "/kw/",
-      "explanation": "QU makes the /kw/ sound in 'queen', 'quick', and 'quiet'.",
+      "answer": "because",
+      "explanation": "Because is spelled b-e-c-a-u-s-e.",
       "difficulty": "easy",
       "tags": [
         "grade-1",
-        "english"
+        "english",
+        "spelling"
       ]
     },
     {
-      "id": "1e-044",
+      "id": "1e-100",
       "subject": "english",
       "topic": "Grade 1",
-      "skill": "Reading",
-      "prompt": "Which word is a describing word (adjective)?",
+      "skill": "Spelling",
+      "prompt": "Pick the word that fits: 'The cat has a long ___.\"",
       "type": "mcq_single",
       "choices": [
         {
           "id": "a",
-          "text": "run"
+          "text": "tale"
         },
         {
           "id": "b",
-          "text": "fast"
+          "text": "tail"
         },
         {
           "id": "c",
-          "text": "jump"
+          "text": "talee"
         },
         {
           "id": "d",
-          "text": "walk"
+          "text": "tael"
         }
       ],
-      "answer": "fast",
-      "explanation": "Fast is a describing word (adjective) that tells us how something moves.",
+      "answer": "tail",
+      "explanation": "'Tail' is part of an animal; 'tale' means a story.",
       "difficulty": "easy",
       "tags": [
         "grade-1",
-        "english"
+        "english",
+        "spelling"
       ]
     },
     {
-      "id": "1e-045",
+      "id": "1e-101",
       "subject": "english",
       "topic": "Grade 1",
-      "skill": "Reading",
-      "prompt": "Story: The little mouse was hungry. He found some cheese in the kitchen. The mouse ate all the cheese. Where did the mouse find the cheese?",
+      "skill": "Punctuation",
+      "prompt": "Choose the correct ending: 'Where is my hat__'",
       "type": "mcq_single",
       "choices": [
         {
           "id": "a",
-          "text": "in the bedroom"
+          "text": "."
         },
         {
           "id": "b",
-          "text": "in the kitchen"
+          "text": "?"
         },
         {
           "id": "c",
-          "text": "in the garden"
+          "text": "!"
         },
         {
           "id": "d",
-          "text": "in the car"
+          "text": ","
         }
       ],
-      "answer": "in the kitchen",
-      "explanation": "The story says the mouse 'found some cheese in the kitchen'.",
+      "answer": "?",
+      "explanation": "Questions end with a question mark.",
       "difficulty": "easy",
       "tags": [
         "grade-1",
-        "english"
+        "english",
+        "punctuation"
       ]
     },
     {
-      "id": "1e-046",
+      "id": "1e-102",
       "subject": "english",
       "topic": "Grade 1",
-      "skill": "Reading",
-      "prompt": "How many sounds do you hear in the word 'cat'?",
+      "skill": "Punctuation",
+      "prompt": "Pick the best sentence.",
       "type": "mcq_single",
       "choices": [
         {
           "id": "a",
-          "text": "2"
+          "text": "my name is ali."
         },
         {
           "id": "b",
-          "text": "3"
+          "text": "My name is ali."
         },
         {
           "id": "c",
-          "text": "4"
+          "text": "My name is Ali."
         },
         {
           "id": "d",
-          "text": "5"
+          "text": "my Name is Ali."
         }
       ],
-      "answer": "3",
-      "explanation": "The word 'cat' has 3 sounds: /c/ - /a/ - /t/.",
+      "answer": "My name is Ali.",
+      "explanation": "Start with a capital and capitalize names.",
       "difficulty": "easy",
       "tags": [
         "grade-1",
-        "english"
+        "english",
+        "punctuation"
       ]
     },
     {
-      "id": "1e-047",
+      "id": "1e-103",
+      "subject": "english",
+      "topic": "Grade 1",
+      "skill": "Punctuation",
+      "prompt": "Select the correct ending: 'Wow, that was fun__'",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "."
+        },
+        {
+          "id": "b",
+          "text": "?"
+        },
+        {
+          "id": "c",
+          "text": "!"
+        },
+        {
+          "id": "d",
+          "text": ":"
+        }
+      ],
+      "answer": "!",
+      "explanation": "An exclamation shows strong feeling.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "english",
+        "punctuation"
+      ]
+    },
+    {
+      "id": "1e-104",
+      "subject": "english",
+      "topic": "Grade 1",
+      "skill": "Punctuation",
+      "prompt": "Choose the sentence with correct commas: 'We ate apples oranges and pears.'",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "We ate apples, oranges and pears."
+        },
+        {
+          "id": "b",
+          "text": "We ate, apples, oranges and, pears."
+        },
+        {
+          "id": "c",
+          "text": "We ate apples oranges, and pears."
+        },
+        {
+          "id": "d",
+          "text": "We, ate apples, oranges and pears."
+        }
+      ],
+      "answer": "We ate apples, oranges and pears.",
+      "explanation": "Use commas between items in a list.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "english",
+        "punctuation"
+      ]
+    },
+    {
+      "id": "1e-105",
+      "subject": "english",
+      "topic": "Grade 1",
+      "skill": "Punctuation",
+      "prompt": "Pick the correct capitalization.",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "monday is sunny."
+        },
+        {
+          "id": "b",
+          "text": "Monday is sunny."
+        },
+        {
+          "id": "c",
+          "text": "monday Is sunny."
+        },
+        {
+          "id": "d",
+          "text": "monday is Sunny."
+        }
+      ],
+      "answer": "Monday is sunny.",
+      "explanation": "Capitalize days of the week.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "english",
+        "punctuation"
+      ]
+    },
+    {
+      "id": "1e-106",
+      "subject": "english",
+      "topic": "Grade 1",
+      "skill": "Punctuation",
+      "prompt": "Choose the correct sentence.",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "the cat sat on the mat."
+        },
+        {
+          "id": "b",
+          "text": "The cat sat on the mat."
+        },
+        {
+          "id": "c",
+          "text": "The Cat sat on the Mat."
+        },
+        {
+          "id": "d",
+          "text": "The cat Sat on the mat."
+        }
+      ],
+      "answer": "The cat sat on the mat.",
+      "explanation": "Start with a capital, others lowercase.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "english",
+        "punctuation"
+      ]
+    },
+    {
+      "id": "1e-107",
       "subject": "english",
       "topic": "Grade 1",
       "skill": "Reading",
-      "prompt": "Which word has the long 'I' sound?",
+      "prompt": "Which word has the long 'a' sound?",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "cap"
+        },
+        {
+          "id": "b",
+          "text": "cake"
+        },
+        {
+          "id": "c",
+          "text": "cat"
+        },
+        {
+          "id": "d",
+          "text": "can"
+        }
+      ],
+      "answer": "cake",
+      "explanation": "Silent e makes 'a' say its name in 'cake'.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "english",
+        "reading"
+      ]
+    },
+    {
+      "id": "1e-108",
+      "subject": "english",
+      "topic": "Grade 1",
+      "skill": "Reading",
+      "prompt": "Choose the word that starts with the /sh/ sound.",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "sheep"
+        },
+        {
+          "id": "b",
+          "text": "cheep"
+        },
+        {
+          "id": "c",
+          "text": "jeep"
+        },
+        {
+          "id": "d",
+          "text": "sleep"
+        }
+      ],
+      "answer": "sheep",
+      "explanation": "'Sheep' starts with /sh/.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "english",
+        "reading"
+      ]
+    },
+    {
+      "id": "1e-109",
+      "subject": "english",
+      "topic": "Grade 1",
+      "skill": "Reading",
+      "prompt": "Which word has three sounds (phonemes)?",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "dog"
+        },
+        {
+          "id": "b",
+          "text": "train"
+        },
+        {
+          "id": "c",
+          "text": "ship"
+        },
+        {
+          "id": "d",
+          "text": "play"
+        }
+      ],
+      "answer": "dog",
+      "explanation": "'dog' has /d/ /o/ /g/.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "english",
+        "reading"
+      ]
+    },
+    {
+      "id": "1e-110",
+      "subject": "english",
+      "topic": "Grade 1",
+      "skill": "Reading",
+      "prompt": "Pick the sight word.",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "the"
+        },
+        {
+          "id": "b",
+          "text": "thr"
+        },
+        {
+          "id": "c",
+          "text": "tha"
+        },
+        {
+          "id": "d",
+          "text": "teh"
+        }
+      ],
+      "answer": "the",
+      "explanation": "'the' is a common sight word.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "english",
+        "reading"
+      ]
+    },
+    {
+      "id": "1e-111",
+      "subject": "english",
+      "topic": "Grade 1",
+      "skill": "Reading",
+      "prompt": "Which word ends with the /ng/ sound?",
       "type": "mcq_single",
       "choices": [
         {
@@ -1532,185 +2054,203 @@
         },
         {
           "id": "b",
-          "text": "hit"
+          "text": "sing"
         },
         {
           "id": "c",
-          "text": "kite"
+          "text": "sip"
         },
         {
           "id": "d",
-          "text": "bit"
+          "text": "sand"
         }
       ],
-      "answer": "kite",
-      "explanation": "Kite has the long I sound (/eye/). The 'e' at the end makes the 'i' say its name.",
+      "answer": "sing",
+      "explanation": "'sing' ends with /ng/.",
       "difficulty": "easy",
       "tags": [
         "grade-1",
-        "english"
+        "english",
+        "reading"
       ]
     },
     {
-      "id": "1e-048",
+      "id": "1e-112",
       "subject": "english",
       "topic": "Grade 1",
       "skill": "Reading",
-      "prompt": "Story: Jack planted seeds in his garden. Every day he watered them. Soon, green plants started to grow. What did Jack plant?",
+      "prompt": "Choose the word with the /ch/ sound.",
       "type": "mcq_single",
       "choices": [
         {
           "id": "a",
-          "text": "flowers"
+          "text": "ship"
         },
         {
           "id": "b",
-          "text": "seeds"
+          "text": "chair"
         },
         {
           "id": "c",
-          "text": "trees"
+          "text": "shop"
         },
         {
           "id": "d",
-          "text": "grass"
+          "text": "hair"
         }
       ],
-      "answer": "seeds",
-      "explanation": "The story says 'Jack planted seeds in his garden'.",
+      "answer": "chair",
+      "explanation": "'chair' has /ch/.",
       "difficulty": "easy",
       "tags": [
         "grade-1",
-        "english"
+        "english",
+        "reading"
       ]
     },
     {
-      "id": "1e-049",
+      "id": "1e-113",
       "subject": "english",
       "topic": "Grade 1",
       "skill": "Reading",
-      "prompt": "What comes before 'B' in the alphabet?",
+      "prompt": "Pick the word that rhymes with 'ten'.",
       "type": "mcq_single",
       "choices": [
         {
           "id": "a",
-          "text": "C"
+          "text": "tan"
         },
         {
           "id": "b",
-          "text": "A"
+          "text": "pin"
         },
         {
           "id": "c",
-          "text": "D"
+          "text": "men"
         },
         {
           "id": "d",
-          "text": "E"
+          "text": "tin"
         }
       ],
-      "answer": "A",
-      "explanation": "A comes before B in the alphabet: A, B, C, D, E.",
+      "answer": "men",
+      "explanation": "'men' rhymes with 'ten'.",
       "difficulty": "easy",
       "tags": [
         "grade-1",
-        "english"
+        "english",
+        "reading"
       ]
     },
     {
-      "id": "1e-050",
+      "id": "1e-114",
       "subject": "english",
       "topic": "Grade 1",
       "skill": "Reading",
-      "prompt": "Story: Sarah loves to read books about animals. Her favorite animal is the elephant. She has three books about elephants. What is Sarah's favorite animal?",
+      "prompt": "Which word means the opposite of 'sad'?",
       "type": "mcq_single",
       "choices": [
         {
           "id": "a",
-          "text": "tiger"
+          "text": "glad"
         },
         {
           "id": "b",
-          "text": "elephant"
+          "text": "mad"
         },
         {
           "id": "c",
-          "text": "lion"
+          "text": "bad"
         },
         {
           "id": "d",
-          "text": "bear"
+          "text": "had"
         }
       ],
-      "answer": "elephant",
-      "explanation": "The story says 'Her favorite animal is the elephant'.",
+      "answer": "glad",
+      "explanation": "'glad' is a synonym for happy, opposite of sad.",
       "difficulty": "easy",
       "tags": [
         "grade-1",
-        "english"
+        "english",
+        "reading"
       ]
     }
   ],
   "sets": [
     {
-      "id": "grade-1-english",
-      "title": "1st Grade English",
+      "id": "grade-1-english-extension",
+      "title": "1st Grade English (Extension)",
       "subject": "english",
-      "description": "Basic reading, writing, phonics, sight words, simple grammar concepts, and story comprehension",
+      "description": "Additional Cambridge Stage 1 practice focusing on comprehension, vocabulary, grammar, spelling, punctuation, and reading/phonics",
       "questionIds": [
-        "1e-001",
-        "1e-002",
-        "1e-003",
-        "1e-004",
-        "1e-005",
-        "1e-006",
-        "1e-007",
-        "1e-008",
-        "1e-009",
-        "1e-010",
-        "1e-011",
-        "1e-012",
-        "1e-013",
-        "1e-014",
-        "1e-015",
-        "1e-016",
-        "1e-017",
-        "1e-018",
-        "1e-019",
-        "1e-020",
-        "1e-021",
-        "1e-022",
-        "1e-023",
-        "1e-024",
-        "1e-025",
-        "1e-026",
-        "1e-027",
-        "1e-028",
-        "1e-029",
-        "1e-030",
-        "1e-031",
-        "1e-032",
-        "1e-033",
-        "1e-034",
-        "1e-035",
-        "1e-036",
-        "1e-037",
-        "1e-038",
-        "1e-039",
-        "1e-040",
-        "1e-041",
-        "1e-042",
-        "1e-043",
-        "1e-044",
-        "1e-045",
-        "1e-046",
-        "1e-047",
-        "1e-048",
-        "1e-049",
-        "1e-050"
+        "1e-051",
+        "1e-052",
+        "1e-053",
+        "1e-054",
+        "1e-055",
+        "1e-056",
+        "1e-057",
+        "1e-058",
+        "1e-059",
+        "1e-060",
+        "1e-061",
+        "1e-062",
+        "1e-063",
+        "1e-064",
+        "1e-065",
+        "1e-066",
+        "1e-067",
+        "1e-068",
+        "1e-069",
+        "1e-070",
+        "1e-071",
+        "1e-072",
+        "1e-073",
+        "1e-074",
+        "1e-075",
+        "1e-076",
+        "1e-077",
+        "1e-078",
+        "1e-079",
+        "1e-080",
+        "1e-081",
+        "1e-082",
+        "1e-083",
+        "1e-084",
+        "1e-085",
+        "1e-086",
+        "1e-087",
+        "1e-088",
+        "1e-089",
+        "1e-090",
+        "1e-091",
+        "1e-092",
+        "1e-093",
+        "1e-094",
+        "1e-095",
+        "1e-096",
+        "1e-097",
+        "1e-098",
+        "1e-099",
+        "1e-100",
+        "1e-101",
+        "1e-102",
+        "1e-103",
+        "1e-104",
+        "1e-105",
+        "1e-106",
+        "1e-107",
+        "1e-108",
+        "1e-109",
+        "1e-110",
+        "1e-111",
+        "1e-112",
+        "1e-113",
+        "1e-114"
       ],
       "recommendedOrder": "random",
-      "timeLimitSeconds": 3000
+      "timeLimitSeconds": 3600
     }
   ]
 }
