@@ -1,115 +1,16 @@
 {
   "questions": [
     {
-      "id": "1m-001",
+      "id": "1m-051",
       "subject": "math",
       "topic": "Grade 1",
-      "skill": "Basic Math",
-      "prompt": "What is 2 + 3?",
+      "skill": "Word Problems",
+      "prompt": "Story: There are 6 pencils in a cup. The teacher adds 3 more pencils. How many pencils are there now?",
       "type": "mcq_single",
       "choices": [
         {
           "id": "a",
-          "text": "4"
-        },
-        {
-          "id": "b",
-          "text": "5"
-        },
-        {
-          "id": "c",
-          "text": "6"
-        },
-        {
-          "id": "d",
           "text": "7"
-        }
-      ],
-      "answer": "5",
-      "explanation": "2 plus 3 equals 5. Count: 2, then add 3 more: 3, 4, 5!",
-      "difficulty": "easy",
-      "tags": [
-        "grade-1",
-        "math"
-      ]
-    },
-    {
-      "id": "1m-002",
-      "subject": "math",
-      "topic": "Grade 1",
-      "skill": "Basic Math",
-      "prompt": "Count the apples: 🍎🍎🍎🍎",
-      "type": "mcq_single",
-      "choices": [
-        {
-          "id": "a",
-          "text": "3"
-        },
-        {
-          "id": "b",
-          "text": "4"
-        },
-        {
-          "id": "c",
-          "text": "5"
-        },
-        {
-          "id": "d",
-          "text": "6"
-        }
-      ],
-      "answer": "4",
-      "explanation": "Count each apple: 1, 2, 3, 4. There are 4 apples.",
-      "difficulty": "easy",
-      "tags": [
-        "grade-1",
-        "math"
-      ]
-    },
-    {
-      "id": "1m-003",
-      "subject": "math",
-      "topic": "Grade 1",
-      "skill": "Basic Math",
-      "prompt": "What is 5 - 2?",
-      "type": "mcq_single",
-      "choices": [
-        {
-          "id": "a",
-          "text": "2"
-        },
-        {
-          "id": "b",
-          "text": "3"
-        },
-        {
-          "id": "c",
-          "text": "4"
-        },
-        {
-          "id": "d",
-          "text": "7"
-        }
-      ],
-      "answer": "3",
-      "explanation": "Start with 5, take away 2: 5 - 1 = 4, 4 - 1 = 3",
-      "difficulty": "easy",
-      "tags": [
-        "grade-1",
-        "math"
-      ]
-    },
-    {
-      "id": "1m-004",
-      "subject": "math",
-      "topic": "Grade 1",
-      "skill": "Basic Math",
-      "prompt": "Which number comes after 7?",
-      "type": "mcq_single",
-      "choices": [
-        {
-          "id": "a",
-          "text": "6"
         },
         {
           "id": "b",
@@ -124,20 +25,123 @@
           "text": "10"
         }
       ],
-      "answer": "8",
-      "explanation": "Count: 1, 2, 3, 4, 5, 6, 7, 8. Eight comes after seven.",
+      "answer": "9",
+      "explanation": "6 + 3 = 9.",
       "difficulty": "easy",
       "tags": [
         "grade-1",
-        "math"
+        "math",
+        "word-problem"
       ]
     },
     {
-      "id": "1m-005",
+      "id": "1m-052",
       "subject": "math",
       "topic": "Grade 1",
-      "skill": "Basic Math",
-      "prompt": "What is 1 + 1?",
+      "skill": "Word Problems",
+      "prompt": "Story: There are 6 pencils in a cup. The teacher adds 3 more pencils. If 2 pencils are given to Mia, how many are left?",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "5"
+        },
+        {
+          "id": "b",
+          "text": "6"
+        },
+        {
+          "id": "c",
+          "text": "7"
+        },
+        {
+          "id": "d",
+          "text": "8"
+        }
+      ],
+      "answer": "7",
+      "explanation": "Start with 9, give away 2: 9 - 2 = 7.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "math",
+        "word-problem"
+      ]
+    },
+    {
+      "id": "1m-053",
+      "subject": "math",
+      "topic": "Grade 1",
+      "skill": "Word Problems",
+      "prompt": "Story: There are 6 pencils in a cup. The teacher adds 3 more pencils. Which number sentence shows the first change?",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "6 + 3 = 9"
+        },
+        {
+          "id": "b",
+          "text": "6 - 3 = 3"
+        },
+        {
+          "id": "c",
+          "text": "9 - 2 = 6"
+        },
+        {
+          "id": "d",
+          "text": "3 + 2 = 6"
+        }
+      ],
+      "answer": "6 + 3 = 9",
+      "explanation": "Teacher added 3: 6 + 3 = 9.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "math",
+        "word-problem"
+      ]
+    },
+    {
+      "id": "1m-054",
+      "subject": "math",
+      "topic": "Grade 1",
+      "skill": "Word Problems",
+      "prompt": "Story: A bowl has 4 apples and 5 bananas. How many fruits are in the bowl?",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "7"
+        },
+        {
+          "id": "b",
+          "text": "8"
+        },
+        {
+          "id": "c",
+          "text": "9"
+        },
+        {
+          "id": "d",
+          "text": "10"
+        }
+      ],
+      "answer": "9",
+      "explanation": "4 + 5 = 9.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "math",
+        "word-problem"
+      ]
+    },
+    {
+      "id": "1m-055",
+      "subject": "math",
+      "topic": "Grade 1",
+      "skill": "Word Problems",
+      "prompt": "Story: A bowl has 4 apples and 5 bananas. If 3 bananas are eaten, how many bananas are left?",
       "type": "mcq_single",
       "choices": [
         {
@@ -158,85 +162,54 @@
         }
       ],
       "answer": "2",
-      "explanation": "1 plus 1 equals 2. If you have 1 toy and get 1 more, you have 2 toys!",
+      "explanation": "5 - 3 = 2 bananas.",
       "difficulty": "easy",
       "tags": [
         "grade-1",
-        "math"
+        "math",
+        "word-problem"
       ]
     },
     {
-      "id": "1m-006",
+      "id": "1m-056",
       "subject": "math",
       "topic": "Grade 1",
-      "skill": "Basic Math",
-      "prompt": "Count the stars: ⭐⭐⭐⭐⭐⭐⭐",
+      "skill": "Word Problems",
+      "prompt": "Story: A bowl has 4 apples and 5 bananas. Which fruit is more in the bowl?",
       "type": "mcq_single",
       "choices": [
         {
           "id": "a",
-          "text": "6"
+          "text": "apples"
         },
         {
           "id": "b",
-          "text": "7"
+          "text": "bananas"
         },
         {
           "id": "c",
-          "text": "8"
+          "text": "same number"
         },
         {
           "id": "d",
-          "text": "9"
+          "text": "cannot tell"
         }
       ],
-      "answer": "7",
-      "explanation": "Count each star: 1, 2, 3, 4, 5, 6, 7. There are 7 stars.",
+      "answer": "bananas",
+      "explanation": "There are 5 bananas vs 4 apples.",
       "difficulty": "easy",
       "tags": [
         "grade-1",
-        "math"
+        "math",
+        "word-problem"
       ]
     },
     {
-      "id": "1m-007",
+      "id": "1m-057",
       "subject": "math",
       "topic": "Grade 1",
-      "skill": "Basic Math",
-      "prompt": "What is 4 + 1?",
-      "type": "mcq_single",
-      "choices": [
-        {
-          "id": "a",
-          "text": "3"
-        },
-        {
-          "id": "b",
-          "text": "4"
-        },
-        {
-          "id": "c",
-          "text": "5"
-        },
-        {
-          "id": "d",
-          "text": "6"
-        }
-      ],
-      "answer": "5",
-      "explanation": "4 plus 1 equals 5. Count: 4, then add 1 more to get 5.",
-      "difficulty": "easy",
-      "tags": [
-        "grade-1",
-        "math"
-      ]
-    },
-    {
-      "id": "1m-008",
-      "subject": "math",
-      "topic": "Grade 1",
-      "skill": "Basic Math",
-      "prompt": "What is 6 - 1?",
+      "skill": "Word Problems",
+      "prompt": "Story: Ken has 7 stickers. He gives 2 stickers to his friend and then gets 3 more. How many stickers does Ken have after giving 2 away?",
       "type": "mcq_single",
       "choices": [
         {
@@ -257,283 +230,20 @@
         }
       ],
       "answer": "5",
-      "explanation": "Start with 6, take away 1: 6 - 1 = 5",
+      "explanation": "7 - 2 = 5.",
       "difficulty": "easy",
       "tags": [
         "grade-1",
-        "math"
+        "math",
+        "word-problem"
       ]
     },
     {
-      "id": "1m-009",
+      "id": "1m-058",
       "subject": "math",
       "topic": "Grade 1",
-      "skill": "Basic Math",
-      "prompt": "Which number is bigger: 3 or 7?",
-      "type": "mcq_single",
-      "choices": [
-        {
-          "id": "a",
-          "text": "3"
-        },
-        {
-          "id": "b",
-          "text": "7"
-        },
-        {
-          "id": "c",
-          "text": "They are the same"
-        },
-        {
-          "id": "d",
-          "text": "Neither"
-        }
-      ],
-      "answer": "7",
-      "explanation": "7 is bigger than 3. Count to see: 1, 2, 3... 4, 5, 6, 7. 7 comes after 3.",
-      "difficulty": "easy",
-      "tags": [
-        "grade-1",
-        "math"
-      ]
-    },
-    {
-      "id": "1m-010",
-      "subject": "math",
-      "topic": "Grade 1",
-      "skill": "Basic Math",
-      "prompt": "What is 3 + 2?",
-      "type": "mcq_single",
-      "choices": [
-        {
-          "id": "a",
-          "text": "4"
-        },
-        {
-          "id": "b",
-          "text": "5"
-        },
-        {
-          "id": "c",
-          "text": "6"
-        },
-        {
-          "id": "d",
-          "text": "1"
-        }
-      ],
-      "answer": "5",
-      "explanation": "3 plus 2 equals 5. Count: 3, then add 2 more: 4, 5!",
-      "difficulty": "easy",
-      "tags": [
-        "grade-1",
-        "math"
-      ]
-    },
-    {
-      "id": "1m-011",
-      "subject": "math",
-      "topic": "Grade 1",
-      "skill": "Basic Math",
-      "prompt": "Count the hearts: ❤️❤️❤️❤️❤️❤️",
-      "type": "mcq_single",
-      "choices": [
-        {
-          "id": "a",
-          "text": "5"
-        },
-        {
-          "id": "b",
-          "text": "6"
-        },
-        {
-          "id": "c",
-          "text": "7"
-        },
-        {
-          "id": "d",
-          "text": "8"
-        }
-      ],
-      "answer": "6",
-      "explanation": "Count each heart: 1, 2, 3, 4, 5, 6. There are 6 hearts.",
-      "difficulty": "easy",
-      "tags": [
-        "grade-1",
-        "math"
-      ]
-    },
-    {
-      "id": "1m-012",
-      "subject": "math",
-      "topic": "Grade 1",
-      "skill": "Basic Math",
-      "prompt": "What number comes before 5?",
-      "type": "mcq_single",
-      "choices": [
-        {
-          "id": "a",
-          "text": "3"
-        },
-        {
-          "id": "b",
-          "text": "4"
-        },
-        {
-          "id": "c",
-          "text": "6"
-        },
-        {
-          "id": "d",
-          "text": "7"
-        }
-      ],
-      "answer": "4",
-      "explanation": "Count backwards: 5, 4. Four comes before five.",
-      "difficulty": "easy",
-      "tags": [
-        "grade-1",
-        "math"
-      ]
-    },
-    {
-      "id": "1m-013",
-      "subject": "math",
-      "topic": "Grade 1",
-      "skill": "Basic Math",
-      "prompt": "What is 10 - 5?",
-      "type": "mcq_single",
-      "choices": [
-        {
-          "id": "a",
-          "text": "4"
-        },
-        {
-          "id": "b",
-          "text": "5"
-        },
-        {
-          "id": "c",
-          "text": "6"
-        },
-        {
-          "id": "d",
-          "text": "15"
-        }
-      ],
-      "answer": "5",
-      "explanation": "10 take away 5 equals 5. Use your fingers: hold up 10, put down 5, you have 5 left.",
-      "difficulty": "easy",
-      "tags": [
-        "grade-1",
-        "math"
-      ]
-    },
-    {
-      "id": "1m-014",
-      "subject": "math",
-      "topic": "Grade 1",
-      "skill": "Basic Math",
-      "prompt": "What is 0 + 4?",
-      "type": "mcq_single",
-      "choices": [
-        {
-          "id": "a",
-          "text": "0"
-        },
-        {
-          "id": "b",
-          "text": "4"
-        },
-        {
-          "id": "c",
-          "text": "5"
-        },
-        {
-          "id": "d",
-          "text": "8"
-        }
-      ],
-      "answer": "4",
-      "explanation": "0 plus 4 equals 4. When you add nothing (0) to 4, you still have 4.",
-      "difficulty": "easy",
-      "tags": [
-        "grade-1",
-        "math"
-      ]
-    },
-    {
-      "id": "1m-015",
-      "subject": "math",
-      "topic": "Grade 1",
-      "skill": "Basic Math",
-      "prompt": "Which shape has 3 sides?",
-      "type": "mcq_single",
-      "choices": [
-        {
-          "id": "a",
-          "text": "Circle"
-        },
-        {
-          "id": "b",
-          "text": "Square"
-        },
-        {
-          "id": "c",
-          "text": "Triangle"
-        },
-        {
-          "id": "d",
-          "text": "Rectangle"
-        }
-      ],
-      "answer": "Triangle",
-      "explanation": "A triangle has 3 sides. Count the sides of a triangle: 1, 2, 3!",
-      "difficulty": "easy",
-      "tags": [
-        "grade-1",
-        "math"
-      ]
-    },
-    {
-      "id": "1m-016",
-      "subject": "math",
-      "topic": "Grade 1",
-      "skill": "Basic Math",
-      "prompt": "Story: Maria has 3 balloons. Her friend gives her 2 more balloons. How many balloons does Maria have now?",
-      "type": "mcq_single",
-      "choices": [
-        {
-          "id": "a",
-          "text": "4"
-        },
-        {
-          "id": "b",
-          "text": "5"
-        },
-        {
-          "id": "c",
-          "text": "6"
-        },
-        {
-          "id": "d",
-          "text": "7"
-        }
-      ],
-      "answer": "5",
-      "explanation": "Maria starts with 3 balloons, then gets 2 more. 3 + 2 = 5 balloons.",
-      "difficulty": "easy",
-      "tags": [
-        "grade-1",
-        "math"
-      ]
-    },
-    {
-      "id": "1m-017",
-      "subject": "math",
-      "topic": "Grade 1",
-      "skill": "Basic Math",
-      "prompt": "What is 7 + 1?",
+      "skill": "Word Problems",
+      "prompt": "Story: Ken has 7 stickers. He gives 2 stickers to his friend and then gets 3 more. How many stickers does Ken have at the end?",
       "type": "mcq_single",
       "choices": [
         {
@@ -554,52 +264,54 @@
         }
       ],
       "answer": "8",
-      "explanation": "7 plus 1 equals 8. Count: 7, then add 1 more to get 8.",
+      "explanation": "After 7-2=5, then +3 = 8.",
       "difficulty": "easy",
       "tags": [
         "grade-1",
-        "math"
+        "math",
+        "word-problem"
       ]
     },
     {
-      "id": "1m-018",
+      "id": "1m-059",
       "subject": "math",
       "topic": "Grade 1",
-      "skill": "Basic Math",
-      "prompt": "Story: There are 8 birds in a tree. 3 birds fly away. How many birds are left in the tree?",
+      "skill": "Word Problems",
+      "prompt": "Story: Ken has 7 stickers. He gives 2 stickers to his friend and then gets 3 more. Which sign shows the first change? (+ or -)",
       "type": "mcq_single",
       "choices": [
         {
           "id": "a",
-          "text": "4"
+          "text": "+"
         },
         {
           "id": "b",
-          "text": "5"
+          "text": "-"
         },
         {
           "id": "c",
-          "text": "6"
+          "text": "×"
         },
         {
           "id": "d",
-          "text": "11"
+          "text": "÷"
         }
       ],
-      "answer": "5",
-      "explanation": "Start with 8 birds, then 3 fly away. 8 - 3 = 5 birds left.",
+      "answer": "-",
+      "explanation": "He gave stickers away: subtraction.",
       "difficulty": "easy",
       "tags": [
         "grade-1",
-        "math"
+        "math",
+        "word-problem"
       ]
     },
     {
-      "id": "1m-019",
+      "id": "1m-060",
       "subject": "math",
       "topic": "Grade 1",
-      "skill": "Basic Math",
-      "prompt": "Count by 2s: 2, 4, 6, ___",
+      "skill": "Word Problems",
+      "prompt": "Story: There are 5 toy cars on a shelf. Dad buys 4 more toy cars. How many toy cars in total now?",
       "type": "mcq_single",
       "choices": [
         {
@@ -617,319 +329,23 @@
         {
           "id": "d",
           "text": "10"
-        }
-      ],
-      "answer": "8",
-      "explanation": "When counting by 2s: 2, 4, 6, 8. The pattern adds 2 each time.",
-      "difficulty": "easy",
-      "tags": [
-        "grade-1",
-        "math"
-      ]
-    },
-    {
-      "id": "1m-020",
-      "subject": "math",
-      "topic": "Grade 1",
-      "skill": "Basic Math",
-      "prompt": "Which number is the smallest?",
-      "type": "mcq_single",
-      "choices": [
-        {
-          "id": "a",
-          "text": "9"
-        },
-        {
-          "id": "b",
-          "text": "3"
-        },
-        {
-          "id": "c",
-          "text": "7"
-        },
-        {
-          "id": "d",
-          "text": "5"
-        }
-      ],
-      "answer": "3",
-      "explanation": "3 is the smallest number. Count: 1, 2, 3... 3 comes first!",
-      "difficulty": "easy",
-      "tags": [
-        "grade-1",
-        "math"
-      ]
-    },
-    {
-      "id": "1m-021",
-      "subject": "math",
-      "topic": "Grade 1",
-      "skill": "Basic Math",
-      "prompt": "Story: Jake has 5 stickers. He gives 1 sticker to his sister. How many stickers does Jake have left?",
-      "type": "mcq_single",
-      "choices": [
-        {
-          "id": "a",
-          "text": "3"
-        },
-        {
-          "id": "b",
-          "text": "4"
-        },
-        {
-          "id": "c",
-          "text": "5"
-        },
-        {
-          "id": "d",
-          "text": "6"
-        }
-      ],
-      "answer": "4",
-      "explanation": "Jake starts with 5 stickers and gives away 1. 5 - 1 = 4 stickers left.",
-      "difficulty": "easy",
-      "tags": [
-        "grade-1",
-        "math"
-      ]
-    },
-    {
-      "id": "1m-022",
-      "subject": "math",
-      "topic": "Grade 1",
-      "skill": "Basic Math",
-      "prompt": "What is 8 + 2?",
-      "type": "mcq_single",
-      "choices": [
-        {
-          "id": "a",
-          "text": "9"
-        },
-        {
-          "id": "b",
-          "text": "10"
-        },
-        {
-          "id": "c",
-          "text": "11"
-        },
-        {
-          "id": "d",
-          "text": "6"
-        }
-      ],
-      "answer": "10",
-      "explanation": "8 plus 2 equals 10. Count: 8, then add 2 more: 9, 10!",
-      "difficulty": "easy",
-      "tags": [
-        "grade-1",
-        "math"
-      ]
-    },
-    {
-      "id": "1m-023",
-      "subject": "math",
-      "topic": "Grade 1",
-      "skill": "Basic Math",
-      "prompt": "How many sides does a square have?",
-      "type": "mcq_single",
-      "choices": [
-        {
-          "id": "a",
-          "text": "3"
-        },
-        {
-          "id": "b",
-          "text": "4"
-        },
-        {
-          "id": "c",
-          "text": "5"
-        },
-        {
-          "id": "d",
-          "text": "6"
-        }
-      ],
-      "answer": "4",
-      "explanation": "A square has 4 sides. All 4 sides are the same length!",
-      "difficulty": "easy",
-      "tags": [
-        "grade-1",
-        "math"
-      ]
-    },
-    {
-      "id": "1m-024",
-      "subject": "math",
-      "topic": "Grade 1",
-      "skill": "Basic Math",
-      "prompt": "Story: Mom baked 6 cookies. Dad ate 2 cookies. How many cookies are left?",
-      "type": "mcq_single",
-      "choices": [
-        {
-          "id": "a",
-          "text": "3"
-        },
-        {
-          "id": "b",
-          "text": "4"
-        },
-        {
-          "id": "c",
-          "text": "5"
-        },
-        {
-          "id": "d",
-          "text": "8"
-        }
-      ],
-      "answer": "4",
-      "explanation": "Mom baked 6 cookies, Dad ate 2. 6 - 2 = 4 cookies left.",
-      "difficulty": "easy",
-      "tags": [
-        "grade-1",
-        "math"
-      ]
-    },
-    {
-      "id": "1m-025",
-      "subject": "math",
-      "topic": "Grade 1",
-      "skill": "Basic Math",
-      "prompt": "What is 9 - 4?",
-      "type": "mcq_single",
-      "choices": [
-        {
-          "id": "a",
-          "text": "4"
-        },
-        {
-          "id": "b",
-          "text": "5"
-        },
-        {
-          "id": "c",
-          "text": "6"
-        },
-        {
-          "id": "d",
-          "text": "13"
-        }
-      ],
-      "answer": "5",
-      "explanation": "9 take away 4 equals 5. Use your fingers to count down from 9.",
-      "difficulty": "easy",
-      "tags": [
-        "grade-1",
-        "math"
-      ]
-    },
-    {
-      "id": "1m-026",
-      "subject": "math",
-      "topic": "Grade 1",
-      "skill": "Basic Math",
-      "prompt": "Which number comes between 4 and 6?",
-      "type": "mcq_single",
-      "choices": [
-        {
-          "id": "a",
-          "text": "3"
-        },
-        {
-          "id": "b",
-          "text": "5"
-        },
-        {
-          "id": "c",
-          "text": "7"
-        },
-        {
-          "id": "d",
-          "text": "8"
-        }
-      ],
-      "answer": "5",
-      "explanation": "5 comes between 4 and 6. Count: 4, 5, 6.",
-      "difficulty": "easy",
-      "tags": [
-        "grade-1",
-        "math"
-      ]
-    },
-    {
-      "id": "1m-027",
-      "subject": "math",
-      "topic": "Grade 1",
-      "skill": "Basic Math",
-      "prompt": "Story: Anna has 2 red crayons and 3 blue crayons. How many crayons does she have in total?",
-      "type": "mcq_single",
-      "choices": [
-        {
-          "id": "a",
-          "text": "4"
-        },
-        {
-          "id": "b",
-          "text": "5"
-        },
-        {
-          "id": "c",
-          "text": "6"
-        },
-        {
-          "id": "d",
-          "text": "1"
-        }
-      ],
-      "answer": "5",
-      "explanation": "Anna has 2 red crayons and 3 blue crayons. 2 + 3 = 5 crayons total.",
-      "difficulty": "easy",
-      "tags": [
-        "grade-1",
-        "math"
-      ]
-    },
-    {
-      "id": "1m-028",
-      "subject": "math",
-      "topic": "Grade 1",
-      "skill": "Basic Math",
-      "prompt": "What is 6 + 3?",
-      "type": "mcq_single",
-      "choices": [
-        {
-          "id": "a",
-          "text": "8"
-        },
-        {
-          "id": "b",
-          "text": "9"
-        },
-        {
-          "id": "c",
-          "text": "10"
-        },
-        {
-          "id": "d",
-          "text": "3"
         }
       ],
       "answer": "9",
-      "explanation": "6 plus 3 equals 9. Count: 6, then add 3 more: 7, 8, 9!",
+      "explanation": "5 + 4 = 9.",
       "difficulty": "easy",
       "tags": [
         "grade-1",
-        "math"
+        "math",
+        "word-problem"
       ]
     },
     {
-      "id": "1m-029",
+      "id": "1m-061",
       "subject": "math",
       "topic": "Grade 1",
-      "skill": "Basic Math",
-      "prompt": "Count the dots: • • • • • • • •",
+      "skill": "Word Problems",
+      "prompt": "Story: There are 5 toy cars on a shelf. Dad buys 4 more toy cars. If 1 car falls, how many are left on the shelf?",
       "type": "mcq_single",
       "choices": [
         {
@@ -950,85 +366,292 @@
         }
       ],
       "answer": "8",
-      "explanation": "Count each dot: 1, 2, 3, 4, 5, 6, 7, 8. There are 8 dots.",
+      "explanation": "Start with 9, one falls: 9 - 1 = 8.",
       "difficulty": "easy",
       "tags": [
         "grade-1",
-        "math"
+        "math",
+        "word-problem"
       ]
     },
     {
-      "id": "1m-030",
+      "id": "1m-062",
       "subject": "math",
       "topic": "Grade 1",
-      "skill": "Basic Math",
-      "prompt": "Story: There are 7 ducks in the pond. 4 more ducks join them. How many ducks are in the pond now?",
+      "skill": "Word Problems",
+      "prompt": "Story: There are 5 toy cars on a shelf. Dad buys 4 more toy cars. Which number is greater: cars before buying or after buying?",
       "type": "mcq_single",
       "choices": [
         {
           "id": "a",
-          "text": "10"
+          "text": "before buying"
         },
         {
           "id": "b",
-          "text": "11"
+          "text": "after buying"
         },
         {
           "id": "c",
-          "text": "12"
+          "text": "same"
         },
         {
           "id": "d",
-          "text": "3"
+          "text": "cannot tell"
         }
       ],
-      "answer": "11",
-      "explanation": "Start with 7 ducks, then 4 more join. 7 + 4 = 11 ducks total.",
+      "answer": "after buying",
+      "explanation": "After buying there are more cars.",
       "difficulty": "easy",
       "tags": [
         "grade-1",
-        "math"
+        "math",
+        "word-problem"
       ]
     },
     {
-      "id": "1m-031",
+      "id": "1m-063",
       "subject": "math",
       "topic": "Grade 1",
-      "skill": "Basic Math",
-      "prompt": "What is 10 - 3?",
+      "skill": "Word Problems",
+      "prompt": "Story: The class has 8 fish and 2 snails in a tank. How many animals are in the tank?",
       "type": "mcq_single",
       "choices": [
         {
           "id": "a",
-          "text": "6"
-        },
-        {
-          "id": "b",
-          "text": "7"
-        },
-        {
-          "id": "c",
           "text": "8"
         },
         {
+          "id": "b",
+          "text": "9"
+        },
+        {
+          "id": "c",
+          "text": "10"
+        },
+        {
           "id": "d",
-          "text": "13"
+          "text": "11"
         }
       ],
-      "answer": "7",
-      "explanation": "10 take away 3 equals 7. Count backwards from 10: 9, 8, 7.",
+      "answer": "10",
+      "explanation": "8 + 2 = 10.",
       "difficulty": "easy",
       "tags": [
         "grade-1",
-        "math"
+        "math",
+        "word-problem"
       ]
     },
     {
-      "id": "1m-032",
+      "id": "1m-064",
       "subject": "math",
       "topic": "Grade 1",
-      "skill": "Basic Math",
-      "prompt": "How many corners does a triangle have?",
+      "skill": "Word Problems",
+      "prompt": "Story: The class has 8 fish and 2 snails in a tank. If 3 fish are moved to another tank, how many fish remain?",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "4"
+        },
+        {
+          "id": "b",
+          "text": "5"
+        },
+        {
+          "id": "c",
+          "text": "6"
+        },
+        {
+          "id": "d",
+          "text": "7"
+        }
+      ],
+      "answer": "5",
+      "explanation": "8 - 3 = 5 fish.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "math",
+        "word-problem"
+      ]
+    },
+    {
+      "id": "1m-065",
+      "subject": "math",
+      "topic": "Grade 1",
+      "skill": "Word Problems",
+      "prompt": "Story: The class has 8 fish and 2 snails in a tank. Are there more fish or snails?",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "fish"
+        },
+        {
+          "id": "b",
+          "text": "snails"
+        },
+        {
+          "id": "c",
+          "text": "same"
+        },
+        {
+          "id": "d",
+          "text": "cannot tell"
+        }
+      ],
+      "answer": "fish",
+      "explanation": "8 fish vs 2 snails.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "math",
+        "word-problem"
+      ]
+    },
+    {
+      "id": "1m-066",
+      "subject": "math",
+      "topic": "Grade 1",
+      "skill": "Word Problems",
+      "prompt": "Story: Sara read 3 books last week and 4 books this week. How many books did she read in total?",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "5"
+        },
+        {
+          "id": "b",
+          "text": "6"
+        },
+        {
+          "id": "c",
+          "text": "7"
+        },
+        {
+          "id": "d",
+          "text": "8"
+        }
+      ],
+      "answer": "7",
+      "explanation": "3 + 4 = 7.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "math",
+        "word-problem"
+      ]
+    },
+    {
+      "id": "1m-067",
+      "subject": "math",
+      "topic": "Grade 1",
+      "skill": "Word Problems",
+      "prompt": "Story: Sara read 3 books last week and 4 books this week. If she wants to read 10 books, how many more does she need?",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "1"
+        },
+        {
+          "id": "b",
+          "text": "2"
+        },
+        {
+          "id": "c",
+          "text": "3"
+        },
+        {
+          "id": "d",
+          "text": "4"
+        }
+      ],
+      "answer": "3",
+      "explanation": "Needs 10 - 7 = 3 more.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "math",
+        "word-problem"
+      ]
+    },
+    {
+      "id": "1m-068",
+      "subject": "math",
+      "topic": "Grade 1",
+      "skill": "Word Problems",
+      "prompt": "Story: Sara read 3 books last week and 4 books this week. Which week did she read more books?",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "last week"
+        },
+        {
+          "id": "b",
+          "text": "this week"
+        },
+        {
+          "id": "c",
+          "text": "same"
+        },
+        {
+          "id": "d",
+          "text": "cannot tell"
+        }
+      ],
+      "answer": "this week",
+      "explanation": "4 this week vs 3 last week.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "math",
+        "word-problem"
+      ]
+    },
+    {
+      "id": "1m-069",
+      "subject": "math",
+      "topic": "Grade 1",
+      "skill": "Word Problems",
+      "prompt": "Story: There are 12 cupcakes. 5 are chocolate and the rest are vanilla. How many vanilla cupcakes are there?",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "5"
+        },
+        {
+          "id": "b",
+          "text": "6"
+        },
+        {
+          "id": "c",
+          "text": "7"
+        },
+        {
+          "id": "d",
+          "text": "8"
+        }
+      ],
+      "answer": "7",
+      "explanation": "12 - 5 = 7 vanilla.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "math",
+        "word-problem"
+      ]
+    },
+    {
+      "id": "1m-070",
+      "subject": "math",
+      "topic": "Grade 1",
+      "skill": "Word Problems",
+      "prompt": "Story: There are 12 cupcakes. 5 are chocolate and the rest are vanilla. If 2 chocolate cupcakes are eaten, how many chocolate cupcakes remain?",
       "type": "mcq_single",
       "choices": [
         {
@@ -1049,85 +672,54 @@
         }
       ],
       "answer": "3",
-      "explanation": "A triangle has 3 corners (vertices). Each corner is where two sides meet.",
+      "explanation": "5 - 2 = 3 chocolate left.",
       "difficulty": "easy",
       "tags": [
         "grade-1",
-        "math"
+        "math",
+        "word-problem"
       ]
     },
     {
-      "id": "1m-033",
+      "id": "1m-071",
       "subject": "math",
       "topic": "Grade 1",
-      "skill": "Basic Math",
-      "prompt": "Story: Ben collected 4 shells at the beach. Then he found 3 more shells. How many shells did Ben collect?",
+      "skill": "Word Problems",
+      "prompt": "Story: There are 12 cupcakes. 5 are chocolate and the rest are vanilla. Which is greater: chocolate or vanilla cupcakes (at the start)?",
       "type": "mcq_single",
       "choices": [
         {
           "id": "a",
-          "text": "6"
+          "text": "chocolate"
         },
         {
           "id": "b",
-          "text": "7"
+          "text": "vanilla"
         },
         {
           "id": "c",
-          "text": "8"
+          "text": "same"
         },
         {
           "id": "d",
-          "text": "1"
+          "text": "cannot tell"
         }
       ],
-      "answer": "7",
-      "explanation": "Ben found 4 shells, then 3 more shells. 4 + 3 = 7 shells total.",
+      "answer": "vanilla",
+      "explanation": "7 vanilla > 5 chocolate.",
       "difficulty": "easy",
       "tags": [
         "grade-1",
-        "math"
+        "math",
+        "word-problem"
       ]
     },
     {
-      "id": "1m-034",
+      "id": "1m-072",
       "subject": "math",
       "topic": "Grade 1",
-      "skill": "Basic Math",
-      "prompt": "What is 5 + 5?",
-      "type": "mcq_single",
-      "choices": [
-        {
-          "id": "a",
-          "text": "9"
-        },
-        {
-          "id": "b",
-          "text": "10"
-        },
-        {
-          "id": "c",
-          "text": "11"
-        },
-        {
-          "id": "d",
-          "text": "0"
-        }
-      ],
-      "answer": "10",
-      "explanation": "5 plus 5 equals 10. This is a double! 5 + 5 = 10.",
-      "difficulty": "easy",
-      "tags": [
-        "grade-1",
-        "math"
-      ]
-    },
-    {
-      "id": "1m-035",
-      "subject": "math",
-      "topic": "Grade 1",
-      "skill": "Basic Math",
-      "prompt": "Which number is greater: 6 or 4?",
+      "skill": "Word Problems",
+      "prompt": "Story: Bag A has 6 marbles. Bag B has 4 marbles. Sam puts 2 more marbles into Bag B. How many marbles are in Bag B now?",
       "type": "mcq_single",
       "choices": [
         {
@@ -1136,31 +728,134 @@
         },
         {
           "id": "b",
-          "text": "6"
+          "text": "5"
         },
         {
           "id": "c",
-          "text": "They are equal"
+          "text": "6"
         },
         {
           "id": "d",
-          "text": "Neither"
+          "text": "7"
         }
       ],
       "answer": "6",
-      "explanation": "6 is greater than 4. When counting: 1, 2, 3, 4, 5, 6. 6 comes after 4.",
+      "explanation": "4 + 2 = 6 marbles.",
       "difficulty": "easy",
       "tags": [
         "grade-1",
-        "math"
+        "math",
+        "word-problem"
       ]
     },
     {
-      "id": "1m-036",
+      "id": "1m-073",
       "subject": "math",
       "topic": "Grade 1",
-      "skill": "Basic Math",
-      "prompt": "Story: There are 9 flowers in the garden. A rabbit eats 2 flowers. How many flowers are left?",
+      "skill": "Word Problems",
+      "prompt": "Story: Bag A has 6 marbles. Bag B has 4 marbles. Sam puts 2 more marbles into Bag B. Which bag has more marbles now?",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Bag A"
+        },
+        {
+          "id": "b",
+          "text": "Bag B"
+        },
+        {
+          "id": "c",
+          "text": "same"
+        },
+        {
+          "id": "d",
+          "text": "cannot tell"
+        }
+      ],
+      "answer": "same",
+      "explanation": "Bag A has 6 and Bag B now has 6.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "math",
+        "word-problem"
+      ]
+    },
+    {
+      "id": "1m-074",
+      "subject": "math",
+      "topic": "Grade 1",
+      "skill": "Word Problems",
+      "prompt": "Story: Bag A has 6 marbles. Bag B has 4 marbles. Sam puts 2 more marbles into Bag B. How many marbles altogether in both bags now?",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "10"
+        },
+        {
+          "id": "b",
+          "text": "11"
+        },
+        {
+          "id": "c",
+          "text": "12"
+        },
+        {
+          "id": "d",
+          "text": "13"
+        }
+      ],
+      "answer": "12",
+      "explanation": "6 + 6 = 12.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "math",
+        "word-problem"
+      ]
+    },
+    {
+      "id": "1m-075",
+      "subject": "math",
+      "topic": "Grade 1",
+      "skill": "Word Problems",
+      "prompt": "Story: Nina has 5 coins. Her dad gives her 5 more coins. How many coins does Nina have now?",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "8"
+        },
+        {
+          "id": "b",
+          "text": "9"
+        },
+        {
+          "id": "c",
+          "text": "10"
+        },
+        {
+          "id": "d",
+          "text": "11"
+        }
+      ],
+      "answer": "10",
+      "explanation": "5 + 5 = 10 coins.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "math",
+        "word-problem"
+      ]
+    },
+    {
+      "id": "1m-076",
+      "subject": "math",
+      "topic": "Grade 1",
+      "skill": "Word Problems",
+      "prompt": "Story: Nina has 5 coins. Her dad gives her 5 more coins. If she uses 2 coins, how many are left?",
       "type": "mcq_single",
       "choices": [
         {
@@ -1177,98 +872,101 @@
         },
         {
           "id": "d",
-          "text": "11"
+          "text": "9"
         }
       ],
-      "answer": "7",
-      "explanation": "Start with 9 flowers, rabbit eats 2. 9 - 2 = 7 flowers left.",
+      "answer": "8",
+      "explanation": "10 - 2 = 8.",
       "difficulty": "easy",
       "tags": [
         "grade-1",
-        "math"
+        "math",
+        "word-problem"
       ]
     },
     {
-      "id": "1m-037",
+      "id": "1m-077",
       "subject": "math",
       "topic": "Grade 1",
-      "skill": "Basic Math",
-      "prompt": "What is 7 - 3?",
+      "skill": "Word Problems",
+      "prompt": "Story: There are 9 children on the playground. 3 go home. How many children are still on the playground?",
       "type": "mcq_single",
       "choices": [
         {
           "id": "a",
-          "text": "3"
+          "text": "5"
+        },
+        {
+          "id": "b",
+          "text": "6"
+        },
+        {
+          "id": "c",
+          "text": "7"
+        },
+        {
+          "id": "d",
+          "text": "8"
+        }
+      ],
+      "answer": "6",
+      "explanation": "9 - 3 = 6.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "math",
+        "word-problem"
+      ]
+    },
+    {
+      "id": "1m-078",
+      "subject": "math",
+      "topic": "Grade 1",
+      "skill": "Word Problems",
+      "prompt": "Story: There are 9 children on the playground. 3 go home. Later, 2 new children arrive. How many are there now?",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "6"
+        },
+        {
+          "id": "b",
+          "text": "7"
+        },
+        {
+          "id": "c",
+          "text": "8"
+        },
+        {
+          "id": "d",
+          "text": "9"
+        }
+      ],
+      "answer": "8",
+      "explanation": "After 6, +2 = 8.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "math",
+        "word-problem"
+      ]
+    },
+    {
+      "id": "1m-079",
+      "subject": "math",
+      "topic": "Grade 1",
+      "skill": "Number Sense",
+      "prompt": "Which number is odd?",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "2"
         },
         {
           "id": "b",
           "text": "4"
-        },
-        {
-          "id": "c",
-          "text": "5"
-        },
-        {
-          "id": "d",
-          "text": "10"
-        }
-      ],
-      "answer": "4",
-      "explanation": "7 take away 3 equals 4. Count backwards: 7, 6, 5, 4.",
-      "difficulty": "easy",
-      "tags": [
-        "grade-1",
-        "math"
-      ]
-    },
-    {
-      "id": "1m-038",
-      "subject": "math",
-      "topic": "Grade 1",
-      "skill": "Basic Math",
-      "prompt": "Count by 5s: 5, 10, ___",
-      "type": "mcq_single",
-      "choices": [
-        {
-          "id": "a",
-          "text": "11"
-        },
-        {
-          "id": "b",
-          "text": "12"
-        },
-        {
-          "id": "c",
-          "text": "15"
-        },
-        {
-          "id": "d",
-          "text": "20"
-        }
-      ],
-      "answer": "15",
-      "explanation": "When counting by 5s: 5, 10, 15. The pattern adds 5 each time.",
-      "difficulty": "easy",
-      "tags": [
-        "grade-1",
-        "math"
-      ]
-    },
-    {
-      "id": "1m-039",
-      "subject": "math",
-      "topic": "Grade 1",
-      "skill": "Basic Math",
-      "prompt": "Story: Lisa has 8 toy cars. She gives 3 cars to her brother. How many cars does Lisa have now?",
-      "type": "mcq_single",
-      "choices": [
-        {
-          "id": "a",
-          "text": "4"
-        },
-        {
-          "id": "b",
-          "text": "5"
         },
         {
           "id": "c",
@@ -1276,23 +974,262 @@
         },
         {
           "id": "d",
-          "text": "11"
+          "text": "7"
         }
       ],
-      "answer": "5",
-      "explanation": "Lisa starts with 8 cars and gives away 3. 8 - 3 = 5 cars left.",
+      "answer": "7",
+      "explanation": "7 is odd; others are even.",
       "difficulty": "easy",
       "tags": [
         "grade-1",
-        "math"
+        "math",
+        "number-sense"
       ]
     },
     {
-      "id": "1m-040",
+      "id": "1m-080",
       "subject": "math",
       "topic": "Grade 1",
-      "skill": "Basic Math",
-      "prompt": "What is 1 + 8?",
+      "skill": "Place Value",
+      "prompt": "Which shows the number 14?",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "1 ten and 3 ones"
+        },
+        {
+          "id": "b",
+          "text": "1 ten and 4 ones"
+        },
+        {
+          "id": "c",
+          "text": "1 ten and 5 ones"
+        },
+        {
+          "id": "d",
+          "text": "4 tens"
+        }
+      ],
+      "answer": "1 ten and 4 ones",
+      "explanation": "14 = 10 + 4.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "math",
+        "place-value"
+      ]
+    },
+    {
+      "id": "1m-081",
+      "subject": "math",
+      "topic": "Grade 1",
+      "skill": "Number Sense",
+      "prompt": "What comes after 19?",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "18"
+        },
+        {
+          "id": "b",
+          "text": "19"
+        },
+        {
+          "id": "c",
+          "text": "20"
+        },
+        {
+          "id": "d",
+          "text": "21"
+        }
+      ],
+      "answer": "20",
+      "explanation": "19, 20, 21...",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "math",
+        "number-sense"
+      ]
+    },
+    {
+      "id": "1m-082",
+      "subject": "math",
+      "topic": "Grade 1",
+      "skill": "Number Sense",
+      "prompt": "Which number is the greatest?",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "11"
+        },
+        {
+          "id": "b",
+          "text": "15"
+        },
+        {
+          "id": "c",
+          "text": "13"
+        },
+        {
+          "id": "d",
+          "text": "9"
+        }
+      ],
+      "answer": "15",
+      "explanation": "15 is the largest.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "math",
+        "number-sense"
+      ]
+    },
+    {
+      "id": "1m-083",
+      "subject": "math",
+      "topic": "Grade 1",
+      "skill": "Place Value",
+      "prompt": "Which number has 2 tens and 3 ones?",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "23"
+        },
+        {
+          "id": "b",
+          "text": "32"
+        },
+        {
+          "id": "c",
+          "text": "20"
+        },
+        {
+          "id": "d",
+          "text": "13"
+        }
+      ],
+      "answer": "23",
+      "explanation": "2 tens (20) + 3 ones = 23.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "math",
+        "place-value"
+      ]
+    },
+    {
+      "id": "1m-084",
+      "subject": "math",
+      "topic": "Grade 1",
+      "skill": "Comparing & Ordering",
+      "prompt": "Put in order from smallest to largest: 7, 2, 9",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "2, 7, 9"
+        },
+        {
+          "id": "b",
+          "text": "2, 9, 7"
+        },
+        {
+          "id": "c",
+          "text": "7, 2, 9"
+        },
+        {
+          "id": "d",
+          "text": "9, 7, 2"
+        }
+      ],
+      "answer": "2, 7, 9",
+      "explanation": "Ascending order is 2 < 7 < 9.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "math",
+        "comparing"
+      ]
+    },
+    {
+      "id": "1m-085",
+      "subject": "math",
+      "topic": "Grade 1",
+      "skill": "Number Sense",
+      "prompt": "Count by 10s: 10, 20, 30, ___",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "35"
+        },
+        {
+          "id": "b",
+          "text": "40"
+        },
+        {
+          "id": "c",
+          "text": "45"
+        },
+        {
+          "id": "d",
+          "text": "50"
+        }
+      ],
+      "answer": "40",
+      "explanation": "Add 10 each time: 10, 20, 30, 40.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "math",
+        "number-sense"
+      ]
+    },
+    {
+      "id": "1m-086",
+      "subject": "math",
+      "topic": "Grade 1",
+      "skill": "Number Sense",
+      "prompt": "How many make ten? 6 + __ = 10",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "2"
+        },
+        {
+          "id": "b",
+          "text": "3"
+        },
+        {
+          "id": "c",
+          "text": "4"
+        },
+        {
+          "id": "d",
+          "text": "5"
+        }
+      ],
+      "answer": "4",
+      "explanation": "6 + 4 = 10 (number bonds).",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "math",
+        "number-bonds"
+      ]
+    },
+    {
+      "id": "1m-087",
+      "subject": "math",
+      "topic": "Grade 1",
+      "skill": "Addition",
+      "prompt": "What is 3 + 6?",
       "type": "mcq_single",
       "choices": [
         {
@@ -1313,19 +1250,360 @@
         }
       ],
       "answer": "9",
-      "explanation": "1 plus 8 equals 9. When you add 1 to any number, you get the next number.",
+      "explanation": "3 + 6 = 9.",
       "difficulty": "easy",
       "tags": [
         "grade-1",
-        "math"
+        "math",
+        "addition"
       ]
     },
     {
-      "id": "1m-041",
+      "id": "1m-088",
       "subject": "math",
       "topic": "Grade 1",
-      "skill": "Basic Math",
-      "prompt": "How many sides does a circle have?",
+      "skill": "Addition",
+      "prompt": "Find the sum: 8 + 1",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "8"
+        },
+        {
+          "id": "b",
+          "text": "9"
+        },
+        {
+          "id": "c",
+          "text": "10"
+        },
+        {
+          "id": "d",
+          "text": "11"
+        }
+      ],
+      "answer": "9",
+      "explanation": "8 + 1 = 9.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "math",
+        "addition"
+      ]
+    },
+    {
+      "id": "1m-089",
+      "subject": "math",
+      "topic": "Grade 1",
+      "skill": "Addition",
+      "prompt": "Complete: 5 + __ = 9",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "3"
+        },
+        {
+          "id": "b",
+          "text": "4"
+        },
+        {
+          "id": "c",
+          "text": "5"
+        },
+        {
+          "id": "d",
+          "text": "6"
+        }
+      ],
+      "answer": "4",
+      "explanation": "5 + 4 = 9.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "math",
+        "addition"
+      ]
+    },
+    {
+      "id": "1m-090",
+      "subject": "math",
+      "topic": "Grade 1",
+      "skill": "Addition",
+      "prompt": "Which equals 10?",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "6 + 3"
+        },
+        {
+          "id": "b",
+          "text": "7 + 3"
+        },
+        {
+          "id": "c",
+          "text": "5 + 2"
+        },
+        {
+          "id": "d",
+          "text": "4 + 4"
+        }
+      ],
+      "answer": "7 + 3",
+      "explanation": "7 + 3 = 10.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "math",
+        "addition"
+      ]
+    },
+    {
+      "id": "1m-091",
+      "subject": "math",
+      "topic": "Grade 1",
+      "skill": "Addition",
+      "prompt": "Double 7 is __",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "12"
+        },
+        {
+          "id": "b",
+          "text": "13"
+        },
+        {
+          "id": "c",
+          "text": "14"
+        },
+        {
+          "id": "d",
+          "text": "15"
+        }
+      ],
+      "answer": "14",
+      "explanation": "7 + 7 = 14.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "math",
+        "addition"
+      ]
+    },
+    {
+      "id": "1m-092",
+      "subject": "math",
+      "topic": "Grade 1",
+      "skill": "Addition",
+      "prompt": "What is 4 + 5?",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "7"
+        },
+        {
+          "id": "b",
+          "text": "8"
+        },
+        {
+          "id": "c",
+          "text": "9"
+        },
+        {
+          "id": "d",
+          "text": "10"
+        }
+      ],
+      "answer": "9",
+      "explanation": "4 + 5 = 9.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "math",
+        "addition"
+      ]
+    },
+    {
+      "id": "1m-093",
+      "subject": "math",
+      "topic": "Grade 1",
+      "skill": "Subtraction",
+      "prompt": "What is 10 - 4?",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "4"
+        },
+        {
+          "id": "b",
+          "text": "5"
+        },
+        {
+          "id": "c",
+          "text": "6"
+        },
+        {
+          "id": "d",
+          "text": "7"
+        }
+      ],
+      "answer": "6",
+      "explanation": "10 - 4 = 6.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "math",
+        "subtraction"
+      ]
+    },
+    {
+      "id": "1m-094",
+      "subject": "math",
+      "topic": "Grade 1",
+      "skill": "Subtraction",
+      "prompt": "Complete: __ - 3 = 4",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "5"
+        },
+        {
+          "id": "b",
+          "text": "6"
+        },
+        {
+          "id": "c",
+          "text": "7"
+        },
+        {
+          "id": "d",
+          "text": "8"
+        }
+      ],
+      "answer": "7",
+      "explanation": "7 - 3 = 4.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "math",
+        "subtraction"
+      ]
+    },
+    {
+      "id": "1m-095",
+      "subject": "math",
+      "topic": "Grade 1",
+      "skill": "Subtraction",
+      "prompt": "What is 9 - 2?",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "6"
+        },
+        {
+          "id": "b",
+          "text": "7"
+        },
+        {
+          "id": "c",
+          "text": "8"
+        },
+        {
+          "id": "d",
+          "text": "9"
+        }
+      ],
+      "answer": "7",
+      "explanation": "9 - 2 = 7.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "math",
+        "subtraction"
+      ]
+    },
+    {
+      "id": "1m-096",
+      "subject": "math",
+      "topic": "Grade 1",
+      "skill": "Subtraction",
+      "prompt": "Find the difference: 8 - 5",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "2"
+        },
+        {
+          "id": "b",
+          "text": "3"
+        },
+        {
+          "id": "c",
+          "text": "4"
+        },
+        {
+          "id": "d",
+          "text": "5"
+        }
+      ],
+      "answer": "3",
+      "explanation": "8 - 5 = 3.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "math",
+        "subtraction"
+      ]
+    },
+    {
+      "id": "1m-097",
+      "subject": "math",
+      "topic": "Grade 1",
+      "skill": "Subtraction",
+      "prompt": "Which equals 0?",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "7 - 6"
+        },
+        {
+          "id": "b",
+          "text": "5 - 4"
+        },
+        {
+          "id": "c",
+          "text": "3 - 3"
+        },
+        {
+          "id": "d",
+          "text": "2 - 1"
+        }
+      ],
+      "answer": "3 - 3",
+      "explanation": "A number minus itself equals 0.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "math",
+        "subtraction"
+      ]
+    },
+    {
+      "id": "1m-098",
+      "subject": "math",
+      "topic": "Grade 1",
+      "skill": "Subtraction",
+      "prompt": "What is 6 - 6?",
       "type": "mcq_single",
       "choices": [
         {
@@ -1346,371 +1624,1099 @@
         }
       ],
       "answer": "0",
-      "explanation": "A circle has 0 sides. It's perfectly round with no straight edges.",
+      "explanation": "6 - 6 = 0.",
       "difficulty": "easy",
       "tags": [
         "grade-1",
-        "math"
+        "math",
+        "subtraction"
       ]
     },
     {
-      "id": "1m-042",
+      "id": "1m-099",
       "subject": "math",
       "topic": "Grade 1",
-      "skill": "Basic Math",
-      "prompt": "Story: There are 5 apples on a tree. 2 apples fall down. How many apples are still on the tree?",
+      "skill": "Shapes & Geometry",
+      "prompt": "Which shape has 4 equal sides?",
       "type": "mcq_single",
       "choices": [
         {
           "id": "a",
-          "text": "2"
+          "text": "Rectangle"
         },
         {
           "id": "b",
-          "text": "3"
+          "text": "Triangle"
         },
         {
           "id": "c",
+          "text": "Square"
+        },
+        {
+          "id": "d",
+          "text": "Circle"
+        }
+      ],
+      "answer": "Square",
+      "explanation": "A square has 4 equal sides.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "math",
+        "shapes"
+      ]
+    },
+    {
+      "id": "1m-100",
+      "subject": "math",
+      "topic": "Grade 1",
+      "skill": "Shapes & Geometry",
+      "prompt": "How many faces does a cube have?",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
           "text": "4"
         },
         {
-          "id": "d",
-          "text": "7"
-        }
-      ],
-      "answer": "3",
-      "explanation": "Start with 5 apples, 2 fall down. 5 - 2 = 3 apples still on the tree.",
-      "difficulty": "easy",
-      "tags": [
-        "grade-1",
-        "math"
-      ]
-    },
-    {
-      "id": "1m-043",
-      "subject": "math",
-      "topic": "Grade 1",
-      "skill": "Basic Math",
-      "prompt": "What is 9 + 1?",
-      "type": "mcq_single",
-      "choices": [
-        {
-          "id": "a",
-          "text": "8"
-        },
-        {
           "id": "b",
-          "text": "9"
-        },
-        {
-          "id": "c",
-          "text": "10"
-        },
-        {
-          "id": "d",
-          "text": "11"
-        }
-      ],
-      "answer": "10",
-      "explanation": "9 plus 1 equals 10. This gives us our first two-digit number!",
-      "difficulty": "easy",
-      "tags": [
-        "grade-1",
-        "math"
-      ]
-    },
-    {
-      "id": "1m-044",
-      "subject": "math",
-      "topic": "Grade 1",
-      "skill": "Basic Math",
-      "prompt": "Which number comes right before 10?",
-      "type": "mcq_single",
-      "choices": [
-        {
-          "id": "a",
-          "text": "8"
-        },
-        {
-          "id": "b",
-          "text": "9"
-        },
-        {
-          "id": "c",
-          "text": "11"
-        },
-        {
-          "id": "d",
-          "text": "12"
-        }
-      ],
-      "answer": "9",
-      "explanation": "9 comes right before 10. Count: 8, 9, 10.",
-      "difficulty": "easy",
-      "tags": [
-        "grade-1",
-        "math"
-      ]
-    },
-    {
-      "id": "1m-045",
-      "subject": "math",
-      "topic": "Grade 1",
-      "skill": "Basic Math",
-      "prompt": "Story: Tom has 6 marbles. His friend gives him 4 more marbles. How many marbles does Tom have altogether?",
-      "type": "mcq_single",
-      "choices": [
-        {
-          "id": "a",
-          "text": "9"
-        },
-        {
-          "id": "b",
-          "text": "10"
-        },
-        {
-          "id": "c",
-          "text": "11"
-        },
-        {
-          "id": "d",
-          "text": "2"
-        }
-      ],
-      "answer": "10",
-      "explanation": "Tom has 6 marbles, then gets 4 more. 6 + 4 = 10 marbles altogether.",
-      "difficulty": "easy",
-      "tags": [
-        "grade-1",
-        "math"
-      ]
-    },
-    {
-      "id": "1m-046",
-      "subject": "math",
-      "topic": "Grade 1",
-      "skill": "Basic Math",
-      "prompt": "What is 8 - 5?",
-      "type": "mcq_single",
-      "choices": [
-        {
-          "id": "a",
-          "text": "2"
-        },
-        {
-          "id": "b",
-          "text": "3"
-        },
-        {
-          "id": "c",
-          "text": "4"
-        },
-        {
-          "id": "d",
-          "text": "13"
-        }
-      ],
-      "answer": "3",
-      "explanation": "8 take away 5 equals 3. Use your fingers: 8 - 1 - 1 - 1 - 1 - 1 = 3.",
-      "difficulty": "easy",
-      "tags": [
-        "grade-1",
-        "math"
-      ]
-    },
-    {
-      "id": "1m-047",
-      "subject": "math",
-      "topic": "Grade 1",
-      "skill": "Basic Math",
-      "prompt": "How many wheels does a bicycle have?",
-      "type": "mcq_single",
-      "choices": [
-        {
-          "id": "a",
-          "text": "1"
-        },
-        {
-          "id": "b",
-          "text": "2"
-        },
-        {
-          "id": "c",
-          "text": "3"
-        },
-        {
-          "id": "d",
-          "text": "4"
-        }
-      ],
-      "answer": "2",
-      "explanation": "A bicycle has 2 wheels - one in the front and one in the back.",
-      "difficulty": "easy",
-      "tags": [
-        "grade-1",
-        "math"
-      ]
-    },
-    {
-      "id": "1m-048",
-      "subject": "math",
-      "topic": "Grade 1",
-      "skill": "Basic Math",
-      "prompt": "Story: Sarah saw 3 butterflies in the morning and 4 butterflies in the afternoon. How many butterflies did she see in total?",
-      "type": "mcq_single",
-      "choices": [
-        {
-          "id": "a",
-          "text": "6"
-        },
-        {
-          "id": "b",
-          "text": "7"
-        },
-        {
-          "id": "c",
-          "text": "8"
-        },
-        {
-          "id": "d",
-          "text": "1"
-        }
-      ],
-      "answer": "7",
-      "explanation": "Sarah saw 3 butterflies + 4 butterflies = 7 butterflies total.",
-      "difficulty": "easy",
-      "tags": [
-        "grade-1",
-        "math"
-      ]
-    },
-    {
-      "id": "1m-049",
-      "subject": "math",
-      "topic": "Grade 1",
-      "skill": "Basic Math",
-      "prompt": "What is 4 + 4?",
-      "type": "mcq_single",
-      "choices": [
-        {
-          "id": "a",
-          "text": "7"
-        },
-        {
-          "id": "b",
-          "text": "8"
-        },
-        {
-          "id": "c",
-          "text": "9"
-        },
-        {
-          "id": "d",
-          "text": "0"
-        }
-      ],
-      "answer": "8",
-      "explanation": "4 plus 4 equals 8. This is another double! 4 + 4 = 8.",
-      "difficulty": "easy",
-      "tags": [
-        "grade-1",
-        "math"
-      ]
-    },
-    {
-      "id": "1m-050",
-      "subject": "math",
-      "topic": "Grade 1",
-      "skill": "Basic Math",
-      "prompt": "Story: There were 10 candies in a jar. Children ate 6 candies. How many candies are left in the jar?",
-      "type": "mcq_single",
-      "choices": [
-        {
-          "id": "a",
-          "text": "3"
-        },
-        {
-          "id": "b",
-          "text": "4"
-        },
-        {
-          "id": "c",
           "text": "5"
         },
         {
+          "id": "c",
+          "text": "6"
+        },
+        {
           "id": "d",
-          "text": "16"
+          "text": "8"
         }
       ],
-      "answer": "4",
-      "explanation": "Start with 10 candies, 6 were eaten. 10 - 6 = 4 candies left in the jar.",
+      "answer": "6",
+      "explanation": "A cube has 6 faces.",
       "difficulty": "easy",
       "tags": [
         "grade-1",
-        "math"
+        "math",
+        "shapes"
+      ]
+    },
+    {
+      "id": "1m-101",
+      "subject": "math",
+      "topic": "Grade 1",
+      "skill": "Shapes & Geometry",
+      "prompt": "Which is a 3D shape?",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Circle"
+        },
+        {
+          "id": "b",
+          "text": "Cube"
+        },
+        {
+          "id": "c",
+          "text": "Square"
+        },
+        {
+          "id": "d",
+          "text": "Triangle"
+        }
+      ],
+      "answer": "Cube",
+      "explanation": "Cube is a solid (3D) shape.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "math",
+        "shapes"
+      ]
+    },
+    {
+      "id": "1m-102",
+      "subject": "math",
+      "topic": "Grade 1",
+      "skill": "Shapes & Geometry",
+      "prompt": "Which shape has no corners?",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Triangle"
+        },
+        {
+          "id": "b",
+          "text": "Rectangle"
+        },
+        {
+          "id": "c",
+          "text": "Circle"
+        },
+        {
+          "id": "d",
+          "text": "Square"
+        }
+      ],
+      "answer": "Circle",
+      "explanation": "A circle has no corners.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "math",
+        "shapes"
+      ]
+    },
+    {
+      "id": "1m-103",
+      "subject": "math",
+      "topic": "Grade 1",
+      "skill": "Shapes & Geometry",
+      "prompt": "Which picture shows a curved line?",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "a straight stick"
+        },
+        {
+          "id": "b",
+          "text": "a round wheel"
+        },
+        {
+          "id": "c",
+          "text": "a square tile"
+        },
+        {
+          "id": "d",
+          "text": "a brick wall"
+        }
+      ],
+      "answer": "a round wheel",
+      "explanation": "A round wheel has a curved edge.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "math",
+        "shapes"
+      ]
+    },
+    {
+      "id": "1m-104",
+      "subject": "math",
+      "topic": "Grade 1",
+      "skill": "Shapes & Geometry",
+      "prompt": "How many sides does a rectangle have?",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "2"
+        },
+        {
+          "id": "b",
+          "text": "3"
+        },
+        {
+          "id": "c",
+          "text": "4"
+        },
+        {
+          "id": "d",
+          "text": "5"
+        }
+      ],
+      "answer": "4",
+      "explanation": "Rectangles have 4 sides.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "math",
+        "shapes"
+      ]
+    },
+    {
+      "id": "1m-105",
+      "subject": "math",
+      "topic": "Grade 1",
+      "skill": "Measurement",
+      "prompt": "Which is longer?",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "a pencil"
+        },
+        {
+          "id": "b",
+          "text": "a crayon"
+        }
+      ],
+      "answer": "a pencil",
+      "explanation": "Pencils are usually longer than crayons.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "math",
+        "measurement"
+      ]
+    },
+    {
+      "id": "1m-106",
+      "subject": "math",
+      "topic": "Grade 1",
+      "skill": "Measurement",
+      "prompt": "Which would you use to measure water?",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "ruler"
+        },
+        {
+          "id": "b",
+          "text": "cup"
+        },
+        {
+          "id": "c",
+          "text": "scale"
+        },
+        {
+          "id": "d",
+          "text": "clock"
+        }
+      ],
+      "answer": "cup",
+      "explanation": "We use cups to measure capacity.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "math",
+        "measurement"
+      ]
+    },
+    {
+      "id": "1m-107",
+      "subject": "math",
+      "topic": "Grade 1",
+      "skill": "Measurement",
+      "prompt": "Which is heavier?",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "a feather"
+        },
+        {
+          "id": "b",
+          "text": "a book"
+        }
+      ],
+      "answer": "a book",
+      "explanation": "Books are heavier than feathers.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "math",
+        "measurement"
+      ]
+    },
+    {
+      "id": "1m-108",
+      "subject": "math",
+      "topic": "Grade 1",
+      "skill": "Measurement",
+      "prompt": "What tool measures length?",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "ruler"
+        },
+        {
+          "id": "b",
+          "text": "thermometer"
+        },
+        {
+          "id": "c",
+          "text": "clock"
+        },
+        {
+          "id": "d",
+          "text": "spoon"
+        }
+      ],
+      "answer": "ruler",
+      "explanation": "A ruler measures length.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "math",
+        "measurement"
+      ]
+    },
+    {
+      "id": "1m-109",
+      "subject": "math",
+      "topic": "Grade 1",
+      "skill": "Time",
+      "prompt": "When the short hand is on 3 and the long hand is on 12, it is __.",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "3 o'clock"
+        },
+        {
+          "id": "b",
+          "text": "3:30"
+        },
+        {
+          "id": "c",
+          "text": "12 o'clock"
+        },
+        {
+          "id": "d",
+          "text": "6 o'clock"
+        }
+      ],
+      "answer": "3 o'clock",
+      "explanation": "Short hand shows the hour.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "math",
+        "time"
+      ]
+    },
+    {
+      "id": "1m-110",
+      "subject": "math",
+      "topic": "Grade 1",
+      "skill": "Time",
+      "prompt": "Which comes first in the day?",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "morning"
+        },
+        {
+          "id": "b",
+          "text": "afternoon"
+        },
+        {
+          "id": "c",
+          "text": "evening"
+        },
+        {
+          "id": "d",
+          "text": "night"
+        }
+      ],
+      "answer": "morning",
+      "explanation": "Morning is at the start of the day.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "math",
+        "time"
+      ]
+    },
+    {
+      "id": "1m-111",
+      "subject": "math",
+      "topic": "Grade 1",
+      "skill": "Time",
+      "prompt": "How many days are in a week?",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "5"
+        },
+        {
+          "id": "b",
+          "text": "6"
+        },
+        {
+          "id": "c",
+          "text": "7"
+        },
+        {
+          "id": "d",
+          "text": "8"
+        }
+      ],
+      "answer": "7",
+      "explanation": "There are 7 days in a week.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "math",
+        "time"
+      ]
+    },
+    {
+      "id": "1m-112",
+      "subject": "math",
+      "topic": "Grade 1",
+      "skill": "Time",
+      "prompt": "Half past 2 is shown as __.",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "2:00"
+        },
+        {
+          "id": "b",
+          "text": "2:30"
+        },
+        {
+          "id": "c",
+          "text": "3:00"
+        },
+        {
+          "id": "d",
+          "text": "1:30"
+        }
+      ],
+      "answer": "2:30",
+      "explanation": "Half past 2 = 2:30.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "math",
+        "time"
+      ]
+    },
+    {
+      "id": "1m-113",
+      "subject": "math",
+      "topic": "Grade 1",
+      "skill": "Money",
+      "prompt": "Which coin is worth more?",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "5-cent coin"
+        },
+        {
+          "id": "b",
+          "text": "10-cent coin"
+        }
+      ],
+      "answer": "10-cent coin",
+      "explanation": "10 cents is more than 5 cents.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "math",
+        "money"
+      ]
+    },
+    {
+      "id": "1m-114",
+      "subject": "math",
+      "topic": "Grade 1",
+      "skill": "Money",
+      "prompt": "You have 20 cents. You spend 5 cents. How much is left?",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "10 cents"
+        },
+        {
+          "id": "b",
+          "text": "15 cents"
+        },
+        {
+          "id": "c",
+          "text": "20 cents"
+        },
+        {
+          "id": "d",
+          "text": "25 cents"
+        }
+      ],
+      "answer": "15 cents",
+      "explanation": "20 - 5 = 15 cents.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "math",
+        "money"
+      ]
+    },
+    {
+      "id": "1m-115",
+      "subject": "math",
+      "topic": "Grade 1",
+      "skill": "Money",
+      "prompt": "You have two 10-cent coins. How much is that?",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "10 cents"
+        },
+        {
+          "id": "b",
+          "text": "15 cents"
+        },
+        {
+          "id": "c",
+          "text": "20 cents"
+        },
+        {
+          "id": "d",
+          "text": "25 cents"
+        }
+      ],
+      "answer": "20 cents",
+      "explanation": "10 + 10 = 20.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "math",
+        "money"
+      ]
+    },
+    {
+      "id": "1m-116",
+      "subject": "math",
+      "topic": "Grade 1",
+      "skill": "Money",
+      "prompt": "A toy costs 30 cents. Which set pays exactly 30 cents?",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "10 + 10 + 5"
+        },
+        {
+          "id": "b",
+          "text": "10 + 10 + 10"
+        },
+        {
+          "id": "c",
+          "text": "20 + 10 + 5"
+        },
+        {
+          "id": "d",
+          "text": "10 + 5 + 5"
+        }
+      ],
+      "answer": "10 + 10 + 10",
+      "explanation": "Three 10s make 30.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "math",
+        "money"
+      ]
+    },
+    {
+      "id": "1m-117",
+      "subject": "math",
+      "topic": "Grade 1",
+      "skill": "Patterns",
+      "prompt": "Complete the pattern: ▲, ●, ▲, ●, ___",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "▲"
+        },
+        {
+          "id": "b",
+          "text": "●"
+        },
+        {
+          "id": "c",
+          "text": "■"
+        },
+        {
+          "id": "d",
+          "text": "★"
+        }
+      ],
+      "answer": "▲",
+      "explanation": "Pattern alternates triangle, circle, triangle, circle...",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "math",
+        "patterns"
+      ]
+    },
+    {
+      "id": "1m-118",
+      "subject": "math",
+      "topic": "Grade 1",
+      "skill": "Patterns",
+      "prompt": "Fill in: 2, 4, 6, __, 10",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "7"
+        },
+        {
+          "id": "b",
+          "text": "8"
+        },
+        {
+          "id": "c",
+          "text": "9"
+        },
+        {
+          "id": "d",
+          "text": "11"
+        }
+      ],
+      "answer": "8",
+      "explanation": "Counting by 2s: 2, 4, 6, 8, 10.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "math",
+        "patterns"
+      ]
+    },
+    {
+      "id": "1m-119",
+      "subject": "math",
+      "topic": "Grade 1",
+      "skill": "Patterns",
+      "prompt": "Which pattern grows by 5 each time?",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "5, 10, 15"
+        },
+        {
+          "id": "b",
+          "text": "3, 6, 8"
+        },
+        {
+          "id": "c",
+          "text": "1, 3, 6"
+        },
+        {
+          "id": "d",
+          "text": "10, 12, 15"
+        }
+      ],
+      "answer": "5, 10, 15",
+      "explanation": "This adds 5 each step.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "math",
+        "patterns"
+      ]
+    },
+    {
+      "id": "1m-120",
+      "subject": "math",
+      "topic": "Grade 1",
+      "skill": "Data Handling",
+      "prompt": "A pictograph shows 3 cats and 5 dogs. Which is more?",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "cats"
+        },
+        {
+          "id": "b",
+          "text": "dogs"
+        },
+        {
+          "id": "c",
+          "text": "same"
+        },
+        {
+          "id": "d",
+          "text": "cannot tell"
+        }
+      ],
+      "answer": "dogs",
+      "explanation": "5 dogs > 3 cats.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "math",
+        "data"
+      ]
+    },
+    {
+      "id": "1m-121",
+      "subject": "math",
+      "topic": "Grade 1",
+      "skill": "Data Handling",
+      "prompt": "Bar chart: Red=4, Blue=2, Green=6. Which color is the least?",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Red"
+        },
+        {
+          "id": "b",
+          "text": "Blue"
+        },
+        {
+          "id": "c",
+          "text": "Green"
+        },
+        {
+          "id": "d",
+          "text": "All equal"
+        }
+      ],
+      "answer": "Blue",
+      "explanation": "Blue has 2, the fewest.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "math",
+        "data"
+      ]
+    },
+    {
+      "id": "1m-122",
+      "subject": "math",
+      "topic": "Grade 1",
+      "skill": "Data Handling",
+      "prompt": "Tally marks show |||| and ||| for apples and bananas. Which fruit is more?",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "apples"
+        },
+        {
+          "id": "b",
+          "text": "bananas"
+        },
+        {
+          "id": "c",
+          "text": "same"
+        },
+        {
+          "id": "d",
+          "text": "cannot tell"
+        }
+      ],
+      "answer": "apples",
+      "explanation": "|||| = 4, ||| = 3; apples are more.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "math",
+        "data"
+      ]
+    },
+    {
+      "id": "1m-123",
+      "subject": "math",
+      "topic": "Grade 1",
+      "skill": "Fractions",
+      "prompt": "Which picture shows half of a pizza?",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "one out of two equal parts shaded"
+        },
+        {
+          "id": "b",
+          "text": "one out of three parts shaded"
+        },
+        {
+          "id": "c",
+          "text": "two out of four parts shaded"
+        },
+        {
+          "id": "d",
+          "text": "none shaded"
+        }
+      ],
+      "answer": "one out of two equal parts shaded",
+      "explanation": "Half means 1 of 2 equal parts.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "math",
+        "fractions"
+      ]
+    },
+    {
+      "id": "1m-124",
+      "subject": "math",
+      "topic": "Grade 1",
+      "skill": "Fractions",
+      "prompt": "Which is bigger: 1/2 or 1/4?",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "1/2"
+        },
+        {
+          "id": "b",
+          "text": "1/4"
+        },
+        {
+          "id": "c",
+          "text": "same"
+        },
+        {
+          "id": "d",
+          "text": "cannot tell"
+        }
+      ],
+      "answer": "1/2",
+      "explanation": "One half is larger than one quarter.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "math",
+        "fractions"
+      ]
+    },
+    {
+      "id": "1m-125",
+      "subject": "math",
+      "topic": "Grade 1",
+      "skill": "Fractions",
+      "prompt": "If a chocolate bar is split into 4 equal pieces, one piece is __ of the bar.",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "1/2"
+        },
+        {
+          "id": "b",
+          "text": "1/3"
+        },
+        {
+          "id": "c",
+          "text": "1/4"
+        },
+        {
+          "id": "d",
+          "text": "1/5"
+        }
+      ],
+      "answer": "1/4",
+      "explanation": "One out of four equal parts is 1/4.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "math",
+        "fractions"
+      ]
+    },
+    {
+      "id": "1m-126",
+      "subject": "math",
+      "topic": "Grade 1",
+      "skill": "Position & Direction",
+      "prompt": "The cat is ___ the table (picture shows cat under the table).",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "on"
+        },
+        {
+          "id": "b",
+          "text": "in"
+        },
+        {
+          "id": "c",
+          "text": "under"
+        },
+        {
+          "id": "d",
+          "text": "behind"
+        }
+      ],
+      "answer": "under",
+      "explanation": "'Under' shows the position below the table.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "math",
+        "position"
+      ]
+    },
+    {
+      "id": "1m-127",
+      "subject": "math",
+      "topic": "Grade 1",
+      "skill": "Position & Direction",
+      "prompt": "Which is the 3rd toy in the line? (from left)",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "the first"
+        },
+        {
+          "id": "b",
+          "text": "the second"
+        },
+        {
+          "id": "c",
+          "text": "the third"
+        },
+        {
+          "id": "d",
+          "text": "the fourth"
+        }
+      ],
+      "answer": "the third",
+      "explanation": "3rd means the one after the second.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "math",
+        "position"
+      ]
+    },
+    {
+      "id": "1m-128",
+      "subject": "math",
+      "topic": "Grade 1",
+      "skill": "Position & Direction",
+      "prompt": "Turn right means turn __",
+      "type": "mcq_single",
+      "choices": [
+        {
+          "id": "a",
+          "text": "the same way"
+        },
+        {
+          "id": "b",
+          "text": "to the left"
+        },
+        {
+          "id": "c",
+          "text": "to the right"
+        },
+        {
+          "id": "d",
+          "text": "around"
+        }
+      ],
+      "answer": "to the right",
+      "explanation": "Right turn is to the right side.",
+      "difficulty": "easy",
+      "tags": [
+        "grade-1",
+        "math",
+        "position"
       ]
     }
   ],
   "sets": [
     {
-      "id": "grade-1-math",
-      "title": "1st Grade Math",
+      "id": "grade-1-math-extension",
+      "title": "1st Grade Math (Extension)",
       "subject": "math",
-      "description": "Basic math concepts including counting, addition, subtraction, number recognition, and simple story problems",
+      "description": "Extended Cambridge Stage 1 practice with emphasis on multi-step word problems plus number sense, place value, operations, shapes, measurement, time, money, patterns, data, fractions, and position.",
       "questionIds": [
-        "1m-001",
-        "1m-002",
-        "1m-003",
-        "1m-004",
-        "1m-005",
-        "1m-006",
-        "1m-007",
-        "1m-008",
-        "1m-009",
-        "1m-010",
-        "1m-011",
-        "1m-012",
-        "1m-013",
-        "1m-014",
-        "1m-015",
-        "1m-016",
-        "1m-017",
-        "1m-018",
-        "1m-019",
-        "1m-020",
-        "1m-021",
-        "1m-022",
-        "1m-023",
-        "1m-024",
-        "1m-025",
-        "1m-026",
-        "1m-027",
-        "1m-028",
-        "1m-029",
-        "1m-030",
-        "1m-031",
-        "1m-032",
-        "1m-033",
-        "1m-034",
-        "1m-035",
-        "1m-036",
-        "1m-037",
-        "1m-038",
-        "1m-039",
-        "1m-040",
-        "1m-041",
-        "1m-042",
-        "1m-043",
-        "1m-044",
-        "1m-045",
-        "1m-046",
-        "1m-047",
-        "1m-048",
-        "1m-049",
-        "1m-050"
+        "1m-051",
+        "1m-052",
+        "1m-053",
+        "1m-054",
+        "1m-055",
+        "1m-056",
+        "1m-057",
+        "1m-058",
+        "1m-059",
+        "1m-060",
+        "1m-061",
+        "1m-062",
+        "1m-063",
+        "1m-064",
+        "1m-065",
+        "1m-066",
+        "1m-067",
+        "1m-068",
+        "1m-069",
+        "1m-070",
+        "1m-071",
+        "1m-072",
+        "1m-073",
+        "1m-074",
+        "1m-075",
+        "1m-076",
+        "1m-077",
+        "1m-078",
+        "1m-079",
+        "1m-080",
+        "1m-081",
+        "1m-082",
+        "1m-083",
+        "1m-084",
+        "1m-085",
+        "1m-086",
+        "1m-087",
+        "1m-088",
+        "1m-089",
+        "1m-090",
+        "1m-091",
+        "1m-092",
+        "1m-093",
+        "1m-094",
+        "1m-095",
+        "1m-096",
+        "1m-097",
+        "1m-098",
+        "1m-099",
+        "1m-100",
+        "1m-101",
+        "1m-102",
+        "1m-103",
+        "1m-104",
+        "1m-105",
+        "1m-106",
+        "1m-107",
+        "1m-108",
+        "1m-109",
+        "1m-110",
+        "1m-111",
+        "1m-112",
+        "1m-113",
+        "1m-114",
+        "1m-115",
+        "1m-116",
+        "1m-117",
+        "1m-118",
+        "1m-119",
+        "1m-120",
+        "1m-121",
+        "1m-122",
+        "1m-123",
+        "1m-124",
+        "1m-125",
+        "1m-126",
+        "1m-127",
+        "1m-128"
       ],
       "recommendedOrder": "random",
-      "timeLimitSeconds": 3000
+      "timeLimitSeconds": 3600
     }
   ]
 }
